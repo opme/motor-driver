@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Conector_library:Metz_31330102 U201
+L TMC6100-EVAL-v1.2-rescue:Metz_31330102-Conector_library U201
 U 1 1 5C0100EA
 P 1200 750
 F 0 "U201" H 1200 550 39  0000 C CNN
@@ -117,7 +117,7 @@ Wire Notes Line
 Wire Notes Line
 	1500 5300 500  5300
 $Comp
-L Conector_library:Metz_31349102 U202
+L TMC6100-EVAL-v1.2-rescue:Metz_31349102-Conector_library U202
 U 1 1 5C59EB06
 P 650 750
 F 0 "U202" V 850 750 39  0000 C CNN
@@ -363,7 +363,7 @@ Wire Wire Line
 	2550 1200 2550 1300
 Connection ~ 2550 1200
 $Comp
-L Conector_library:Metz_31330103 U203
+L TMC6100-EVAL-v1.2-rescue:Metz_31330103-Conector_library U203
 U 1 1 5D65AFA7
 P 2100 1850
 F 0 "U203" H 2100 2100 39  0000 C CNN
@@ -626,7 +626,7 @@ Text HLabel 3900 7450 0    39   Input ~ 0
 Text HLabel 5600 4450 0    39   Output ~ 0
 ~CS_EEPROM
 $Comp
-L Conector_library:Metz_31349103 U204
+L TMC6100-EVAL-v1.2-rescue:Metz_31349103-Conector_library U204
 U 1 1 5DA86CEE
 P 2650 1850
 F 0 "U204" V 2400 1850 39  0000 C CNN
