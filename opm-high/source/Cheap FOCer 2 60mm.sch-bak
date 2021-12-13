@@ -1391,7 +1391,7 @@ HALL3
 Wire Wire Line
 	8900 7550 9400 7550
 $Comp
-L Connector:USB_B_Micro USB1
+L Cheap-FOCer-2-60mm-rescue:USB_B_Micro-Connector USB1
 U 1 1 522DA102
 P 4450 4750
 F 0 "USB1" V 4200 4700 50  0000 L BNN
