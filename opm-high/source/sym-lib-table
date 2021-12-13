@@ -3,4 +3,5 @@
   (lib (name Serious-FOCer-TO247-rescue)(type Legacy)(uri "${KIPRJMOD}/Serious FOCer TO247-rescue.lib")(options "")(descr ""))
   (lib (name Cheap-FOCer-2-60mm-rescue)(type Legacy)(uri "${KIPRJMOD}/Cheap FOCer 2 60mm-rescue.lib")(options "")(descr ""))
   (lib (name tmc6200)(type Legacy)(uri ${KIPRJMOD}//tmc6200.lib)(options "")(descr ""))
+  (lib (name tmc6100)(type Legacy)(uri ${KIPRJMOD}//tmc6100.lib)(options "")(descr ""))
 )
