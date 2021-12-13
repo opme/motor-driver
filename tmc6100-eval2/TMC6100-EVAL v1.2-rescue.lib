@@ -1,0 +1,45 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# AT25xxx-Memory_EEPROM
+#
+DEF AT25xxx-Memory_EEPROM U 0 20 Y Y 1 F N
+F0 "U" -300 250 50 H V C CNN
+F1 "AT25xxx-Memory_EEPROM" 100 -250 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ DIP*W7.62mm*
+ SOIC*3.9x4.9mm*
+ TSSOP*4.4x3mm*P0.65mm*
+$ENDFPLIST
+DRAW
+S -300 200 300 -200 1 1 10 f
+X ~CS 1 -400 -100 100 R 50 50 1 1 I
+X MISO 2 400 -100 100 L 50 50 1 1 T
+X ~WP 3 -400 100 100 R 50 50 1 1 I
+X GND 4 0 -300 100 U 50 50 1 1 W
+X MOSI 5 400 0 100 L 50 50 1 1 I
+X SCK 6 400 100 100 L 50 50 1 1 I
+X ~HOLD 7 -400 0 100 R 50 50 1 1 I
+X VCC 8 0 300 100 D 50 50 1 1 W
+ENDDRAW
+ENDDEF
+#
+# MountingHole_Pad-Mechanical
+#
+DEF MountingHole_Pad-Mechanical H 0 40 N N 1 F N
+F0 "H" 0 250 50 H V C CNN
+F1 "MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*Pad*
+$ENDFPLIST
+DRAW
+C 0 50 50 0 1 50 N
+X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+#End Library

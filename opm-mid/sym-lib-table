@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name motor-driver-eagle-import)(type Legacy)(uri ${KIPRJMOD}/motor-driver-eagle-import.lib)(options "")(descr ""))
+)
