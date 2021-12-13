@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 8
+Sheet 5 3
 Title "Cheap FOCer 2"
 Date "2020-04-08"
 Rev "0.9"
