@@ -1,0 +1,1663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\Kurs\Work\TMC6100-EVAL\v1.1\CAD\TMC6100-EVAL v1.1.sch</source>
+    <date>28.10.2019 17:00:07</date>
+    <tool>Eeschema (5.1.4)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.1</rev>
+        <date>2019-10-28</date>
+        <source>TMC6100-EVAL v1.1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Motor Driver/" tstamps="/5D5FDD98/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.1</rev>
+        <date>2019-10-28</date>
+        <source>Motor Driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Regulator and ID/" tstamps="/5D6A7BED/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.1</rev>
+        <date>2019-10-28</date>
+        <source>Regulator and ID.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/Connevtors/" tstamps="/5BA8C4E4/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.1</rev>
+        <date>2019-10-28</date>
+        <source>Connevtors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="Q301">
+      <value>BSC026N08NS5</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0</datasheet>
+      <libsource lib="Transistor_FET" part="BSC026N08NS5" description="100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6B7163</tstamp>
+    </comp>
+    <comp ref="C304">
+      <value>2,2μF/100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6C10A4</tstamp>
+    </comp>
+    <comp ref="R304">
+      <value>2,2Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6C1FF4</tstamp>
+    </comp>
+    <comp ref="Q302">
+      <value>BSC026N08NS5</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0</datasheet>
+      <libsource lib="Transistor_FET" part="BSC026N08NS5" description="100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6C3CF4</tstamp>
+    </comp>
+    <comp ref="R306">
+      <value>2,2Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6D8812</tstamp>
+    </comp>
+    <comp ref="U301">
+      <value>AD8418</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="AD8418" description="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6DD7CC</tstamp>
+    </comp>
+    <comp ref="C303">
+      <value>470nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6F0DEB</tstamp>
+    </comp>
+    <comp ref="C302">
+      <value>2,2nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6F7425</tstamp>
+    </comp>
+    <comp ref="R303">
+      <value>1kΩ/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D6F996F</tstamp>
+    </comp>
+    <comp ref="C301">
+      <value>100nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D71A1C7</tstamp>
+    </comp>
+    <comp ref="IC301">
+      <value>TMC6100-LA</value>
+      <footprint>Trinamic:QFN-44-1EP_7x7mm_P0.5mm_EP4x4mm</footprint>
+      <datasheet>https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC6200_datasheet_Rev1.04.pdf</datasheet>
+      <libsource lib="Trinamic" part="TMC6100-TA" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D604226</tstamp>
+    </comp>
+    <comp ref="Q303">
+      <value>BSC026N08NS5</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0</datasheet>
+      <libsource lib="Transistor_FET" part="BSC026N08NS5" description="100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D88B06B</tstamp>
+    </comp>
+    <comp ref="C314">
+      <value>2,2μF/100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D88B073</tstamp>
+    </comp>
+    <comp ref="R310">
+      <value>2,2Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D88B079</tstamp>
+    </comp>
+    <comp ref="Q304">
+      <value>BSC026N08NS5</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0</datasheet>
+      <libsource lib="Transistor_FET" part="BSC026N08NS5" description="100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D88B088</tstamp>
+    </comp>
+    <comp ref="R313">
+      <value>2,2Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D88B097</tstamp>
+    </comp>
+    <comp ref="C310">
+      <value>470nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D88B0B5</tstamp>
+    </comp>
+    <comp ref="Q305">
+      <value>BSC026N08NS5</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0</datasheet>
+      <libsource lib="Transistor_FET" part="BSC026N08NS5" description="100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A0197</tstamp>
+    </comp>
+    <comp ref="C319">
+      <value>2,2μF/100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A019F</tstamp>
+    </comp>
+    <comp ref="R318">
+      <value>2,2Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01A5</tstamp>
+    </comp>
+    <comp ref="R320">
+      <value>2,2Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01C3</tstamp>
+    </comp>
+    <comp ref="U303">
+      <value>AD8418</value>
+      <footprint>Package_SO:MSOP-8_3x3mm_P0.65mm</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8418.pdf</datasheet>
+      <libsource lib="Amplifier_Current" part="AD8418" description="70V Bidirectional, Zero Drift, Current Sense Amplifier, 20V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01CB</tstamp>
+    </comp>
+    <comp ref="C318">
+      <value>470nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01E1</tstamp>
+    </comp>
+    <comp ref="C317">
+      <value>2,2nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01EC</tstamp>
+    </comp>
+    <comp ref="R317">
+      <value>1kΩ/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01F2</tstamp>
+    </comp>
+    <comp ref="C316">
+      <value>100nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A020C</tstamp>
+    </comp>
+    <comp ref="R314">
+      <value>0Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DA1AADD</tstamp>
+    </comp>
+    <comp ref="C315">
+      <value>100nF/50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DA56FA6</tstamp>
+    </comp>
+    <comp ref="R311">
+      <value>0Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DAB36B7</tstamp>
+    </comp>
+    <comp ref="C311">
+      <value>100nF/100V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DADB8FC</tstamp>
+    </comp>
+    <comp ref="C312">
+      <value>2,2μF/50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB0D3D6</tstamp>
+    </comp>
+    <comp ref="C313">
+      <value>2,2μF/50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB0D99C</tstamp>
+    </comp>
+    <comp ref="C306">
+      <value>22nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB47A4E</tstamp>
+    </comp>
+    <comp ref="C307">
+      <value>100nF/100V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB76F78</tstamp>
+    </comp>
+    <comp ref="C305">
+      <value>100nF/100V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB9E3D9</tstamp>
+    </comp>
+    <comp ref="R305">
+      <value>3mΩ/1%/3W</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Info">CRE2512-FZ-R003E-3</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D68CFAD</tstamp>
+    </comp>
+    <comp ref="R319">
+      <value>3mΩ/1%/3W</value>
+      <footprint>Resistor_SMD:R_2512_6332Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Info">CRE2512-FZ-R003E-3</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D68D5C3</tstamp>
+    </comp>
+    <comp ref="Q306">
+      <value>BSC026N08NS5</value>
+      <footprint>Package_TO_SOT_SMD:TDSON-8-1</footprint>
+      <datasheet>http://www.infineon.com/dgdl/Infineon-BSC026N08NS5-DS-v02_01-EN.pdf?fileId=5546d4624ad04ef9014ae2eace7629e0</datasheet>
+      <libsource lib="Transistor_FET" part="BSC026N08NS5" description="100A Id, 80V Vds, OptiMOS N-Channel Power MOSFET, 2.6mOhm Ron, Qg (typ) 74.0nC, PG-TDSON-8"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5D8A01B4</tstamp>
+    </comp>
+    <comp ref="C404">
+      <value>100nF/50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6ABCE6</tstamp>
+    </comp>
+    <comp ref="U401">
+      <value>LP2985-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-5</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lp2985.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="LP2985-3.3" description="150mA 16V Low-noise Low-dropout Regulator With Shutdown, 3.3V output voltage, SOT-23-5"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6AC112</tstamp>
+    </comp>
+    <comp ref="C402">
+      <value>10nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6AC911</tstamp>
+    </comp>
+    <comp ref="R402">
+      <value>0Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6ACBE2</tstamp>
+    </comp>
+    <comp ref="C401">
+      <value>4,7μF/16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6ADA3E</tstamp>
+    </comp>
+    <comp ref="R401">
+      <value>0Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Info">Not mounted</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6B138D</tstamp>
+    </comp>
+    <comp ref="C403">
+      <value>4,7μF/16V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6B4B81</tstamp>
+    </comp>
+    <comp ref="R403">
+      <value>150Ω/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D67213B</tstamp>
+    </comp>
+    <comp ref="D401">
+      <value>KPHHS1005SURCK</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="Info">Red</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D67284F</tstamp>
+    </comp>
+    <comp ref="U402">
+      <value>AT25128B-SSHL-T8S1-L</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8707-SEEPROM-AT25010B-020B-040B-Datasheet.pdf</datasheet>
+      <libsource lib="Memory_EEPROM" part="AT25xxx" description="Microchip SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8"/>
+      <sheetpath names="/Regulator and ID/" tstamps="/5D6A7BED/"/>
+      <tstamp>5D6ABCD6</tstamp>
+    </comp>
+    <comp ref="U201">
+      <value>Metz_31330102</value>
+      <footprint>Connector_library:Metz_31330102</footprint>
+      <libsource lib="Conector_library" part="Metz_31330102" description="Header Pitch 5mm, Contacts 2"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C0100EA</tstamp>
+    </comp>
+    <comp ref="H201">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C33535A</tstamp>
+    </comp>
+    <comp ref="H202">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C335D22</tstamp>
+    </comp>
+    <comp ref="H203">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C335E56</tstamp>
+    </comp>
+    <comp ref="H204">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C3360CB</tstamp>
+    </comp>
+    <comp ref="U202">
+      <value>Metz_31349102</value>
+      <fields>
+        <field name="Info">Connected to U202</field>
+      </fields>
+      <libsource lib="Conector_library" part="Metz_31349102" description="Plug Pitch 5mm, Contacts 2"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C59EB06</tstamp>
+    </comp>
+    <comp ref="fid201">
+      <value>fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</footprint>
+      <libsource lib="TMC6100-EVAL-v1.0-rescue" part="fiducial-markings" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C6BBB15</tstamp>
+    </comp>
+    <comp ref="fid202">
+      <value>fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</footprint>
+      <libsource lib="TMC6100-EVAL-v1.0-rescue" part="fiducial-markings" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C6BC61F</tstamp>
+    </comp>
+    <comp ref="fid203">
+      <value>fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</footprint>
+      <libsource lib="TMC6100-EVAL-v1.0-rescue" part="fiducial-markings" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C6BC9A9</tstamp>
+    </comp>
+    <comp ref="TP201">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA775A1</tstamp>
+    </comp>
+    <comp ref="TP202">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA85D15</tstamp>
+    </comp>
+    <comp ref="TP203">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA8632E</tstamp>
+    </comp>
+    <comp ref="TP204">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA87D3C</tstamp>
+    </comp>
+    <comp ref="TP205">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA87D42</tstamp>
+    </comp>
+    <comp ref="TP206">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA87D48</tstamp>
+    </comp>
+    <comp ref="TP207">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA8CAD6</tstamp>
+    </comp>
+    <comp ref="TP208">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA8CADC</tstamp>
+    </comp>
+    <comp ref="TP209">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA8CAE2</tstamp>
+    </comp>
+    <comp ref="TP210">
+      <value>TestPoint</value>
+      <footprint>TestPoint:TestPoint_Pad_D1.5mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5CA8CAE8</tstamp>
+    </comp>
+    <comp ref="C201">
+      <value>220μF/100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D6539A6</tstamp>
+    </comp>
+    <comp ref="C202">
+      <value>220μF/100V</value>
+      <footprint>Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D6545C4</tstamp>
+    </comp>
+    <comp ref="U203">
+      <value>Metz_31330103</value>
+      <footprint>Connector_library:Metz_31330103</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2336348.pdf</datasheet>
+      <libsource lib="Conector_library" part="Metz_31330103" description="Header Pitch 5mm, Contacts 3"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D65AFA7</tstamp>
+    </comp>
+    <comp ref="R203">
+      <value>10kΩ/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D64BFF4</tstamp>
+    </comp>
+    <comp ref="J201">
+      <value>W+P_46-3492-44-3-00-10-PPTR</value>
+      <footprint>Connector_Samtec_HLE_SMD:Samtec_HLE-144-02-xxx-DV-BE-A_2x22_P2.54mm_Horizontal</footprint>
+      <fields>
+        <field name="Field5">Samtec</field>
+        <field name="Field6">.100 Tiger Beam™ Cost-effective Single Beam Socket Strip</field>
+        <field name="Field8">HLE-122-02-F-DV-A-K-TR</field>
+      </fields>
+      <libsource lib="SAMTEC-HLE-122-02-X-DV" part="W+P_46-3492-44-3-00-10-PPTR_TMC-mod" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C5991A7</tstamp>
+    </comp>
+    <comp ref="C203">
+      <value>1nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D673727</tstamp>
+    </comp>
+    <comp ref="C204">
+      <value>1nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D67446C</tstamp>
+    </comp>
+    <comp ref="C205">
+      <value>1nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D67484E</tstamp>
+    </comp>
+    <comp ref="U204">
+      <value>Metz_31349103</value>
+      <datasheet>http://www.farnell.com/datasheets/2336351.pdf</datasheet>
+      <fields>
+        <field name="Info">Connected to U203</field>
+      </fields>
+      <libsource lib="Conector_library" part="Metz_31349103" description="Plug Pitch 5mm, Contacts 3"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5DA86CEE</tstamp>
+    </comp>
+    <comp ref="D402">
+      <value>SMBJ58A</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5D7B8D07</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Amplifier_Current" part="AD8417">
+      <aliases>
+        <alias>AD8418</alias>
+      </aliases>
+      <description>70V Bidirectional, Zero Drift, Current Sense Amplifier, 60V/V gain, bandwidth 250kHz, VS=2.7V~5.5V, SOIC-8/MSOP-8</description>
+      <docs>https://www.analog.com/media/en/technical-documentation/data-sheets/AD8417.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AD8417</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN-" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="REF2" type="input"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="OUT" type="output"/>
+        <pin num="6" name="VS" type="power_in"/>
+        <pin num="7" name="REF1" type="input"/>
+        <pin num="8" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Conector_library" part="Metz_31330102">
+      <description>Header Pitch 5mm, Contacts 2</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Metz_31330102</field>
+        <field name="Footprint">Connector_library:Metz_31330102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Conector_library" part="Metz_31330103">
+      <description>Header Pitch 5mm, Contacts 3</description>
+      <docs>http://www.farnell.com/datasheets/2336348.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Metz_31330103</field>
+        <field name="Footprint">Connector_library:Metz_31330103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Conector_library" part="Metz_31349102">
+      <description>Plug Pitch 5mm, Contacts 2</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Metz_31349102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Conector_library" part="Metz_31349103">
+      <description>Plug Pitch 5mm, Contacts 3</description>
+      <docs>http://www.farnell.com/datasheets/2336351.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Metz_31349103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_EEPROM" part="25LCxxx">
+      <aliases>
+        <alias>BR25Sxxx</alias>
+        <alias>CAT250xxx</alias>
+        <alias>AT25xxx</alias>
+      </aliases>
+      <description>SPI Serial EEPROM, DIP-8/SOIC-8/TSSOP-8</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21832H.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>SOIC*3.9x4.9mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">25LCxxx</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~CS" type="input"/>
+        <pin num="2" name="MISO" type="3state"/>
+        <pin num="3" name="~WP" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="MOSI" type="input"/>
+        <pin num="6" name="SCK" type="input"/>
+        <pin num="7" name="~HOLD" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="LP2985-1.8">
+      <aliases>
+        <alias>LP2985-2.5</alias>
+        <alias>LP2985-2.8</alias>
+        <alias>LP2985-2.9</alias>
+        <alias>LP2985-3.0</alias>
+        <alias>LP2985-3.1</alias>
+        <alias>LP2985-3.3</alias>
+        <alias>LP2985-5.0</alias>
+        <alias>LP2985-10.0</alias>
+      </aliases>
+      <description>150mA 16V Low-noise Low-dropout Regulator With Shutdown, 1.8V output voltage, SOT-23-5</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lp2985.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP2985-1.8</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-5</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="ON/~OFF~" type="input"/>
+        <pin num="4" name="BP" type="input"/>
+        <pin num="5" name="VOUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="SAMTEC-HLE-122-02-X-DV" part="W+P_46-3492-44-3-00-10-PPTR_TMC-mod">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">W+P_46-3492-44-3-00-10-PPTR_TMC-mod</field>
+        <field name="Footprint">Connector_Samtec_HLE_SMD:Samtec_HLE-144-02-xxx-DV-BE-A_2x22_P2.54mm_Horizontal</field>
+        <field name="Field5">Samtec</field>
+        <field name="Field6">.100 Tiger Beam™ Cost-effective Single Beam Socket Strip</field>
+        <field name="Field8">HLE-122-02-F-DV-A-K-TR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VM" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="ID_CLK" type="passive"/>
+        <pin num="5" name="+5V_USB" type="passive"/>
+        <pin num="6" name="ID_CH0" type="passive"/>
+        <pin num="7" name="ID_CH1" type="passive"/>
+        <pin num="8" name="DIO0" type="passive"/>
+        <pin num="9" name="DIO1" type="passive"/>
+        <pin num="10" name="DIO2" type="passive"/>
+        <pin num="11" name="DIO3" type="passive"/>
+        <pin num="12" name="DIO4" type="passive"/>
+        <pin num="13" name="DIO5" type="passive"/>
+        <pin num="14" name="AIN0" type="passive"/>
+        <pin num="15" name="AIN1" type="passive"/>
+        <pin num="16" name="AIN2" type="passive"/>
+        <pin num="17" name="DIO6" type="passive"/>
+        <pin num="18" name="DIO7" type="passive"/>
+        <pin num="19" name="DIO8" type="passive"/>
+        <pin num="20" name="DIO9" type="passive"/>
+        <pin num="21" name="DIO10" type="passive"/>
+        <pin num="22" name="DIO11" type="passive"/>
+        <pin num="23" name="CLK16" type="passive"/>
+        <pin num="24" name="SPI2_CSN0" type="passive"/>
+        <pin num="25" name="SPI2_CSN1" type="passive"/>
+        <pin num="26" name="SPI2_CS2" type="passive"/>
+        <pin num="27" name="SPI2_SCK" type="passive"/>
+        <pin num="28" name="SPI2_MISO" type="passive"/>
+        <pin num="29" name="SPI2_MOSI" type="passive"/>
+        <pin num="30" name="SPI1_CSN" type="passive"/>
+        <pin num="31" name="SPI1_SCK" type="passive"/>
+        <pin num="32" name="SPI1_MOSI" type="passive"/>
+        <pin num="33" name="SPI1_MISO" type="passive"/>
+        <pin num="34" name="DIO12" type="passive"/>
+        <pin num="35" name="DIO13" type="passive"/>
+        <pin num="36" name="DIO14" type="passive"/>
+        <pin num="37" name="DIO15" type="passive"/>
+        <pin num="38" name="DIO16" type="passive"/>
+        <pin num="39" name="DIO17" type="passive"/>
+        <pin num="40" name="DIO18" type="passive"/>
+        <pin num="41" name="DIO19" type="passive"/>
+        <pin num="42" name="+5V_VM" type="passive"/>
+        <pin num="43" name="GND" type="passive"/>
+        <pin num="44" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="TMC6100-EVAL-v1.0-rescue" part="fiducial-markings">
+      <fields>
+        <field name="Reference">fid</field>
+        <field name="Value">fiducial-markings</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</field>
+      </fields>
+    </libpart>
+    <libpart lib="Transistor_FET" part="CSD17578Q5A">
+      <aliases>
+        <alias>CSD17579Q5A</alias>
+        <alias>CSD16570Q5B</alias>
+        <alias>CSD17577Q5A</alias>
+        <alias>CSD18509Q5B</alias>
+        <alias>CSD18540Q5B</alias>
+        <alias>CSD17573Q5B</alias>
+        <alias>CSD17576Q5B</alias>
+        <alias>CSD19534Q5A</alias>
+        <alias>CSD17570Q5B</alias>
+        <alias>CSD19533Q5A</alias>
+        <alias>CSD19502Q5B</alias>
+        <alias>CSD19532Q5B</alias>
+        <alias>CSD19531Q5A</alias>
+        <alias>CSD18563Q5A</alias>
+        <alias>CSD18537NQ5A</alias>
+        <alias>CSD18532NQ5B</alias>
+        <alias>CSD17556Q5B</alias>
+        <alias>CSD18502Q5B</alias>
+        <alias>CSD18532Q5B</alias>
+        <alias>CSD17552Q5A</alias>
+        <alias>CSD17559Q5</alias>
+        <alias>CSD18534Q5A</alias>
+        <alias>CSD18533Q5A</alias>
+        <alias>CSD17555Q5A</alias>
+        <alias>CSD17551Q5A</alias>
+        <alias>CSD18501Q5A</alias>
+        <alias>CSD18503Q5A</alias>
+        <alias>CSD18504Q5A</alias>
+        <alias>CSD18531Q5A</alias>
+        <alias>CSD17553Q5A</alias>
+        <alias>CSD16342Q5A</alias>
+        <alias>CSD17322Q5A</alias>
+        <alias>CSD17327Q5A</alias>
+        <alias>CSD17522Q5A</alias>
+        <alias>CSD17527Q5A</alias>
+        <alias>CSD17501Q5A</alias>
+        <alias>CSD17506Q5A</alias>
+        <alias>CSD17505Q5A</alias>
+        <alias>CSD17507Q5A</alias>
+        <alias>CSD17510Q5A</alias>
+        <alias>CSD17311Q5</alias>
+        <alias>CSD17312Q5</alias>
+        <alias>CSD17303Q5</alias>
+        <alias>CSD16415Q5</alias>
+        <alias>CSD17302Q5A</alias>
+        <alias>CSD17305Q5A</alias>
+        <alias>CSD17306Q5A</alias>
+        <alias>CSD17307Q5A</alias>
+        <alias>CSD17310Q5A</alias>
+        <alias>CSD17301Q5A</alias>
+        <alias>CSD16408Q5</alias>
+        <alias>CSD16322Q5</alias>
+        <alias>CSD16325Q5</alias>
+        <alias>CSD16321Q5</alias>
+        <alias>CSD16414Q5</alias>
+        <alias>CSD16401Q5</alias>
+        <alias>CSD16403Q5A</alias>
+        <alias>CSD16404Q5A</alias>
+        <alias>CSD16407Q5</alias>
+        <alias>CSD16410Q5A</alias>
+        <alias>CSD16412Q5A</alias>
+        <alias>CSD16413Q5A</alias>
+        <alias>BSC026N08NS5</alias>
+        <alias>BSC030N08NS5</alias>
+        <alias>BSC035N10NS5</alias>
+        <alias>BSC037N08NS5</alias>
+        <alias>BSC040N10NS5</alias>
+        <alias>BSC040N08NS5</alias>
+        <alias>BSC046N10NS3G</alias>
+        <alias>BSC047N08NS3G</alias>
+        <alias>BSC052N08NS5</alias>
+        <alias>BSC057N08NS3G</alias>
+        <alias>BSC060N10NS3G</alias>
+        <alias>BSC061N08NS5</alias>
+        <alias>BSC070N10NS3G</alias>
+        <alias>BSC070N10NS5</alias>
+        <alias>BSC072N08NS5</alias>
+        <alias>BSC079N10NSG</alias>
+        <alias>BSC082N10LSG</alias>
+        <alias>BSC098N10NS5</alias>
+        <alias>BSC100N10NSFG</alias>
+        <alias>BSC105N10LSFG</alias>
+        <alias>BSC109N10NS3G</alias>
+        <alias>BSC117N08NS5</alias>
+        <alias>BSC118N10NSG</alias>
+        <alias>BSC123N08NS3G</alias>
+        <alias>BSC123N10LSG</alias>
+        <alias>BSC159N10LSFG</alias>
+        <alias>BSC160N10NS3G</alias>
+        <alias>BSC196N10NSG</alias>
+        <alias>BSC252N10NSFG</alias>
+        <alias>BSC265N10LSFG</alias>
+        <alias>BSC340N08NS3G</alias>
+        <alias>BSC440N10NS3G</alias>
+        <alias>BSC028N06LS3</alias>
+        <alias>FDMS8350LET40</alias>
+        <alias>FDMT80060DC</alias>
+        <alias>FDMT80080DC</alias>
+        <alias>FDMT800120DC</alias>
+        <alias>FDMT800100DC</alias>
+        <alias>FDMT800150DC</alias>
+        <alias>FDMT800152DC</alias>
+        <alias>FDMS8050ET30</alias>
+        <alias>FDMS86202ET120</alias>
+        <alias>FDMS86150ET100</alias>
+        <alias>FDMS86255ET150</alias>
+        <alias>FDMS86350ET80</alias>
+        <alias>FDMS86550ET60</alias>
+        <alias>FDMS8050</alias>
+        <alias>FDMS8350L</alias>
+        <alias>FDMS86255</alias>
+        <alias>FDMS86550</alias>
+        <alias>FDMS86202</alias>
+        <alias>FDMS86350</alias>
+        <alias>FDMS86152</alias>
+        <alias>FDMS86150</alias>
+      </aliases>
+      <description>25A Id, 30V Vds, NexFET N-Channel Power MOSFET, 6.9mOhm Ron, Qg (typ) 7.9nC, SON8 5x6mm</description>
+      <docs>http://www.ti.com/lit/gpn/csd17578q5a</docs>
+      <footprints>
+        <fp>TDSON*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CSD17578Q5A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TDSON-8-1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Trinamic" part="TMC6100-TA">
+      <docs>https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC6200_datasheet_Rev1.04.pdf</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TMC6100-TA</field>
+        <field name="Footprint">Trinamic:QFN-44-1EP_7x7mm_P0.5mm_EP4x4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CU" type="unspc"/>
+        <pin num="2" name="n.c." type="NotConnected"/>
+        <pin num="3" name="LSW" type="unspc"/>
+        <pin num="4" name="LSV" type="unspc"/>
+        <pin num="5" name="LSU" type="unspc"/>
+        <pin num="6" name="12VOUT" type="unspc"/>
+        <pin num="7" name="5VOUT" type="unspc"/>
+        <pin num="8" name="GNDA" type="unspc"/>
+        <pin num="9" name="TEST" type="output"/>
+        <pin num="10" name="CS" type="output"/>
+        <pin num="11" name="SCK_IDRV1" type="input"/>
+        <pin num="12" name="SDI" type="input"/>
+        <pin num="13" name="SDO_SINGLE" type="BiDi"/>
+        <pin num="14" name="UH" type="input"/>
+        <pin num="15" name="UL" type="input"/>
+        <pin num="16" name="VCC_IO" type="unspc"/>
+        <pin num="17" name="VH" type="input"/>
+        <pin num="18" name="VL" type="input"/>
+        <pin num="19" name="WH" type="input"/>
+        <pin num="20" name="WL" type="input"/>
+        <pin num="21" name="CLK" type="input"/>
+        <pin num="22" name="SPE" type="input"/>
+        <pin num="23" name="FAULT" type="output"/>
+        <pin num="24" name="DRV_EN" type="input"/>
+        <pin num="25" name="VSA" type="unspc"/>
+        <pin num="26" name="CPO" type="unspc"/>
+        <pin num="27" name="CPI" type="unspc"/>
+        <pin num="28" name="VS" type="unspc"/>
+        <pin num="29" name="VCP" type="unspc"/>
+        <pin num="30" name="CW" type="unspc"/>
+        <pin num="31" name="HSW" type="unspc"/>
+        <pin num="32" name="W" type="unspc"/>
+        <pin num="33" name="V" type="unspc"/>
+        <pin num="34" name="HSV" type="unspc"/>
+        <pin num="35" name="CV" type="unspc"/>
+        <pin num="36" name="U" type="unspc"/>
+        <pin num="37" name="HSU" type="unspc"/>
+        <pin num="PAD" name="PAD" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Amplifier_Current">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Amplifier_Current.lib</uri>
+    </library>
+    <library logical="Conector_library">
+      <uri>C:/Users/Kurs/Work/KiCad library/Connector_library.pretty/Conector_library.lib</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Mechanical.lib</uri>
+    </library>
+    <library logical="Memory_EEPROM">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Memory_EEPROM.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="SAMTEC-HLE-122-02-X-DV">
+      <uri>C:/Users/Kurs/Work/KiCad library/Connectors_Samtec.pretty/SAMTEC-HLE-122-02-X-DV.lib</uri>
+    </library>
+    <library logical="TMC6100-EVAL-v1.0-rescue">
+      <uri>C:\Users\Kurs\Work\TMC6100-EVAL\v1.1\CAD/TMC6100-EVAL v1.0-rescue.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="Trinamic">
+      <uri>C:/Users/Kurs/Work/KiCad library/Trinamic.pretty/Trinamic.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/+3,3V">
+      <node ref="U401" pin="5"/>
+      <node ref="TP210" pin="1"/>
+      <node ref="R402" pin="2"/>
+      <node ref="C403" pin="1"/>
+    </net>
+    <net code="2" name="/5Vout">
+      <node ref="C313" pin="1"/>
+      <node ref="IC301" pin="7"/>
+      <node ref="TP208" pin="1"/>
+    </net>
+    <net code="3" name="/VSA">
+      <node ref="IC301" pin="25"/>
+      <node ref="TP201" pin="1"/>
+      <node ref="R311" pin="1"/>
+      <node ref="C311" pin="1"/>
+    </net>
+    <net code="4" name="/12Vout">
+      <node ref="TP205" pin="1"/>
+      <node ref="IC301" pin="6"/>
+      <node ref="C312" pin="1"/>
+    </net>
+    <net code="5" name="/VCP">
+      <node ref="IC301" pin="29"/>
+      <node ref="TP206" pin="1"/>
+      <node ref="C307" pin="1"/>
+    </net>
+    <net code="6" name="/+VM">
+      <node ref="R311" pin="2"/>
+      <node ref="IC301" pin="28"/>
+      <node ref="U201" pin="2"/>
+      <node ref="C305" pin="2"/>
+      <node ref="C201" pin="1"/>
+      <node ref="TP204" pin="1"/>
+      <node ref="C202" pin="1"/>
+      <node ref="Q301" pin="6"/>
+      <node ref="Q305" pin="6"/>
+      <node ref="C314" pin="1"/>
+      <node ref="J201" pin="1"/>
+      <node ref="Q303" pin="8"/>
+      <node ref="Q303" pin="7"/>
+      <node ref="Q303" pin="6"/>
+      <node ref="Q303" pin="5"/>
+      <node ref="C307" pin="2"/>
+      <node ref="C304" pin="1"/>
+      <node ref="D402" pin="1"/>
+      <node ref="Q301" pin="8"/>
+      <node ref="Q301" pin="7"/>
+      <node ref="Q301" pin="5"/>
+      <node ref="C319" pin="1"/>
+      <node ref="Q305" pin="8"/>
+      <node ref="Q305" pin="7"/>
+      <node ref="Q305" pin="5"/>
+    </net>
+    <net code="7" name="/W">
+      <node ref="R319" pin="1"/>
+      <node ref="U203" pin="1"/>
+      <node ref="U303" pin="1"/>
+      <node ref="C205" pin="1"/>
+    </net>
+    <net code="8" name="/V">
+      <node ref="C310" pin="1"/>
+      <node ref="Q304" pin="8"/>
+      <node ref="Q304" pin="7"/>
+      <node ref="Q304" pin="6"/>
+      <node ref="Q304" pin="5"/>
+      <node ref="Q303" pin="2"/>
+      <node ref="Q303" pin="1"/>
+      <node ref="Q303" pin="3"/>
+      <node ref="IC301" pin="33"/>
+      <node ref="C204" pin="1"/>
+      <node ref="U203" pin="2"/>
+    </net>
+    <net code="9" name="/U">
+      <node ref="U301" pin="1"/>
+      <node ref="R305" pin="1"/>
+      <node ref="C203" pin="1"/>
+      <node ref="U203" pin="3"/>
+    </net>
+    <net code="10" name="/ADC_I_w">
+      <node ref="J201" pin="15"/>
+      <node ref="C317" pin="1"/>
+      <node ref="R317" pin="1"/>
+    </net>
+    <net code="11" name="/UH">
+      <node ref="J201" pin="18"/>
+      <node ref="IC301" pin="14"/>
+    </net>
+    <net code="12" name="/VH">
+      <node ref="J201" pin="20"/>
+      <node ref="IC301" pin="17"/>
+    </net>
+    <net code="13" name="/WH">
+      <node ref="J201" pin="22"/>
+      <node ref="IC301" pin="19"/>
+    </net>
+    <net code="14" name="/~CS_DRIVER">
+      <node ref="J201" pin="24"/>
+      <node ref="IC301" pin="10"/>
+    </net>
+    <net code="15" name="/SPI2_MISO">
+      <node ref="IC301" pin="13"/>
+      <node ref="J201" pin="28"/>
+      <node ref="U402" pin="2"/>
+    </net>
+    <net code="16" name="/SPI2_MOSI">
+      <node ref="J201" pin="29"/>
+      <node ref="U402" pin="5"/>
+      <node ref="IC301" pin="12"/>
+    </net>
+    <net code="17" name="/WL">
+      <node ref="J201" pin="21"/>
+      <node ref="IC301" pin="20"/>
+    </net>
+    <net code="18" name="/VL">
+      <node ref="IC301" pin="18"/>
+      <node ref="J201" pin="19"/>
+    </net>
+    <net code="19" name="/ADC_I_u">
+      <node ref="J201" pin="14"/>
+      <node ref="C302" pin="1"/>
+      <node ref="R303" pin="1"/>
+    </net>
+    <net code="20" name="/SPE">
+      <node ref="J201" pin="9"/>
+      <node ref="R203" pin="1"/>
+      <node ref="IC301" pin="22"/>
+    </net>
+    <net code="21" name="/+Vcc_IO">
+      <node ref="U402" pin="8"/>
+      <node ref="U402" pin="7"/>
+      <node ref="U402" pin="3"/>
+      <node ref="IC301" pin="16"/>
+      <node ref="R402" pin="1"/>
+      <node ref="R401" pin="1"/>
+      <node ref="C315" pin="1"/>
+      <node ref="C404" pin="2"/>
+      <node ref="TP209" pin="1"/>
+      <node ref="R203" pin="2"/>
+    </net>
+    <net code="22" name="/+5V_VM">
+      <node ref="U303" pin="6"/>
+      <node ref="U301" pin="6"/>
+      <node ref="U401" pin="1"/>
+      <node ref="U401" pin="3"/>
+      <node ref="R401" pin="2"/>
+      <node ref="U303" pin="7"/>
+      <node ref="C401" pin="1"/>
+      <node ref="C301" pin="1"/>
+      <node ref="TP203" pin="1"/>
+      <node ref="C316" pin="1"/>
+      <node ref="U301" pin="7"/>
+      <node ref="J201" pin="42"/>
+    </net>
+    <net code="23" name="/~CS_EEPROM">
+      <node ref="J201" pin="7"/>
+      <node ref="U402" pin="1"/>
+    </net>
+    <net code="24" name="/SPI2_SCK">
+      <node ref="IC301" pin="11"/>
+      <node ref="J201" pin="27"/>
+      <node ref="U402" pin="6"/>
+    </net>
+    <net code="25" name="/Fault">
+      <node ref="IC301" pin="23"/>
+      <node ref="R403" pin="2"/>
+    </net>
+    <net code="26" name="/DRV_EN">
+      <node ref="J201" pin="40"/>
+      <node ref="IC301" pin="24"/>
+    </net>
+    <net code="27" name="/UL">
+      <node ref="IC301" pin="15"/>
+      <node ref="J201" pin="17"/>
+    </net>
+    <net code="28" name="/Connevtors/+5V_USB">
+      <node ref="J201" pin="5"/>
+    </net>
+    <net code="29" name="Net-(J201-Pad10)">
+      <node ref="J201" pin="10"/>
+    </net>
+    <net code="30" name="Net-(J201-Pad41)">
+      <node ref="J201" pin="41"/>
+    </net>
+    <net code="31" name="Net-(J201-Pad39)">
+      <node ref="J201" pin="39"/>
+    </net>
+    <net code="32" name="Net-(J201-Pad37)">
+      <node ref="J201" pin="37"/>
+    </net>
+    <net code="33" name="Net-(J201-Pad38)">
+      <node ref="J201" pin="38"/>
+    </net>
+    <net code="34" name="Net-(J201-Pad36)">
+      <node ref="J201" pin="36"/>
+    </net>
+    <net code="35" name="Net-(J201-Pad32)">
+      <node ref="J201" pin="32"/>
+    </net>
+    <net code="36" name="Net-(J201-Pad30)">
+      <node ref="J201" pin="30"/>
+    </net>
+    <net code="37" name="Net-(J201-Pad26)">
+      <node ref="J201" pin="26"/>
+    </net>
+    <net code="38" name="Net-(J201-Pad4)">
+      <node ref="J201" pin="4"/>
+    </net>
+    <net code="39" name="Net-(J201-Pad6)">
+      <node ref="J201" pin="6"/>
+    </net>
+    <net code="40" name="Net-(J201-Pad8)">
+      <node ref="J201" pin="8"/>
+    </net>
+    <net code="41" name="Net-(J201-Pad12)">
+      <node ref="J201" pin="12"/>
+    </net>
+    <net code="42" name="Net-(J201-Pad11)">
+      <node ref="J201" pin="11"/>
+    </net>
+    <net code="43" name="Net-(J201-Pad13)">
+      <node ref="J201" pin="13"/>
+    </net>
+    <net code="44" name="Net-(J201-Pad23)">
+      <node ref="J201" pin="23"/>
+    </net>
+    <net code="45" name="Net-(J201-Pad25)">
+      <node ref="J201" pin="25"/>
+    </net>
+    <net code="46" name="Net-(J201-Pad31)">
+      <node ref="J201" pin="31"/>
+    </net>
+    <net code="47" name="Net-(J201-Pad33)">
+      <node ref="J201" pin="33"/>
+    </net>
+    <net code="48" name="GND">
+      <node ref="C305" pin="1"/>
+      <node ref="C315" pin="2"/>
+      <node ref="Q306" pin="3"/>
+      <node ref="Q306" pin="2"/>
+      <node ref="C403" pin="2"/>
+      <node ref="D401" pin="1"/>
+      <node ref="C401" pin="2"/>
+      <node ref="C402" pin="2"/>
+      <node ref="U401" pin="2"/>
+      <node ref="C316" pin="2"/>
+      <node ref="R314" pin="2"/>
+      <node ref="Q306" pin="1"/>
+      <node ref="C304" pin="2"/>
+      <node ref="D402" pin="2"/>
+      <node ref="Q302" pin="1"/>
+      <node ref="C302" pin="2"/>
+      <node ref="U301" pin="3"/>
+      <node ref="U301" pin="2"/>
+      <node ref="C204" pin="2"/>
+      <node ref="C205" pin="2"/>
+      <node ref="C203" pin="2"/>
+      <node ref="Q302" pin="3"/>
+      <node ref="Q302" pin="2"/>
+      <node ref="J201" pin="43"/>
+      <node ref="IC301" pin="PAD"/>
+      <node ref="IC301" pin="9"/>
+      <node ref="IC301" pin="8"/>
+      <node ref="J201" pin="44"/>
+      <node ref="Q304" pin="3"/>
+      <node ref="Q304" pin="2"/>
+      <node ref="Q304" pin="1"/>
+      <node ref="C319" pin="2"/>
+      <node ref="J201" pin="3"/>
+      <node ref="J201" pin="2"/>
+      <node ref="U303" pin="3"/>
+      <node ref="U303" pin="2"/>
+      <node ref="C314" pin="2"/>
+      <node ref="H201" pin="1"/>
+      <node ref="TP207" pin="1"/>
+      <node ref="C317" pin="2"/>
+      <node ref="C301" pin="2"/>
+      <node ref="U201" pin="1"/>
+      <node ref="C311" pin="2"/>
+      <node ref="C313" pin="2"/>
+      <node ref="C201" pin="2"/>
+      <node ref="C312" pin="2"/>
+      <node ref="C202" pin="2"/>
+      <node ref="H204" pin="1"/>
+      <node ref="H203" pin="1"/>
+      <node ref="TP202" pin="1"/>
+      <node ref="H202" pin="1"/>
+    </net>
+    <net code="49" name="Net-(U204-Pad3)">
+      <node ref="U204" pin="3"/>
+    </net>
+    <net code="50" name="Net-(U204-Pad2)">
+      <node ref="U204" pin="2"/>
+    </net>
+    <net code="51" name="Net-(U204-Pad1)">
+      <node ref="U204" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U202-Pad1)">
+      <node ref="U202" pin="1"/>
+    </net>
+    <net code="53" name="Net-(U202-Pad2)">
+      <node ref="U202" pin="2"/>
+    </net>
+    <net code="54" name="Net-(J201-Pad16)">
+      <node ref="J201" pin="16"/>
+    </net>
+    <net code="55" name="Net-(J201-Pad35)">
+      <node ref="J201" pin="35"/>
+    </net>
+    <net code="56" name="Net-(J201-Pad34)">
+      <node ref="J201" pin="34"/>
+    </net>
+    <net code="57" name="Net-(Q304-Pad4)">
+      <node ref="Q304" pin="4"/>
+      <node ref="R313" pin="1"/>
+    </net>
+    <net code="58" name="Net-(IC301-Pad5)">
+      <node ref="R306" pin="2"/>
+      <node ref="IC301" pin="5"/>
+    </net>
+    <net code="59" name="Net-(Q303-Pad4)">
+      <node ref="R310" pin="1"/>
+      <node ref="Q303" pin="4"/>
+    </net>
+    <net code="60" name="Net-(Q306-Pad4)">
+      <node ref="Q306" pin="4"/>
+      <node ref="R320" pin="1"/>
+    </net>
+    <net code="61" name="Net-(U303-Pad4)">
+      <node ref="U303" pin="4"/>
+    </net>
+    <net code="62" name="Net-(C318-Pad1)">
+      <node ref="Q306" pin="5"/>
+      <node ref="Q306" pin="6"/>
+      <node ref="Q306" pin="7"/>
+      <node ref="Q306" pin="8"/>
+      <node ref="Q305" pin="3"/>
+      <node ref="Q305" pin="2"/>
+      <node ref="Q305" pin="1"/>
+      <node ref="R319" pin="2"/>
+      <node ref="U303" pin="8"/>
+      <node ref="IC301" pin="32"/>
+      <node ref="C318" pin="1"/>
+    </net>
+    <net code="63" name="Net-(C318-Pad2)">
+      <node ref="C318" pin="2"/>
+      <node ref="IC301" pin="30"/>
+    </net>
+    <net code="64" name="Net-(Q305-Pad4)">
+      <node ref="R318" pin="1"/>
+      <node ref="Q305" pin="4"/>
+    </net>
+    <net code="65" name="Net-(IC301-Pad31)">
+      <node ref="R318" pin="2"/>
+      <node ref="IC301" pin="31"/>
+    </net>
+    <net code="66" name="Net-(Q302-Pad4)">
+      <node ref="R306" pin="1"/>
+      <node ref="Q302" pin="4"/>
+    </net>
+    <net code="67" name="Net-(U301-Pad4)">
+      <node ref="U301" pin="4"/>
+    </net>
+    <net code="68" name="Net-(IC301-Pad37)">
+      <node ref="IC301" pin="37"/>
+      <node ref="R304" pin="2"/>
+    </net>
+    <net code="69" name="Net-(Q301-Pad4)">
+      <node ref="Q301" pin="4"/>
+      <node ref="R304" pin="1"/>
+    </net>
+    <net code="70" name="Net-(C306-Pad2)">
+      <node ref="C306" pin="2"/>
+      <node ref="IC301" pin="26"/>
+    </net>
+    <net code="71" name="Net-(IC301-Pad2)">
+      <node ref="IC301" pin="2"/>
+    </net>
+    <net code="72" name="Net-(IC301-Pad21)">
+      <node ref="IC301" pin="21"/>
+      <node ref="R314" pin="1"/>
+    </net>
+    <net code="73" name="Net-(IC301-Pad34)">
+      <node ref="IC301" pin="34"/>
+      <node ref="R310" pin="2"/>
+    </net>
+    <net code="74" name="Net-(C310-Pad2)">
+      <node ref="IC301" pin="35"/>
+      <node ref="C310" pin="2"/>
+    </net>
+    <net code="75" name="Net-(IC301-Pad4)">
+      <node ref="R313" pin="2"/>
+      <node ref="IC301" pin="4"/>
+    </net>
+    <net code="76" name="Net-(R303-Pad2)">
+      <node ref="R303" pin="2"/>
+      <node ref="U301" pin="5"/>
+    </net>
+    <net code="77" name="Net-(C306-Pad1)">
+      <node ref="C306" pin="1"/>
+      <node ref="IC301" pin="27"/>
+    </net>
+    <net code="78" name="Net-(C303-Pad1)">
+      <node ref="R305" pin="2"/>
+      <node ref="U301" pin="8"/>
+      <node ref="Q302" pin="7"/>
+      <node ref="Q301" pin="1"/>
+      <node ref="Q301" pin="2"/>
+      <node ref="Q301" pin="3"/>
+      <node ref="Q302" pin="5"/>
+      <node ref="Q302" pin="6"/>
+      <node ref="Q302" pin="8"/>
+      <node ref="IC301" pin="36"/>
+      <node ref="C303" pin="1"/>
+    </net>
+    <net code="79" name="Net-(R317-Pad2)">
+      <node ref="R317" pin="2"/>
+      <node ref="U303" pin="5"/>
+    </net>
+    <net code="80" name="Net-(C303-Pad2)">
+      <node ref="IC301" pin="1"/>
+      <node ref="C303" pin="2"/>
+    </net>
+    <net code="81" name="Net-(IC301-Pad3)">
+      <node ref="IC301" pin="3"/>
+      <node ref="R320" pin="2"/>
+    </net>
+    <net code="82" name="Net-(C402-Pad1)">
+      <node ref="U401" pin="4"/>
+      <node ref="C402" pin="1"/>
+    </net>
+    <net code="83" name="Net-(C404-Pad1)">
+      <node ref="C404" pin="1"/>
+      <node ref="U402" pin="4"/>
+    </net>
+    <net code="84" name="Net-(D401-Pad2)">
+      <node ref="R403" pin="1"/>
+      <node ref="D401" pin="2"/>
+    </net>
+  </nets>
+</export>

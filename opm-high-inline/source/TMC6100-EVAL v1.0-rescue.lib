@@ -1,0 +1,17 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# fiducial-markings
+#
+DEF fiducial-markings fid 0 40 Y Y 1 F N
+F0 "fid" 0 -75 39 H V C CNN
+F1 "fiducial-markings" 0 75 39 H V C CNN
+F2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+C 0 0 25 0 1 0 f
+C 0 0 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
