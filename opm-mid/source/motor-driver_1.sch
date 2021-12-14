@@ -817,17 +817,6 @@ F 3 "" H 7700 7470 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L motor-driver-eagle-import:IC36F014_3 IC301
-U 1 1 410C7EF0
-P 9700 7870
-F 0 "IC301" H 8120 10990 133 0000 L TNN
-F 1 "TMC6200-TA" H 8190 4920 50  0001 L TNN
-F 2 "motor-driver:IC36F014_3" H 9700 7870 50  0001 C CNN
-F 3 "" H 9700 7870 50  0001 C CNN
-	1    9700 7870
-	1    0    0    -1  
-$EndComp
-$Comp
 L motor-driver-eagle-import:TR50094E Q301
 U 1 1 7393FF63
 P 16550 2770
@@ -1681,4 +1670,15 @@ Wire Wire Line
 Connection ~ 9900 10970
 Wire Wire Line
 	9900 10970 9900 11600
+$Comp
+L motor-driver-eagle-import:IC36F014_3 IC301
+U 1 1 410C7EF0
+P 9700 7870
+F 0 "IC301" H 9650 4618 133 0000 C CNN
+F 1 "TMC6200-TA" H 8190 4920 50  0001 L TNN
+F 2 "motor-driver:IC36F014_3" H 9700 7870 50  0001 C CNN
+F 3 "" H 9700 7870 50  0001 C CNN
+	1    9700 7870
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
