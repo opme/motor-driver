@@ -1,5 +1,4 @@
 (sym_lib_table
   (lib (name motor-driver-eagle-import)(type Legacy)(uri ${KIPRJMOD}/motor-driver-eagle-import.lib)(options "")(descr ""))
-  (lib (name tmc6200)(type Legacy)(uri ${KIPRJMOD}/tmc6200.lib)(options "")(descr ""))
-  (lib (name tmc6100)(type Legacy)(uri ${KIPRJMOD}/tmc6100.lib)(options "")(descr ""))
+  (lib (name trinamic)(type Legacy)(uri ${KIPRJMOD}/trinamic.lib)(options "")(descr ""))
 )
