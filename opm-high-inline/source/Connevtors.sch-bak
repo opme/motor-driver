@@ -81,139 +81,6 @@ Fiducials
 Wire Notes Line
 	5300 1450 5300 750 
 $Comp
-L Connector:TestPoint TP201
-U 1 1 5CA775A1
-P 700 7450
-F 0 "TP201" H 700 7700 39  0000 C CNN
-F 1 "TestPoint" H 700 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 900 7450 50  0001 C CNN
-F 3 "~" H 900 7450 50  0001 C CNN
-	1    700  7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP202
-U 1 1 5CA85D15
-P 1100 7450
-F 0 "TP202" H 1100 7700 39  0000 C CNN
-F 1 "TestPoint" H 1100 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1300 7450 50  0001 C CNN
-F 3 "~" H 1300 7450 50  0001 C CNN
-	1    1100 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP203
-U 1 1 5CA8632E
-P 1500 7450
-F 0 "TP203" H 1500 7700 39  0000 C CNN
-F 1 "TestPoint" H 1500 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 1700 7450 50  0001 C CNN
-F 3 "~" H 1700 7450 50  0001 C CNN
-	1    1500 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP204
-U 1 1 5CA87D3C
-P 1900 7450
-F 0 "TP204" H 1900 7700 39  0000 C CNN
-F 1 "TestPoint" H 1900 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2100 7450 50  0001 C CNN
-F 3 "~" H 2100 7450 50  0001 C CNN
-	1    1900 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP205
-U 1 1 5CA87D42
-P 2300 7450
-F 0 "TP205" H 2300 7700 39  0000 C CNN
-F 1 "TestPoint" H 2300 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2500 7450 50  0001 C CNN
-F 3 "~" H 2500 7450 50  0001 C CNN
-	1    2300 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP206
-U 1 1 5CA87D48
-P 2700 7450
-F 0 "TP206" H 2700 7700 39  0000 C CNN
-F 1 "TestPoint" H 2700 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2900 7450 50  0001 C CNN
-F 3 "~" H 2900 7450 50  0001 C CNN
-	1    2700 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP207
-U 1 1 5CA8CAD6
-P 3100 7450
-F 0 "TP207" H 3100 7700 39  0000 C CNN
-F 1 "TestPoint" H 3100 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3300 7450 50  0001 C CNN
-F 3 "~" H 3300 7450 50  0001 C CNN
-	1    3100 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP208
-U 1 1 5CA8CADC
-P 3500 7450
-F 0 "TP208" H 3500 7700 39  0000 C CNN
-F 1 "TestPoint" H 3500 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 3700 7450 50  0001 C CNN
-F 3 "~" H 3700 7450 50  0001 C CNN
-	1    3500 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP209
-U 1 1 5CA8CAE2
-P 3900 7450
-F 0 "TP209" H 3900 7700 39  0000 C CNN
-F 1 "TestPoint" H 3900 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4100 7450 50  0001 C CNN
-F 3 "~" H 4100 7450 50  0001 C CNN
-	1    3900 7450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP210
-U 1 1 5CA8CAE8
-P 4300 7450
-F 0 "TP210" H 4300 7700 39  0000 C CNN
-F 1 "TestPoint" H 4300 7650 39  0000 C CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 4500 7450 50  0001 C CNN
-F 3 "~" H 4500 7450 50  0001 C CNN
-	1    4300 7450
-	1    0    0    -1  
-$EndComp
-Text Notes 550  7100 0    79   ~ 0
-Testpads
-Wire Notes Line
-	6150 7700 6150 6950
-Wire Notes Line
-	6150 6950 500  6950
-Wire Notes Line
-	500  6950 500  7700
-Wire Notes Line
-	500  7700 6150 7700
-Text HLabel 1500 7450 0    39   Input ~ 0
-+5V_VM
-$Comp
-L power:GND #PWR0103
-U 1 1 5D64B576
-P 1100 7450
-F 0 "#PWR0103" H 1100 7200 50  0001 C CNN
-F 1 "GND" H 1100 7300 50  0000 C CNN
-F 2 "" H 1100 7450 50  0001 C CNN
-F 3 "" H 1100 7450 50  0001 C CNN
-	1    1100 7450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1 C201
 U 1 1 5D6539A6
 P 2400 1450
@@ -390,8 +257,6 @@ Wire Notes Line
 	3450 3300 3450 750 
 Wire Notes Line
 	3450 750  650  750 
-Text HLabel 3900 7450 0    39   Input ~ 0
-+Vcc_IO
 $Comp
 L TMC6100-EVAL-v1.2-rescue:Metz_31349103-Conector_library-TMC6100-EVAL-v1.2-rescue U204
 U 1 1 5DA86CEE
@@ -404,29 +269,6 @@ F 4 "Connected to U203" V 3200 2350 24  0000 C CNN "Info"
 	1    3000 2350
 	0    1    1    0   
 $EndComp
-Text HLabel 700  7450 0    39   Input ~ 0
-VSA
-Text HLabel 1900 7450 0    39   Input ~ 0
-+VM
-Text HLabel 2300 7450 0    39   Input ~ 0
-12Vout
-Text HLabel 2700 7450 0    39   Input ~ 0
-VCP
-$Comp
-L power:GND #PWR0101
-U 1 1 5DB0C821
-P 3100 7450
-F 0 "#PWR0101" H 3100 7200 50  0001 C CNN
-F 1 "GND" H 3100 7300 50  0000 C CNN
-F 2 "" H 3100 7450 50  0001 C CNN
-F 3 "" H 3100 7450 50  0001 C CNN
-	1    3100 7450
-	1    0    0    -1  
-$EndComp
-Text HLabel 3500 7450 0    39   Input ~ 0
-5Vout
-Text HLabel 4300 7450 0    39   Input ~ 0
-+3,3V
 $Comp
 L Device:D_Zener D402
 U 1 1 5D7B8D07
