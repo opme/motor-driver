@@ -2,4 +2,6 @@
   (lib (name TMC6100-EVAL-v1.0-rescue)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.0-rescue.lib")(options "")(descr ""))
   (lib (name TMC6100-EVAL-v1.1-rescue)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.1-rescue.lib")(options "")(descr ""))
   (lib (name TMC6100-EVAL-v1.2-rescue)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.2-rescue.lib")(options "")(descr ""))
+  (lib (name opm-high-inline-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-high-inline-rescue.lib)(options "")(descr ""))
+  (lib (name amplifier)(type Legacy)(uri ${KIPRJMOD}/INA180A3IDBVR.lib)(options "")(descr ""))
 )
