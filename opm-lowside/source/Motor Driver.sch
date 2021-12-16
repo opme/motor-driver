@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L opm-v1.1-rescue:YJG95G06A-Transistor_FET Q301
+L opm-lowside-rescue:YJG95G06A-Transistor_FET-opm-v1.1-rescue Q301
 U 1 1 5D6B7163
 P 6800 800
 AR Path="/5D6B7163" Ref="Q301"  Part="1" 
@@ -70,7 +70,7 @@ F 3 "" H 7400 1100 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-v1.1-rescue:YJG95G06A-Transistor_FET Q302
+L opm-lowside-rescue:YJG95G06A-Transistor_FET-opm-v1.1-rescue Q302
 U 1 1 5D6C3CF4
 P 6800 1400
 AR Path="/5D6C3CF4" Ref="Q302"  Part="1" 
@@ -121,7 +121,7 @@ Connection ~ 5800 1350
 Wire Wire Line
 	6000 1100 6900 1100
 $Comp
-L opm-v1.2-rescue:TMC6100-LA IC301
+L opm-lowside-rescue:TMC6100-LA-opm-v1.2-rescue IC301
 U 1 1 5D604226
 P 3950 3500
 AR Path="/5D604226" Ref="IC301"  Part="1" 
@@ -145,7 +145,7 @@ Connection ~ 6900 500
 Wire Wire Line
 	6900 500  6900 600 
 $Comp
-L opm-v1.1-rescue:YJG95G06A-Transistor_FET Q303
+L opm-lowside-rescue:YJG95G06A-Transistor_FET-opm-v1.1-rescue Q303
 U 1 1 5D88B06B
 P 6800 2750
 AR Path="/5D88B06B" Ref="Q303"  Part="1" 
@@ -201,7 +201,7 @@ F 3 "" H 7400 3100 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-v1.1-rescue:YJG95G06A-Transistor_FET Q304
+L opm-lowside-rescue:YJG95G06A-Transistor_FET-opm-v1.1-rescue Q304
 U 1 1 5D88B088
 P 6800 3350
 AR Path="/5D88B088" Ref="Q304"  Part="1" 
@@ -265,7 +265,7 @@ Connection ~ 6900 2450
 Wire Wire Line
 	6900 2450 6900 2550
 $Comp
-L opm-v1.1-rescue:YJG95G06A-Transistor_FET Q305
+L opm-lowside-rescue:YJG95G06A-Transistor_FET-opm-v1.1-rescue Q305
 U 1 1 5D8A0197
 P 6800 4750
 AR Path="/5D8A0197" Ref="Q305"  Part="1" 
@@ -717,7 +717,7 @@ F 3 "" H 4900 3900 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-v1.1-rescue:YJG95G06A-Transistor_FET Q306
+L opm-lowside-rescue:YJG95G06A-Transistor_FET-opm-v1.1-rescue Q306
 U 1 1 5D8A01B4
 P 6800 5350
 AR Path="/5D8A01B4" Ref="Q306"  Part="1" 
