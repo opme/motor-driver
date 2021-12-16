@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name amplifier)(type Legacy)(uri ${KIPRJMOD}/INA180A3IDBVR.lib)(options "")(descr ""))
-  (lib (name opm-lowside-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-lowside-rescue.lib)(options "")(descr ""))
+  (lib (name opm-inline-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-inline-rescue.lib)(options "")(descr ""))
+  (lib (name opm-inline-cache)(type Legacy)(uri ${KIPRJMOD}/opm-inline-cache.lib)(options "")(descr ""))
 )
