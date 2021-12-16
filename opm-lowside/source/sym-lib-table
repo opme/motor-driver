@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name opm-v1.0-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-v1.0-rescue.lib)(options "")(descr ""))
+  (lib (name opm-v1.1-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-v1.1-rescue.lib)(options "")(descr ""))
+  (lib (name opm-v1.2-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-v1.2-rescue.lib)(options "")(descr ""))
+  (lib (name opm-low-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-low-rescue.lib)(options "")(descr ""))
+  (lib (name amplifier)(type Legacy)(uri ${KIPRJMOD}/INA180A3IDBVR.lib)(options "")(descr ""))
+)
