@@ -58,9 +58,6 @@ Wire Wire Line
 	3250 4850 3450 4850
 Wire Wire Line
 	3450 4850 3450 4950
-Connection ~ 3450 4850
-Wire Wire Line
-	3450 4850 4400 4850
 $Comp
 L Device:C C315
 U 1 1 5DA56FA6
@@ -226,9 +223,11 @@ Wire Wire Line
 Wire Wire Line
 	4900 5300 4900 5050
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q3
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q3
 U 1 1 61C4D7D0
 P 7700 5150
+AR Path="/61C4D7D0" Ref="Q3"  Part="1" 
+AR Path="/5D5FDD98/61C4D7D0" Ref="Q3"  Part="1" 
 F 0 "Q3" V 8031 5188 39  0000 R BNN
 F 1 "YJG95G06A" V 8031 5113 39  0000 C TNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 5075 39  0001 L CIN
@@ -237,9 +236,11 @@ F 3 "" V 7700 5150 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q4
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q4
 U 1 1 61C4FD8F
 P 7700 5950
+AR Path="/61C4FD8F" Ref="Q4"  Part="1" 
+AR Path="/5D5FDD98/61C4FD8F" Ref="Q4"  Part="1" 
 F 0 "Q4" H 8031 5988 39  0000 L CNN
 F 1 "YJG95G06A" H 8031 5913 39  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 5875 39  0001 L CIN
@@ -283,23 +284,23 @@ $EndComp
 $Comp
 L Device:R R9
 U 1 1 61C5CFCB
-P 8600 5400
-F 0 "R9" V 8426 5400 35  0000 C CNN
-F 1 "0R033/1%/2W" V 8495 5400 35  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 5400 50  0001 C CNN
-F 3 "~" H 8600 5400 50  0001 C CNN
-	1    8600 5400
+P 8750 5400
+F 0 "R9" V 8576 5400 35  0000 C CNN
+F 1 "0R033/1%/2W" V 8645 5400 35  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 5400 50  0001 C CNN
+F 3 "~" H 8750 5400 50  0001 C CNN
+	1    8750 5400
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R10
 U 1 1 61C5DC5F
-P 8600 5700
-F 0 "R10" V 8426 5700 35  0000 C CNN
-F 1 "0R033/1%/2W" V 8495 5700 35  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 5700 50  0001 C CNN
-F 3 "~" H 8600 5700 50  0001 C CNN
-	1    8600 5700
+P 8750 5700
+F 0 "R10" V 8576 5700 35  0000 C CNN
+F 1 "0R033/1%/2W" V 8645 5700 35  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 5700 50  0001 C CNN
+F 3 "~" H 8750 5700 50  0001 C CNN
+	1    8750 5700
 	0    1    1    0   
 $EndComp
 $Comp
@@ -314,9 +315,7 @@ F 3 "" H 7800 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 5550 9000 5550
-Wire Wire Line
-	9000 5700 8750 5700
+	9150 5700 8900 5700
 Wire Wire Line
 	7200 5950 7500 5950
 Wire Wire Line
@@ -324,25 +323,21 @@ Wire Wire Line
 Wire Wire Line
 	7500 5150 7200 5150
 Wire Wire Line
-	8450 5700 7800 5700
-Wire Wire Line
 	7800 5700 7800 5750
 Connection ~ 7800 5750
 Connection ~ 7800 5700
-Wire Wire Line
-	8450 5400 7800 5400
 Wire Wire Line
 	7800 5350 7800 5400
 Connection ~ 7800 5400
 Wire Wire Line
 	7800 5400 7800 5500
 Wire Wire Line
-	8750 5400 9000 5400
+	8900 5400 9150 5400
 Wire Wire Line
-	9000 5400 9000 5550
+	9150 5400 9150 5550
 Wire Wire Line
-	9000 5550 9000 5700
-Connection ~ 9000 5550
+	9150 5550 9150 5700
+Connection ~ 9150 5550
 Wire Wire Line
 	7800 6150 7800 6250
 Wire Wire Line
@@ -387,16 +382,18 @@ L Device:C C5
 U 1 1 61C4C1D6
 P 6600 4600
 F 0 "C5" H 6715 4635 35  0000 L CNN
-F 1 "470nF" H 6715 4566 35  0000 L CNN
+F 1 "470nF/16V" H 6715 4566 35  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 4450 50  0001 C CNN
 F 3 "~" H 6600 4600 50  0001 C CNN
 	1    6600 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q5
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q5
 U 1 1 61D8AC5E
 P 9350 3650
+AR Path="/61D8AC5E" Ref="Q5"  Part="1" 
+AR Path="/5D5FDD98/61D8AC5E" Ref="Q5"  Part="1" 
 F 0 "Q5" V 9681 3688 39  0000 R BNN
 F 1 "YJG95G06A" V 9681 3613 39  0000 C TNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 9550 3575 39  0001 L CIN
@@ -405,9 +402,11 @@ F 3 "" V 9350 3650 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q6
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q6
 U 1 1 61D8AF0A
 P 9350 4450
+AR Path="/61D8AF0A" Ref="Q6"  Part="1" 
+AR Path="/5D5FDD98/61D8AF0A" Ref="Q6"  Part="1" 
 F 0 "Q6" H 9681 4488 39  0000 L CNN
 F 1 "YJG95G06A" H 9681 4413 39  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 9550 4375 39  0001 L CIN
@@ -451,23 +450,23 @@ $EndComp
 $Comp
 L Device:R R14
 U 1 1 61D8AF32
-P 10250 3900
-F 0 "R14" V 10076 3900 35  0000 C CNN
-F 1 "0R033/1%/2W" V 10145 3900 35  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10180 3900 50  0001 C CNN
-F 3 "~" H 10250 3900 50  0001 C CNN
-	1    10250 3900
+P 10400 3900
+F 0 "R14" V 10226 3900 35  0000 C CNN
+F 1 "0R033/1%/2W" V 10295 3900 35  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10330 3900 50  0001 C CNN
+F 3 "~" H 10400 3900 50  0001 C CNN
+	1    10400 3900
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R15
 U 1 1 61D8AF3C
-P 10250 4200
-F 0 "R15" V 10076 4200 35  0000 C CNN
-F 1 "0R033/1%/2W" V 10145 4200 35  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 10180 4200 50  0001 C CNN
-F 3 "~" H 10250 4200 50  0001 C CNN
-	1    10250 4200
+P 10400 4200
+F 0 "R15" V 10226 4200 35  0000 C CNN
+F 1 "0R033/1%/2W" V 10295 4200 35  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 10330 4200 50  0001 C CNN
+F 3 "~" H 10400 4200 50  0001 C CNN
+	1    10400 4200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -482,35 +481,21 @@ F 3 "" H 9450 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8850 4050 10650 4050
-Wire Wire Line
-	10650 4200 10400 4200
+	10800 4200 10550 4200
 Wire Wire Line
 	8850 4450 9150 4450
 Wire Wire Line
 	9450 4250 9450 4300
 Wire Wire Line
 	9150 3650 8850 3650
-Wire Wire Line
-	10100 4200 9450 4200
-Wire Wire Line
-	9450 4200 9450 4250
 Connection ~ 9450 4250
-Connection ~ 9450 4200
 Wire Wire Line
-	10100 3900 9450 3900
+	10550 3900 10800 3900
 Wire Wire Line
-	9450 3850 9450 3900
-Connection ~ 9450 3900
+	10800 3900 10800 4050
 Wire Wire Line
-	9450 3900 9450 4200
-Wire Wire Line
-	10400 3900 10650 3900
-Wire Wire Line
-	10650 3900 10650 4050
-Wire Wire Line
-	10650 4050 10650 4200
-Connection ~ 10650 4050
+	10800 4050 10800 4200
+Connection ~ 10800 4050
 Wire Wire Line
 	9450 4650 9450 4750
 Wire Wire Line
@@ -551,9 +536,11 @@ Wire Wire Line
 	9300 3200 9450 3200
 Connection ~ 9450 3200
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q1
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q1
 U 1 1 61D9B312
 P 7700 2350
+AR Path="/61D9B312" Ref="Q1"  Part="1" 
+AR Path="/5D5FDD98/61D9B312" Ref="Q1"  Part="1" 
 F 0 "Q1" V 8031 2388 39  0000 R BNN
 F 1 "YJG95G06A" V 8031 2313 39  0000 C TNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 2275 39  0001 L CIN
@@ -562,9 +549,11 @@ F 3 "" V 7700 2350 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q2
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q2
 U 1 1 61D9B6B4
 P 7700 3150
+AR Path="/61D9B6B4" Ref="Q2"  Part="1" 
+AR Path="/5D5FDD98/61D9B6B4" Ref="Q2"  Part="1" 
 F 0 "Q2" H 8031 3188 39  0000 L CNN
 F 1 "YJG95G06A" H 8031 3113 39  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 3075 39  0001 L CIN
@@ -612,13 +601,9 @@ Wire Wire Line
 Wire Wire Line
 	7500 2350 7200 2350
 Wire Wire Line
-	8450 2900 7800 2900
-Wire Wire Line
 	7800 2900 7800 2950
 Connection ~ 7800 2950
 Connection ~ 7800 2900
-Wire Wire Line
-	8450 2600 7800 2600
 Wire Wire Line
 	7800 2550 7800 2600
 Connection ~ 7800 2600
@@ -658,8 +643,8 @@ $Comp
 L Device:C C1
 U 1 1 61DA87F1
 P 4650 3200
-F 0 "C1" V 4902 3200 50  0000 C CNN
-F 1 "C" V 4811 3200 50  0000 C CNN
+F 0 "C1" V 4902 3200 35  0000 C CNN
+F 1 "22nF/100V" V 4811 3200 35  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 3050 50  0001 C CNN
 F 3 "~" H 4650 3200 50  0001 C CNN
 	1    4650 3200
@@ -669,8 +654,8 @@ $Comp
 L Device:C C2
 U 1 1 61DA9103
 P 5050 3200
-F 0 "C2" V 4798 3200 50  0000 C CNN
-F 1 "C" V 4889 3200 50  0000 C CNN
+F 0 "C2" V 4798 3200 35  0000 C CNN
+F 1 "100nF/100V" V 4889 3200 35  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 3050 50  0001 C CNN
 F 3 "~" H 5050 3200 50  0001 C CNN
 	1    5050 3200
@@ -680,8 +665,8 @@ $Comp
 L Device:C C3
 U 1 1 61DABDB6
 P 5400 2800
-F 0 "C3" H 5515 2846 50  0000 L CNN
-F 1 "C" H 5515 2755 50  0000 L CNN
+F 0 "C3" H 5515 2846 35  0000 L CNN
+F 1 "100nF/100V" H 5515 2755 35  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 2650 50  0001 C CNN
 F 3 "~" H 5400 2800 50  0001 C CNN
 	1    5400 2800
@@ -787,7 +772,7 @@ L Device:C C6
 U 1 1 61E12F9B
 P 6750 3750
 F 0 "C6" V 6531 3750 35  0000 C CNN
-F 1 "470nF" V 6600 3750 35  0000 C CNN
+F 1 "470nF/16V" V 6600 3750 35  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 3600 50  0001 C CNN
 F 3 "~" H 6750 3750 50  0001 C CNN
 	1    6750 3750
@@ -829,36 +814,34 @@ Connection ~ 7800 1900
 $Comp
 L Device:R R7
 U 1 1 61E48788
-P 8600 2600
-F 0 "R7" V 8426 2600 35  0000 C CNN
-F 1 "0R033/1%/2W" V 8495 2600 35  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2600 50  0001 C CNN
-F 3 "~" H 8600 2600 50  0001 C CNN
-	1    8600 2600
+P 8750 2600
+F 0 "R7" V 8576 2600 35  0000 C CNN
+F 1 "0R033/1%/2W" V 8645 2600 35  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 2600 50  0001 C CNN
+F 3 "~" H 8750 2600 50  0001 C CNN
+	1    8750 2600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R8
 U 1 1 61E48BDE
-P 8600 2900
-F 0 "R8" V 8426 2900 35  0000 C CNN
-F 1 "0R033/1%/2W" V 8495 2900 35  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 8530 2900 50  0001 C CNN
-F 3 "~" H 8600 2900 50  0001 C CNN
-	1    8600 2900
+P 8750 2900
+F 0 "R8" V 8576 2900 35  0000 C CNN
+F 1 "0R033/1%/2W" V 8645 2900 35  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8680 2900 50  0001 C CNN
+F 3 "~" H 8750 2900 50  0001 C CNN
+	1    8750 2900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7200 2750 9000 2750
+	9150 2900 8900 2900
 Wire Wire Line
-	9000 2900 8750 2900
+	8900 2600 9150 2600
 Wire Wire Line
-	8750 2600 9000 2600
+	9150 2600 9150 2750
 Wire Wire Line
-	9000 2600 9000 2750
-Wire Wire Line
-	9000 2750 9000 2900
-Connection ~ 9000 2750
+	9150 2750 9150 2900
+Connection ~ 9150 2750
 Wire Wire Line
 	4800 3200 4800 3400
 Wire Wire Line
@@ -907,4 +890,66 @@ Wire Wire Line
 Connection ~ 2500 3550
 Wire Wire Line
 	2500 3550 2500 3450
+Wire Wire Line
+	7200 5550 9150 5550
+Wire Wire Line
+	7800 5400 8600 5400
+Wire Wire Line
+	7800 5700 8600 5700
+Wire Wire Line
+	8850 4050 10800 4050
+Wire Wire Line
+	9450 3900 10250 3900
+Wire Wire Line
+	9450 3850 9450 3900
+Connection ~ 9450 3900
+Wire Wire Line
+	9450 3900 9450 4200
+Wire Wire Line
+	9450 4200 10250 4200
+Connection ~ 9450 4200
+Wire Wire Line
+	9450 4200 9450 4250
+Wire Wire Line
+	7800 2600 8600 2600
+Wire Wire Line
+	7800 2900 8600 2900
+Wire Wire Line
+	7200 2750 9150 2750
+Connection ~ 3450 4850
+Wire Wire Line
+	3450 4850 4400 4850
+$Comp
+L Device:C C10
+U 1 1 61F37D7D
+P 5650 4950
+F 0 "C10" H 5765 4985 35  0000 L CNN
+F 1 "100nF/50V" H 5765 4916 35  0000 L CNN
+F 2 "" H 5688 4800 50  0001 C CNN
+F 3 "~" H 5650 4950 50  0001 C CNN
+	1    5650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4800 5650 4750
+Wire Wire Line
+	5650 4750 5400 4750
+$Comp
+L power:GND #PWR09
+U 1 1 61F3EA05
+P 5650 5200
+F 0 "#PWR09" H 5650 4950 50  0001 C CNN
+F 1 "GND" H 5655 5027 50  0000 C CNN
+F 2 "" H 5650 5200 50  0001 C CNN
+F 3 "" H 5650 5200 50  0001 C CNN
+	1    5650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5100 5650 5200
+Text HLabel 5850 4750 2    39   Input ~ 0
+VOFS
+Wire Wire Line
+	5650 4750 5850 4750
+Connection ~ 5650 4750
 $EndSCHEMATC

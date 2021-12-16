@@ -58,9 +58,6 @@ Wire Wire Line
 	3250 4850 3450 4850
 Wire Wire Line
 	3450 4850 3450 4950
-Connection ~ 3450 4850
-Wire Wire Line
-	3450 4850 4400 4850
 $Comp
 L Device:C C315
 U 1 1 5DA56FA6
@@ -226,9 +223,11 @@ Wire Wire Line
 Wire Wire Line
 	4900 5300 4900 5050
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q3
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q3
 U 1 1 61C4D7D0
 P 7700 5150
+AR Path="/61C4D7D0" Ref="Q3"  Part="1" 
+AR Path="/5D5FDD98/61C4D7D0" Ref="Q3"  Part="1" 
 F 0 "Q3" V 8031 5188 39  0000 R BNN
 F 1 "YJG95G06A" V 8031 5113 39  0000 C TNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 5075 39  0001 L CIN
@@ -237,9 +236,11 @@ F 3 "" V 7700 5150 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q4
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q4
 U 1 1 61C4FD8F
 P 7700 5950
+AR Path="/61C4FD8F" Ref="Q4"  Part="1" 
+AR Path="/5D5FDD98/61C4FD8F" Ref="Q4"  Part="1" 
 F 0 "Q4" H 8031 5988 39  0000 L CNN
 F 1 "YJG95G06A" H 8031 5913 39  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 5875 39  0001 L CIN
@@ -381,16 +382,18 @@ L Device:C C5
 U 1 1 61C4C1D6
 P 6600 4600
 F 0 "C5" H 6715 4635 35  0000 L CNN
-F 1 "470nF" H 6715 4566 35  0000 L CNN
+F 1 "470nF/16V" H 6715 4566 35  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6638 4450 50  0001 C CNN
 F 3 "~" H 6600 4600 50  0001 C CNN
 	1    6600 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q5
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q5
 U 1 1 61D8AC5E
 P 9350 3650
+AR Path="/61D8AC5E" Ref="Q5"  Part="1" 
+AR Path="/5D5FDD98/61D8AC5E" Ref="Q5"  Part="1" 
 F 0 "Q5" V 9681 3688 39  0000 R BNN
 F 1 "YJG95G06A" V 9681 3613 39  0000 C TNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 9550 3575 39  0001 L CIN
@@ -399,9 +402,11 @@ F 3 "" V 9350 3650 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q6
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q6
 U 1 1 61D8AF0A
 P 9350 4450
+AR Path="/61D8AF0A" Ref="Q6"  Part="1" 
+AR Path="/5D5FDD98/61D8AF0A" Ref="Q6"  Part="1" 
 F 0 "Q6" H 9681 4488 39  0000 L CNN
 F 1 "YJG95G06A" H 9681 4413 39  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 9550 4375 39  0001 L CIN
@@ -531,9 +536,11 @@ Wire Wire Line
 	9300 3200 9450 3200
 Connection ~ 9450 3200
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q1
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q1
 U 1 1 61D9B312
 P 7700 2350
+AR Path="/61D9B312" Ref="Q1"  Part="1" 
+AR Path="/5D5FDD98/61D9B312" Ref="Q1"  Part="1" 
 F 0 "Q1" V 8031 2388 39  0000 R BNN
 F 1 "YJG95G06A" V 8031 2313 39  0000 C TNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 2275 39  0001 L CIN
@@ -542,9 +549,11 @@ F 3 "" V 7700 2350 50  0001 L CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-cache:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue Q2
+L opm-inline-rescue:opm-inline-rescue_YJG95G06A-Transistor_FET-opm-v1.1-rescue-opm-lowside-rescue-opm-inline-cache Q2
 U 1 1 61D9B6B4
 P 7700 3150
+AR Path="/61D9B6B4" Ref="Q2"  Part="1" 
+AR Path="/5D5FDD98/61D9B6B4" Ref="Q2"  Part="1" 
 F 0 "Q2" H 8031 3188 39  0000 L CNN
 F 1 "YJG95G06A" H 8031 3113 39  0000 L CNN
 F 2 "Package_TO_SOT_SMD:TDSON-8-1" H 7900 3075 39  0001 L CIN
@@ -634,8 +643,8 @@ $Comp
 L Device:C C1
 U 1 1 61DA87F1
 P 4650 3200
-F 0 "C1" V 4902 3200 50  0000 C CNN
-F 1 "C" V 4811 3200 50  0000 C CNN
+F 0 "C1" V 4902 3200 35  0000 C CNN
+F 1 "22nF/100V" V 4811 3200 35  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 3050 50  0001 C CNN
 F 3 "~" H 4650 3200 50  0001 C CNN
 	1    4650 3200
@@ -645,8 +654,8 @@ $Comp
 L Device:C C2
 U 1 1 61DA9103
 P 5050 3200
-F 0 "C2" V 4798 3200 50  0000 C CNN
-F 1 "C" V 4889 3200 50  0000 C CNN
+F 0 "C2" V 4798 3200 35  0000 C CNN
+F 1 "100nF/100V" V 4889 3200 35  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 3050 50  0001 C CNN
 F 3 "~" H 5050 3200 50  0001 C CNN
 	1    5050 3200
@@ -656,8 +665,8 @@ $Comp
 L Device:C C3
 U 1 1 61DABDB6
 P 5400 2800
-F 0 "C3" H 5515 2846 50  0000 L CNN
-F 1 "C" H 5515 2755 50  0000 L CNN
+F 0 "C3" H 5515 2846 35  0000 L CNN
+F 1 "100nF/100V" H 5515 2755 35  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 2650 50  0001 C CNN
 F 3 "~" H 5400 2800 50  0001 C CNN
 	1    5400 2800
@@ -763,7 +772,7 @@ L Device:C C6
 U 1 1 61E12F9B
 P 6750 3750
 F 0 "C6" V 6531 3750 35  0000 C CNN
-F 1 "470nF" V 6600 3750 35  0000 C CNN
+F 1 "470nF/16V" V 6600 3750 35  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6788 3600 50  0001 C CNN
 F 3 "~" H 6750 3750 50  0001 C CNN
 	1    6750 3750
@@ -907,4 +916,40 @@ Wire Wire Line
 	7800 2900 8600 2900
 Wire Wire Line
 	7200 2750 9150 2750
+Connection ~ 3450 4850
+Wire Wire Line
+	3450 4850 4400 4850
+$Comp
+L Device:C C10
+U 1 1 61F37D7D
+P 5650 4950
+F 0 "C10" H 5765 4985 35  0000 L CNN
+F 1 "100nF/50V" H 5765 4916 35  0000 L CNN
+F 2 "" H 5688 4800 50  0001 C CNN
+F 3 "~" H 5650 4950 50  0001 C CNN
+	1    5650 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 4800 5650 4750
+Wire Wire Line
+	5650 4750 5400 4750
+$Comp
+L power:GND #PWR09
+U 1 1 61F3EA05
+P 5650 5200
+F 0 "#PWR09" H 5650 4950 50  0001 C CNN
+F 1 "GND" H 5655 5027 50  0000 C CNN
+F 2 "" H 5650 5200 50  0001 C CNN
+F 3 "" H 5650 5200 50  0001 C CNN
+	1    5650 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5650 5100 5650 5200
+Text HLabel 5850 4750 2    39   Input ~ 0
+VOFS
+Wire Wire Line
+	5650 4750 5850 4750
+Connection ~ 5650 4750
 $EndSCHEMATC
