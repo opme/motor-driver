@@ -345,7 +345,7 @@ F 3 "" H 3700 1850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H204
+L opm-cache:Mechanical_MountingHole_Pad H204
 U 1 1 5C3360CB
 P 3950 1700
 AR Path="/5C3360CB" Ref="H204"  Part="1" 
@@ -358,7 +358,7 @@ F 3 "~" H 3950 1700 39  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H203
+L opm-cache:Mechanical_MountingHole_Pad H203
 U 1 1 5C335E56
 P 3950 1500
 AR Path="/5C335E56" Ref="H203"  Part="1" 
@@ -371,7 +371,7 @@ F 3 "~" H 3950 1500 39  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H202
+L opm-cache:Mechanical_MountingHole_Pad H202
 U 1 1 5C335D22
 P 3950 1300
 AR Path="/5C335D22" Ref="H202"  Part="1" 
@@ -384,7 +384,7 @@ F 3 "~" H 3950 1300 39  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H201
+L opm-cache:Mechanical_MountingHole_Pad H201
 U 1 1 5C33535A
 P 3950 1100
 AR Path="/5C33535A" Ref="H201"  Part="1" 
