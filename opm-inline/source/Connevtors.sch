@@ -44,7 +44,7 @@ NoConn ~ 2800 2450
 Wire Wire Line
 	1750 1300 1650 1300
 $Comp
-L TMC6100-EVAL-v1.0-rescue:fiducial-markings fid201
+L fiducual:fiducial-markings fid201
 U 1 1 5C6BBB15
 P 4800 1050
 F 0 "fid201" H 4900 1100 39  0000 L CNN
@@ -55,7 +55,7 @@ F 3 "" H 4800 1050 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.0-rescue:fiducial-markings fid202
+L fiducual:fiducial-markings fid202
 U 1 1 5C6BC61F
 P 4800 1200
 F 0 "fid202" H 4900 1250 39  0000 L CNN
@@ -66,7 +66,7 @@ F 3 "" H 4800 1200 39  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.0-rescue:fiducial-markings fid203
+L fiducual:fiducial-markings fid203
 U 1 1 5C6BC9A9
 P 4800 1350
 F 0 "fid203" H 4900 1400 39  0000 L CNN

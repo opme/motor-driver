@@ -4,4 +4,5 @@
   (lib (name opm-lowside-cache)(type Legacy)(uri ${KIPRJMOD}/opm-lowside-cache.lib)(options "")(descr ""))
   (lib (name tmc6100-eval)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.0-cache.lib")(options "")(descr ""))
   (lib (name opm-cache)(type Legacy)(uri ${KIPRJMOD}/opm-cache.lib)(options "")(descr ""))
+  (lib (name fiducials)(type Legacy)(uri ${KIPRJMOD}/fiducial-markings.lib)(options "")(descr ""))
 )

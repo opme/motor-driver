@@ -122,6 +122,19 @@ X VOUT 5 400 100 100 L 50 50 1 1 w
 ENDDRAW
 ENDDEF
 #
+# fiducual_fiducial-markings
+#
+DEF fiducual_fiducial-markings fid 0 40 Y Y 1 F N
+F0 "fid" 0 -75 39 H V C CNN
+F1 "fiducual_fiducial-markings" 0 75 39 H V C CNN
+F2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" 0 0 39 H I C CNN
+F3 "" 0 0 39 H I C CNN
+DRAW
+C 0 0 25 0 1 0 f
+C 0 0 50 0 1 0 N
+ENDDRAW
+ENDDEF
+#
 # opm-cache_Conector_library_Metz_31330102
 #
 DEF opm-cache_Conector_library_Metz_31330102 U 0 40 Y Y 1 F N
@@ -215,6 +228,32 @@ $ENDFPLIST
 DRAW
 C 0 50 50 0 1 50 N
 X 1 1 0 -100 100 U 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# opm-cache_Memory_EEPROM_AT25xxx
+#
+DEF opm-cache_Memory_EEPROM_AT25xxx U 0 20 Y Y 1 F N
+F0 "U" -300 250 50 H V C CNN
+F1 "opm-cache_Memory_EEPROM_AT25xxx" 100 -250 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+ALIAS BR25Sxxx CAT250xxx AT25xxx
+$FPLIST
+ DIP*W7.62mm*
+ SOIC*3.9x4.9mm*
+ TSSOP*4.4x3mm*P0.65mm*
+$ENDFPLIST
+DRAW
+S -300 200 300 -200 1 1 10 f
+X ~CS 1 -400 -100 100 R 50 50 1 1 I
+X MISO 2 400 -100 100 L 50 50 1 1 T
+X ~WP 3 -400 100 100 R 50 50 1 1 I
+X GND 4 0 -300 100 U 50 50 1 1 W
+X MOSI 5 400 0 100 L 50 50 1 1 I
+X SCK 6 400 100 100 L 50 50 1 1 I
+X ~HOLD 7 -400 0 100 R 50 50 1 1 I
+X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #

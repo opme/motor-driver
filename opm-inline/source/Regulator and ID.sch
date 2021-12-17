@@ -258,7 +258,7 @@ Wire Wire Line
 Wire Wire Line
 	1950 2800 1450 2800
 $Comp
-L TMC6100-EVAL-v1.2-rescue:AT25xxx-Memory_EEPROM-TMC6100-EVAL-v1.2-rescue U402
+L opm-cache:Memory_EEPROM_AT25xxx U402
 U 1 1 5D6ABCD6
 P 1950 3200
 F 0 "U402" H 2000 3500 39  0000 L CNN

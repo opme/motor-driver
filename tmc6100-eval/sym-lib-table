@@ -3,4 +3,5 @@
   (lib (name TMC6100-EVAL-v1.0-rescue)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.0-rescue.lib")(options "")(descr ""))
   (lib (name TMC6100-EVAL-v1.1-rescue)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.1-rescue.lib")(options "")(descr ""))
   (lib (name TMC6100-EVAL-v1.2-rescue)(type Legacy)(uri "${KIPRJMOD}/TMC6100-EVAL v1.2-rescue.lib")(options "")(descr ""))
+  (lib (name fiducial-markings)(type Legacy)(uri C:/Users/ext-michael.shamberg/git/motor-driver/opm-lowside/source/fiducial-markings.lib)(options "")(descr ""))
 )
