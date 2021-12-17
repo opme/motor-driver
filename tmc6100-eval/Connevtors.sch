@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31330102-Conector_library U201
+L TMC6100-EVAL-v1.2-rescue:Metz_31330102-Conector_library-TMC6100-EVAL-v1.2-rescue U201
 U 1 1 5C0100EA
 P 1200 750
 F 0 "U201" H 1200 550 39  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 1250 750 39  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical H201
+L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H201
 U 1 1 5C33535A
 P 900 5650
 AR Path="/5C33535A" Ref="H201"  Part="1" 
@@ -38,7 +38,7 @@ F 3 "~" H 900 5650 39  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical H202
+L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H202
 U 1 1 5C335D22
 P 900 5850
 AR Path="/5C335D22" Ref="H202"  Part="1" 
@@ -51,7 +51,7 @@ F 3 "~" H 900 5850 39  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical H203
+L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H203
 U 1 1 5C335E56
 P 900 6050
 AR Path="/5C335E56" Ref="H203"  Part="1" 
@@ -64,7 +64,7 @@ F 3 "~" H 900 6050 39  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical H204
+L TMC6100-EVAL-v1.2-rescue:MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H204
 U 1 1 5C3360CB
 P 900 6250
 AR Path="/5C3360CB" Ref="H204"  Part="1" 
@@ -117,7 +117,7 @@ Wire Notes Line
 Wire Notes Line
 	1500 5300 500  5300
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31349102-Conector_library U202
+L TMC6100-EVAL-v1.2-rescue:Metz_31349102-Conector_library-TMC6100-EVAL-v1.2-rescue U202
 U 1 1 5C59EB06
 P 650 750
 F 0 "U202" V 850 750 39  0000 C CNN
@@ -363,7 +363,7 @@ Wire Wire Line
 	2550 1200 2550 1300
 Connection ~ 2550 1200
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31330103-Conector_library U203
+L TMC6100-EVAL-v1.2-rescue:Metz_31330103-Conector_library-TMC6100-EVAL-v1.2-rescue U203
 U 1 1 5D65AFA7
 P 2100 1850
 F 0 "U203" H 2100 2100 39  0000 C CNN
@@ -626,7 +626,7 @@ Text HLabel 3900 7450 0    39   Input ~ 0
 Text HLabel 5600 4450 0    39   Output ~ 0
 ~CS_EEPROM
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31349103-Conector_library U204
+L TMC6100-EVAL-v1.2-rescue:Metz_31349103-Conector_library-TMC6100-EVAL-v1.2-rescue U204
 U 1 1 5DA86CEE
 P 2650 1850
 F 0 "U204" V 2400 1850 39  0000 C CNN

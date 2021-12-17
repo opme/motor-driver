@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31330102-Conector_library-TMC6100-EVAL-v1.2-rescue U201
+L opm-cache:Conector_library_Metz_31330102 U201
 U 1 1 5C0100EA
 P 1550 1250
 F 0 "U201" H 1550 1050 39  0000 C CNN
@@ -25,7 +25,7 @@ F 3 "" H 1600 1250 39  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31349102-Conector_library-TMC6100-EVAL-v1.2-rescue U202
+L opm-cache:Conector_library_Metz_31349102 U202
 U 1 1 5C59EB06
 P 1000 1250
 F 0 "U202" V 1200 1250 39  0000 C CNN
@@ -88,6 +88,8 @@ F 0 "C201" V 2250 1450 39  0000 C CNN
 F 1 "220μF/100V" V 2550 1450 39  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" V 2600 1450 39  0001 C CNN
 F 3 "~" H 2400 1450 39  0001 C CNN
+F 4 "C340711" V 2400 1450 50  0001 C CNN "LCSC"
+F 5 "UCD2A221MNQ1MS" V 2400 1450 50  0001 C CNN "manf_num"
 	1    2400 1450
 	1    0    0    -1  
 $EndComp
@@ -99,6 +101,8 @@ F 0 "C202" V 2750 1450 39  0000 C CNN
 F 1 "220μF/100V" V 3050 1450 39  0000 C CNN
 F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 2900 1450 39  0001 C CNN
 F 3 "~" H 2900 1450 39  0001 C CNN
+F 4 "C340711" V 2900 1450 50  0001 C CNN "LCSC"
+F 5 "UCD2A221MNQ1MS" V 2900 1450 50  0001 C CNN "manf_num"
 	1    2900 1450
 	1    0    0    -1  
 $EndComp
@@ -132,7 +136,7 @@ Wire Wire Line
 	2900 1700 2900 1800
 Connection ~ 2900 1700
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31330103-Conector_library-TMC6100-EVAL-v1.2-rescue U203
+L opm-cache:Conector_library_Metz_31330103 U203
 U 1 1 5D65AFA7
 P 2450 2350
 F 0 "U203" H 2450 2600 39  0000 C CNN
@@ -258,7 +262,7 @@ Wire Notes Line
 Wire Notes Line
 	3450 750  650  750 
 $Comp
-L TMC6100-EVAL-v1.2-rescue:Metz_31349103-Conector_library-TMC6100-EVAL-v1.2-rescue U204
+L opm-cache:Conector_library_Metz_31349103 U204
 U 1 1 5DA86CEE
 P 3000 2350
 F 0 "U204" V 2750 2350 39  0000 C CNN

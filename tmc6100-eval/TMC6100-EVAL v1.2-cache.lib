@@ -280,11 +280,11 @@ X DIO1 9 -600 650 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_AT25xxx-Memory_EEPROM
+# TMC6100-EVAL-v1.2-rescue_AT25xxx-Memory_EEPROM-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_AT25xxx-Memory_EEPROM U 0 20 Y Y 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_AT25xxx-Memory_EEPROM-TMC6100-EVAL-v1.2-rescue U 0 20 Y Y 1 F N
 F0 "U" -300 250 50 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_AT25xxx-Memory_EEPROM" 100 -250 50 H V L CNN
+F1 "TMC6100-EVAL-v1.2-rescue_AT25xxx-Memory_EEPROM-TMC6100-EVAL-v1.2-rescue" 100 -250 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -305,11 +305,11 @@ X VCC 8 0 300 100 D 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_Metz_31330102-Conector_library
+# TMC6100-EVAL-v1.2-rescue_Metz_31330102-Conector_library-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_Metz_31330102-Conector_library U 0 40 Y Y 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_Metz_31330102-Conector_library-TMC6100-EVAL-v1.2-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 250 39 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_Metz_31330102-Conector_library" 0 150 39 H V C CNN
+F1 "TMC6100-EVAL-v1.2-rescue_Metz_31330102-Conector_library-TMC6100-EVAL-v1.2-rescue" 0 150 39 H V C CNN
 F2 "Connector_library:Metz_31330102" 0 -150 39 H I C CNN
 F3 "" 50 0 39 H I C CNN
 DRAW
@@ -321,11 +321,11 @@ X ~ 2 -100 -50 100 R 39 39 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_Metz_31330103-Conector_library
+# TMC6100-EVAL-v1.2-rescue_Metz_31330103-Conector_library-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_Metz_31330103-Conector_library U 0 40 Y Y 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_Metz_31330103-Conector_library-TMC6100-EVAL-v1.2-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 200 39 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_Metz_31330103-Conector_library" 0 -250 39 H V C CNN
+F1 "TMC6100-EVAL-v1.2-rescue_Metz_31330103-Conector_library-TMC6100-EVAL-v1.2-rescue" 0 -250 39 H V C CNN
 F2 "Connector_library:Metz_31330103" 0 -350 39 H I C CNN
 F3 "" 50 -50 39 H I C CNN
 DRAW
@@ -339,11 +339,11 @@ X ~ 3 -100 -100 100 R 39 39 1 1 B
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_Metz_31349102-Conector_library
+# TMC6100-EVAL-v1.2-rescue_Metz_31349102-Conector_library-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_Metz_31349102-Conector_library U 0 40 Y Y 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_Metz_31349102-Conector_library-TMC6100-EVAL-v1.2-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 300 39 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_Metz_31349102-Conector_library" 0 250 39 H V C CNN
+F1 "TMC6100-EVAL-v1.2-rescue_Metz_31349102-Conector_library-TMC6100-EVAL-v1.2-rescue" 0 250 39 H V C CNN
 F2 "" 0 -50 39 H I C CNN
 F3 "" 0 -50 39 H I C CNN
 DRAW
@@ -360,11 +360,11 @@ X ~ 2 50 -200 100 U 39 39 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_Metz_31349103-Conector_library
+# TMC6100-EVAL-v1.2-rescue_Metz_31349103-Conector_library-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_Metz_31349103-Conector_library U 0 40 Y Y 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_Metz_31349103-Conector_library-TMC6100-EVAL-v1.2-rescue U 0 40 Y Y 1 F N
 F0 "U" 0 300 39 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_Metz_31349103-Conector_library" 0 250 39 H V C CNN
+F1 "TMC6100-EVAL-v1.2-rescue_Metz_31349103-Conector_library-TMC6100-EVAL-v1.2-rescue" 0 250 39 H V C CNN
 F2 "" -25 70 39 H I C CNN
 F3 "" -25 70 39 H I C CNN
 DRAW
@@ -385,11 +385,11 @@ X ~ 3 100 -200 100 U 39 39 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_MountingHole_Pad-Mechanical
+# TMC6100-EVAL-v1.2-rescue_MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_MountingHole_Pad-Mechanical H 0 40 N N 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue H 0 40 N N 1 F N
 F0 "H" 0 250 50 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_MountingHole_Pad-Mechanical" 0 175 50 H V C CNN
+F1 "TMC6100-EVAL-v1.2-rescue_MountingHole_Pad-Mechanical-TMC6100-EVAL-v1.2-rescue" 0 175 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -401,11 +401,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# TMC6100-EVAL-v1.2-rescue_TMC6100-TA-Trinamic
+# TMC6100-EVAL-v1.2-rescue_TMC6100-TA-Trinamic-TMC6100-EVAL-v1.2-rescue
 #
-DEF TMC6100-EVAL-v1.2-rescue_TMC6100-TA-Trinamic IC 0 40 Y Y 1 F N
+DEF TMC6100-EVAL-v1.2-rescue_TMC6100-TA-Trinamic-TMC6100-EVAL-v1.2-rescue IC 0 40 Y Y 1 F N
 F0 "IC" 0 -50 40 H V C CNN
-F1 "TMC6100-EVAL-v1.2-rescue_TMC6100-TA-Trinamic" 0 50 40 H V C CNN
+F1 "TMC6100-EVAL-v1.2-rescue_TMC6100-TA-Trinamic-TMC6100-EVAL-v1.2-rescue" 0 50 40 H V C CNN
 F2 "Trinamic:QFN-44-1EP_7x7mm_P0.5mm_EP4x4mm" 0 -250 40 H I C CNN
 F3 "" 0 825 40 H I C CNN
 DRAW

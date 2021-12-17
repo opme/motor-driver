@@ -13,14 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 500  650  0    79   ~ 0
-Release history:
-Text Notes 500  1050 0    39   ~ 0
-• v1.0 - First release.\n• v1.1 - shunt amplifier to the smaller type.\n          signals to connector remapped: AIN0 = ADC_I_u and\n          AIN1 = ADC_I_w.\n          I_v signal removed.\n• v1.2 - Added pullup resistor for EPROM.
-Wire Notes Line
-	500  500  500  1500
-Wire Notes Line
-	500  1500 2500 1500
 $Sheet
 S 5500 1000 1000 2000
 U 5D5FDD98
@@ -338,8 +330,4 @@ Text Label 3400 1950 2    39   ~ 0
 5Vout
 Text Label 3400 1850 2    39   ~ 0
 VCP
-Wire Notes Line
-	2500 500  500  500 
-Wire Notes Line
-	2500 1500 2500 500 
 $EndSCHEMATC

@@ -139,6 +139,86 @@ X VS 5 700 300 200 L 40 40 0 0 W
 ENDDRAW
 ENDDEF
 #
+# opm-cache_Conector_library_Metz_31330102
+#
+DEF opm-cache_Conector_library_Metz_31330102 U 0 40 Y Y 1 F N
+F0 "U" 0 250 39 H V C CNN
+F1 "opm-cache_Conector_library_Metz_31330102" 0 150 39 H V C CNN
+F2 "Connector_library:Metz_31330102" 0 -150 39 H I C CNN
+F3 "" 50 0 39 H I C CNN
+DRAW
+C 50 -50 25 0 1 0 N
+C 50 50 25 0 1 0 N
+S 100 -100 0 100 0 1 0 N
+X ~ 1 -100 50 100 R 39 39 1 1 B
+X ~ 2 -100 -50 100 R 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# opm-cache_Conector_library_Metz_31330103
+#
+DEF opm-cache_Conector_library_Metz_31330103 U 0 40 Y Y 1 F N
+F0 "U" 0 200 39 H V C CNN
+F1 "opm-cache_Conector_library_Metz_31330103" 0 -250 39 H V C CNN
+F2 "Connector_library:Metz_31330103" 0 -350 39 H I C CNN
+F3 "" 50 -50 39 H I C CNN
+DRAW
+C 50 -100 25 0 1 0 N
+C 50 0 25 0 1 0 N
+C 50 100 25 0 1 0 N
+S 0 150 100 -150 1 1 0 N
+X ~ 1 -100 100 100 R 39 39 1 1 B
+X ~ 2 -100 0 100 R 39 39 1 1 B
+X ~ 3 -100 -100 100 R 39 39 1 1 B
+ENDDRAW
+ENDDEF
+#
+# opm-cache_Conector_library_Metz_31349102
+#
+DEF opm-cache_Conector_library_Metz_31349102 U 0 40 Y Y 1 F N
+F0 "U" 0 300 39 H V C CNN
+F1 "opm-cache_Conector_library_Metz_31349102" 0 250 39 H V C CNN
+F2 "" 0 -50 39 H I C CNN
+F3 "" 0 -50 39 H I C CNN
+DRAW
+C -50 75 36 0 1 0 f
+C 50 75 35 0 1 0 f
+S -100 -200 100 200 0 1 0 N
+S -25 -200 -75 -50 0 1 0 N
+S 25 -200 75 -50 0 1 0 N
+P 2 0 1 0 -75 100 -25 50 N
+P 2 0 1 0 15 75 85 75 N
+P 3 0 1 0 100 0 50 0 -100 0 N
+X ~ 1 -50 -200 100 U 39 39 1 1 I
+X ~ 2 50 -200 100 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
+# opm-cache_Conector_library_Metz_31349103
+#
+DEF opm-cache_Conector_library_Metz_31349103 U 0 40 Y Y 1 F N
+F0 "U" 0 300 39 H V C CNN
+F1 "opm-cache_Conector_library_Metz_31349103" 0 250 39 H V C CNN
+F2 "" -25 70 39 H I C CNN
+F3 "" -25 70 39 H I C CNN
+DRAW
+C -100 80 35 1 1 0 f
+C 0 80 35 1 1 0 f
+C 100 80 35 1 1 0 f
+S -150 -200 150 200 1 1 0 N
+S -70 -200 -130 -50 1 1 0 N
+S 30 -200 -30 -50 1 1 0 N
+S 70 -200 130 -50 1 1 0 N
+P 2 1 1 0 -135 80 -65 80 N
+P 2 1 1 0 25 105 -25 55 N
+P 2 1 1 0 100 45 100 115 N
+P 3 1 1 0 150 0 75 0 -150 0 N
+X ~ 1 -100 -200 100 U 39 39 1 1 I
+X ~ 2 0 -200 100 U 39 39 1 1 I
+X ~ 3 100 -200 100 U 39 39 1 1 I
+ENDDRAW
+ENDDEF
+#
 # opm-lowside-rescue_TMC6100-LA-opm-v1.2-rescue
 #
 DEF opm-lowside-rescue_TMC6100-LA-opm-v1.2-rescue IC 0 40 Y Y 1 F N
