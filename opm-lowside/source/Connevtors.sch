@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 3
 Title "TMC6100-EVAL"
 Date "2019-10-28"
 Rev "1.2"
@@ -16,136 +16,136 @@ $EndDescr
 $Comp
 L fiducual:fiducial-markings fid201
 U 1 1 5C6BBB15
-P 4800 1050
-F 0 "fid201" H 4900 1100 39  0000 L CNN
-F 1 "fiducial" H 4900 1050 39  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 4800 1050 39  0001 C CNN
-F 3 "" H 4800 1050 39  0001 C CNN
-	1    4800 1050
+P 7650 1050
+F 0 "fid201" H 7750 1100 39  0000 L CNN
+F 1 "fiducial" H 7750 1050 39  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 7650 1050 39  0001 C CNN
+F 3 "" H 7650 1050 39  0001 C CNN
+	1    7650 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L fiducual:fiducial-markings fid202
 U 1 1 5C6BC61F
-P 4800 1200
-F 0 "fid202" H 4900 1250 39  0000 L CNN
-F 1 "fiducial" H 4900 1200 39  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 4800 1200 39  0001 C CNN
-F 3 "" H 4800 1200 39  0001 C CNN
-	1    4800 1200
+P 7650 1200
+F 0 "fid202" H 7750 1250 39  0000 L CNN
+F 1 "fiducial" H 7750 1200 39  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 7650 1200 39  0001 C CNN
+F 3 "" H 7650 1200 39  0001 C CNN
+	1    7650 1200
 	1    0    0    -1  
 $EndComp
 $Comp
 L fiducual:fiducial-markings fid203
 U 1 1 5C6BC9A9
-P 4800 1350
-F 0 "fid203" H 4900 1400 39  0000 L CNN
-F 1 "fiducial" H 4900 1350 39  0000 L CNN
-F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 4800 1350 39  0001 C CNN
-F 3 "" H 4800 1350 39  0001 C CNN
-	1    4800 1350
+P 7650 1350
+F 0 "fid203" H 7750 1400 39  0000 L CNN
+F 1 "fiducial" H 7750 1350 39  0000 L CNN
+F 2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" H 7650 1350 39  0001 C CNN
+F 3 "" H 7650 1350 39  0001 C CNN
+	1    7650 1350
 	1    0    0    -1  
 $EndComp
-Text Notes 4700 900  0    79   ~ 0
+Text Notes 7550 900  0    79   ~ 0
 Fiducials
 Wire Notes Line
-	5300 1450 5300 750 
+	8150 1450 8150 750 
 Wire Notes Line
-	5300 750  4650 750 
+	8150 750  7500 750 
 Wire Notes Line
-	4650 1450 5300 1450
+	7500 1450 8150 1450
 Wire Notes Line
-	4650 750  4650 1450
+	7500 750  7500 1450
 Wire Notes Line
-	4550 750  3550 750 
+	7400 750  6400 750 
 Wire Notes Line
-	4550 2150 4550 750 
+	7400 2150 7400 750 
 Wire Notes Line
-	3550 2150 4550 2150
+	6400 2150 7400 2150
 Wire Notes Line
-	3550 750  3550 2150
-Text Notes 3600 900  0    79   ~ 0
+	6400 750  6400 2150
+Text Notes 6450 900  0    79   ~ 0
 Mountingholes
 Wire Wire Line
-	3700 1500 3700 1700
-Connection ~ 3700 1500
+	6550 1500 6550 1700
+Connection ~ 6550 1500
 Wire Wire Line
-	3850 1500 3700 1500
+	6700 1500 6550 1500
 Wire Wire Line
-	3700 1300 3700 1500
-Connection ~ 3700 1300
+	6550 1300 6550 1500
+Connection ~ 6550 1300
 Wire Wire Line
-	3850 1300 3700 1300
-Connection ~ 3700 1700
+	6700 1300 6550 1300
+Connection ~ 6550 1700
 Wire Wire Line
-	3700 1100 3700 1300
+	6550 1100 6550 1300
 Wire Wire Line
-	3850 1100 3700 1100
+	6700 1100 6550 1100
 Wire Wire Line
-	3700 1700 3850 1700
+	6550 1700 6700 1700
 Wire Wire Line
-	3700 1850 3700 1700
+	6550 1850 6550 1700
 $Comp
 L power:GND #PWR0201
 U 1 1 5C336467
-P 3700 1850
-F 0 "#PWR0201" H 3700 1600 50  0001 C CNN
-F 1 "GND" H 3700 1700 50  0000 C CNN
-F 2 "" H 3700 1850 50  0001 C CNN
-F 3 "" H 3700 1850 50  0001 C CNN
-	1    3700 1850
+P 6550 1850
+F 0 "#PWR0201" H 6550 1600 50  0001 C CNN
+F 1 "GND" H 6550 1700 50  0000 C CNN
+F 2 "" H 6550 1850 50  0001 C CNN
+F 3 "" H 6550 1850 50  0001 C CNN
+	1    6550 1850
 	1    0    0    -1  
 $EndComp
 $Comp
 L opm-cache:Mechanical_MountingHole_Pad H204
 U 1 1 5C3360CB
-P 3950 1700
+P 6800 1700
 AR Path="/5C3360CB" Ref="H204"  Part="1" 
 AR Path="/5BA8C4E4/5C3360CB" Ref="H204"  Part="1" 
-F 0 "H204" V 3900 1850 39  0000 L CNN
-F 1 "MountingHole" V 3950 1850 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3950 1700 39  0001 C CNN
-F 3 "~" H 3950 1700 39  0001 C CNN
-	1    3950 1700
+F 0 "H204" V 6750 1850 39  0000 L CNN
+F 1 "MountingHole" V 6800 1850 39  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1700 39  0001 C CNN
+F 3 "~" H 6800 1700 39  0001 C CNN
+	1    6800 1700
 	0    1    1    0   
 $EndComp
 $Comp
 L opm-cache:Mechanical_MountingHole_Pad H203
 U 1 1 5C335E56
-P 3950 1500
+P 6800 1500
 AR Path="/5C335E56" Ref="H203"  Part="1" 
 AR Path="/5BA8C4E4/5C335E56" Ref="H203"  Part="1" 
-F 0 "H203" V 3900 1650 39  0000 L CNN
-F 1 "MountingHole" V 3950 1650 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3950 1500 39  0001 C CNN
-F 3 "~" H 3950 1500 39  0001 C CNN
-	1    3950 1500
+F 0 "H203" V 6750 1650 39  0000 L CNN
+F 1 "MountingHole" V 6800 1650 39  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1500 39  0001 C CNN
+F 3 "~" H 6800 1500 39  0001 C CNN
+	1    6800 1500
 	0    1    1    0   
 $EndComp
 $Comp
 L opm-cache:Mechanical_MountingHole_Pad H202
 U 1 1 5C335D22
-P 3950 1300
+P 6800 1300
 AR Path="/5C335D22" Ref="H202"  Part="1" 
 AR Path="/5BA8C4E4/5C335D22" Ref="H202"  Part="1" 
-F 0 "H202" V 3900 1450 39  0000 L CNN
-F 1 "MountingHole" V 3950 1450 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3950 1300 39  0001 C CNN
-F 3 "~" H 3950 1300 39  0001 C CNN
-	1    3950 1300
+F 0 "H202" V 6750 1450 39  0000 L CNN
+F 1 "MountingHole" V 6800 1450 39  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1300 39  0001 C CNN
+F 3 "~" H 6800 1300 39  0001 C CNN
+	1    6800 1300
 	0    1    1    0   
 $EndComp
 $Comp
 L opm-cache:Mechanical_MountingHole_Pad H201
 U 1 1 5C33535A
-P 3950 1100
+P 6800 1100
 AR Path="/5C33535A" Ref="H201"  Part="1" 
 AR Path="/5BA8C4E4/5C33535A" Ref="H201"  Part="1" 
-F 0 "H201" V 3900 1250 39  0000 L CNN
-F 1 "MountingHole" V 3950 1250 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 3950 1100 39  0001 C CNN
-F 3 "~" H 3950 1100 39  0001 C CNN
-	1    3950 1100
+F 0 "H201" V 6750 1250 39  0000 L CNN
+F 1 "MountingHole" V 6800 1250 39  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1100 39  0001 C CNN
+F 3 "~" H 6800 1100 39  0001 C CNN
+	1    6800 1100
 	0    1    1    0   
 $EndComp
 Wire Notes Line
@@ -446,4 +446,120 @@ F 3 "~" H 900 4950 50  0001 C CNN
 	1    900  4950
 	-1   0    0    1   
 $EndComp
+Wire Notes Line
+	6300 750  6300 2150
+Wire Notes Line
+	6300 2150 3500 2150
+Wire Notes Line
+	3500 2150 3500 750 
+Wire Notes Line
+	3500 750  6300 750 
+Text Notes 3600 950  0    79   ~ 0
+Power Indicator
+$Comp
+L Device:R R?
+U 1 1 61C181F6
+P 4550 1500
+F 0 "R?" V 4343 1500 50  0000 C CNN
+F 1 "1000Ω/1%" V 4434 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf" H 4550 1500 50  0001 C CNN
+F 4 "C21190" V 4550 1500 50  0001 C CNN "LCSC"
+F 5 "0603WAF1001T5E" V 4550 1500 50  0001 C CNN "manf_num"
+	1    4550 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C18D3E
+P 5650 1700
+F 0 "#PWR?" H 5650 1450 39  0001 C CNN
+F 1 "GND" H 5650 1550 39  0000 C CNN
+F 2 "" H 5650 1700 50  0001 C CNN
+F 3 "" H 5650 1700 50  0001 C CNN
+	1    5650 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C197BC
+P 5300 1500
+F 0 "D?" H 5293 1245 50  0000 C CNN
+F 1 "19-217/GHC-YR1S2/3T" H 5293 1336 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5300 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 5300 1500 50  0001 C CNN
+F 4 "Green" H 5300 1500 50  0001 C CNN "Info"
+F 5 "C72043" H 5300 1500 50  0001 C CNN "LCSC"
+F 6 "19-217/GHC-YR1S2/3T" H 5300 1500 50  0001 C CNN "manf_num"
+	1    5300 1500
+	-1   0    0    1   
+$EndComp
+Text HLabel 4100 1500 0    50   Input ~ 0
+VCC
+Wire Wire Line
+	4700 1500 5150 1500
+Wire Wire Line
+	5450 1500 5650 1500
+Wire Wire Line
+	5650 1500 5650 1700
+Wire Wire Line
+	4100 1500 4400 1500
+Wire Notes Line
+	6300 2250 6300 3650
+Wire Notes Line
+	6300 3650 3500 3650
+Wire Notes Line
+	3500 3650 3500 2250
+Wire Notes Line
+	3500 2250 6300 2250
+Text Notes 3600 2450 0    79   ~ 0
+Fault Indicator
+$Comp
+L Device:R R?
+U 1 1 61C21201
+P 4550 3000
+F 0 "R?" V 4343 3000 50  0000 C CNN
+F 1 "150Ω/1%" V 4434 3000 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 3000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf" H 4550 3000 50  0001 C CNN
+F 4 "C22808" V 4550 3000 50  0001 C CNN "LCSC"
+F 5 "0603WAF1500T5E" V 4550 3000 50  0001 C CNN "manf_num"
+	1    4550 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C2120B
+P 5650 3200
+F 0 "#PWR?" H 5650 2950 39  0001 C CNN
+F 1 "GND" H 5650 3050 39  0000 C CNN
+F 2 "" H 5650 3200 50  0001 C CNN
+F 3 "" H 5650 3200 50  0001 C CNN
+	1    5650 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 61C21218
+P 5300 3000
+F 0 "D?" H 5293 2745 50  0000 C CNN
+F 1 "19-217/GHC-YR1S2/3T" H 5293 2836 50  0000 C CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5300 3000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 5300 3000 50  0001 C CNN
+F 4 "Green" H 5300 3000 50  0001 C CNN "Info"
+F 5 "C72043" H 5300 3000 50  0001 C CNN "LCSC"
+F 6 "19-217/GHC-YR1S2/3T" H 5300 3000 50  0001 C CNN "manf_num"
+	1    5300 3000
+	-1   0    0    1   
+$EndComp
+Text HLabel 4100 3000 0    50   Input ~ 0
+Fault
+Wire Wire Line
+	4700 3000 5150 3000
+Wire Wire Line
+	5450 3000 5650 3000
+Wire Wire Line
+	5650 3000 5650 3200
+Wire Wire Line
+	4100 3000 4400 3000
 $EndSCHEMATC

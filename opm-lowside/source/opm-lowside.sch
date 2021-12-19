@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 3
 Title "TMC6100-EVAL"
 Date "2019-10-28"
 Rev "1.2"
@@ -44,36 +44,6 @@ F24 "12Vout" O R 6500 2100 39
 F25 "5Vout" O R 6500 2200 39 
 F26 "VCP" O R 6500 2300 39 
 $EndSheet
-$Sheet
-S 7500 1000 1000 1000
-U 5D6A7BED
-F0 "Regulator and ID" 39
-F1 "Regulator and ID.sch" 39
-F2 "+5V_VM" I L 7500 1100 39 
-F3 "+Vcc_IO" O R 8500 1100 39 
-F4 "Fault" I L 7500 1200 39 
-F5 "~CS_EEPROM" I L 7500 1300 39 
-F6 "SPI2_SCK" I L 7500 1400 39 
-F7 "SPI2_MOSI" I L 7500 1500 39 
-F8 "SPI2_MISO" O R 8500 1200 39 
-F9 "+3,3V" O R 8500 1300 39 
-$EndSheet
-Text Label 8600 1100 0    39   ~ 0
-+Vcc_IO
-Wire Wire Line
-	8600 1100 8500 1100
-Wire Wire Line
-	8500 1200 8600 1200
-Wire Wire Line
-	7500 1100 7400 1100
-Wire Wire Line
-	7400 1200 7500 1200
-Wire Wire Line
-	7400 1300 7500 1300
-Wire Wire Line
-	7400 1400 7500 1400
-Wire Wire Line
-	7400 1500 7500 1500
 Wire Wire Line
 	6600 1100 6500 1100
 Wire Wire Line
@@ -164,8 +134,6 @@ Text Label 5400 1200 2    39   ~ 0
 +Vcc_IO
 Text Label 3400 1500 2    39   ~ 0
 +Vcc_IO
-Text Label 7400 1100 2    39   ~ 0
-+5V_VM
 Text Label 5400 1300 2    39   ~ 0
 +5V_VM
 Text Label 4600 1300 0    39   ~ 0
@@ -192,8 +160,6 @@ ADC_I_u
 Text Label 6600 1600 0    39   ~ 0
 ADC_I_w
 Text Label 6600 1700 0    39   ~ 0
-Fault
-Text Label 7400 1200 2    39   ~ 0
 Fault
 Text Label 4600 1700 0    39   ~ 0
 UH
@@ -223,8 +189,6 @@ Text Label 3400 1100 2    39   ~ 0
 ADC_I_u
 Text Label 3400 1300 2    39   ~ 0
 ADC_I_w
-Text Label 7400 1300 2    39   ~ 0
-~CS_EEPROM
 Text Label 4600 2800 0    39   ~ 0
 ~CS_EEPROM
 Text Label 4600 2000 0    39   ~ 0
@@ -239,28 +203,16 @@ Text Label 4600 2200 0    39   ~ 0
 SPI2_MOSI
 Text Label 5400 1800 2    39   ~ 0
 SPI2_MOSI
-Text Label 7400 1500 2    39   ~ 0
-SPI2_MOSI
-Text Label 7400 1400 2    39   ~ 0
-SPI2_SCK
 Text Label 5400 1700 2    39   ~ 0
 SPI2_SCK
 Text Label 4600 2300 0    39   ~ 0
 SPI2_SCK
 Text Label 3400 1400 2    39   ~ 0
 SPI2_MISO
-Text Label 6600 1800 0    39   ~ 0
-SPI2_MISO
-Text Label 8600 1200 0    39   ~ 0
-SPI2_MISO
 Text Label 4600 2700 0    39   ~ 0
 SPE
 Text Label 5400 1500 2    39   ~ 0
 SPE
-Wire Wire Line
-	8500 1300 8600 1300
-Text Label 8600 1300 0    39   ~ 0
-+3,3V
 $Sheet
 S 3500 1000 1000 2000
 U 5BA8C4E4
