@@ -66,25 +66,13 @@ Wire Notes Line
 	6400 750  6400 2150
 Text Notes 6450 900  0    79   ~ 0
 Mountingholes
-Wire Wire Line
-	6550 1500 6550 1700
-Connection ~ 6550 1500
-Wire Wire Line
-	6700 1500 6550 1500
-Wire Wire Line
-	6550 1300 6550 1500
 Connection ~ 6550 1300
 Wire Wire Line
 	6700 1300 6550 1300
-Connection ~ 6550 1700
 Wire Wire Line
 	6550 1100 6550 1300
 Wire Wire Line
 	6700 1100 6550 1100
-Wire Wire Line
-	6550 1700 6700 1700
-Wire Wire Line
-	6550 1850 6550 1700
 $Comp
 L power:GND #PWR0201
 U 1 1 5C336467
@@ -95,32 +83,6 @@ F 2 "" H 6550 1850 50  0001 C CNN
 F 3 "" H 6550 1850 50  0001 C CNN
 	1    6550 1850
 	1    0    0    -1  
-$EndComp
-$Comp
-L opm-cache:Mechanical_MountingHole_Pad H204
-U 1 1 5C3360CB
-P 6800 1700
-AR Path="/5C3360CB" Ref="H204"  Part="1" 
-AR Path="/5BA8C4E4/5C3360CB" Ref="H204"  Part="1" 
-F 0 "H204" V 6750 1850 39  0000 L CNN
-F 1 "MountingHole" V 6800 1850 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1700 39  0001 C CNN
-F 3 "~" H 6800 1700 39  0001 C CNN
-	1    6800 1700
-	0    1    1    0   
-$EndComp
-$Comp
-L opm-cache:Mechanical_MountingHole_Pad H203
-U 1 1 5C335E56
-P 6800 1500
-AR Path="/5C335E56" Ref="H203"  Part="1" 
-AR Path="/5BA8C4E4/5C335E56" Ref="H203"  Part="1" 
-F 0 "H203" V 6750 1650 39  0000 L CNN
-F 1 "MountingHole" V 6800 1650 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1500 39  0001 C CNN
-F 3 "~" H 6800 1500 39  0001 C CNN
-	1    6800 1500
-	0    1    1    0   
 $EndComp
 $Comp
 L opm-cache:Mechanical_MountingHole_Pad H202
@@ -427,24 +389,24 @@ Headers
 $Comp
 L Connector:Conn_01x02_Female J?
 U 1 1 61C15679
-P 900 4400
-F 0 "J?" H 792 4075 50  0000 C CNN
-F 1 "Conn_01x02_Female" H 792 4166 50  0000 C CNN
-F 2 "" H 900 4400 50  0001 C CNN
-F 3 "~" H 900 4400 50  0001 C CNN
-	1    900  4400
-	-1   0    0    1   
+P 1400 4250
+F 0 "J?" H 1292 3925 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 1292 4016 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 1400 4250 50  0001 C CNN
+F 3 "~" H 1400 4250 50  0001 C CNN
+	1    1400 4250
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_01x04_Female J?
 U 1 1 61C15E32
-P 900 4950
-F 0 "J?" H 792 4525 50  0000 C CNN
-F 1 "Conn_01x04_Female" H 792 4616 50  0000 C CNN
-F 2 "" H 900 4950 50  0001 C CNN
-F 3 "~" H 900 4950 50  0001 C CNN
-	1    900  4950
-	-1   0    0    1   
+P 1250 5300
+F 0 "J?" H 1142 4875 50  0000 C CNN
+F 1 "Conn_01x04_Female" H 1142 4966 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 1250 5300 50  0001 C CNN
+F 3 "~" H 1250 5300 50  0001 C CNN
+	1    1250 5300
+	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	6300 750  6300 2150
@@ -462,10 +424,10 @@ U 1 1 61C181F6
 P 4550 1500
 F 0 "R?" V 4343 1500 50  0000 C CNN
 F 1 "1000Ω/1%" V 4434 1500 50  0000 C CNN
-F 2 "" V 4480 1500 50  0001 C CNN
-F 3 "~" H 4550 1500 50  0001 C CNN
-F 4 "" V 4550 1500 50  0001 C CNN "LCSC"
-F 5 "" V 4550 1500 50  0001 C CNN "manf_num"
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf" H 4550 1500 50  0001 C CNN
+F 4 "C21190" V 4550 1500 50  0001 C CNN "LCSC"
+F 5 "0603WAF1001T5E" V 4550 1500 50  0001 C CNN "manf_num"
 	1    4550 1500
 	0    1    1    0   
 $EndComp
@@ -562,4 +524,195 @@ Wire Wire Line
 	5650 3000 5650 3200
 Wire Wire Line
 	4100 3000 4400 3000
+Wire Wire Line
+	6550 1300 6550 1850
+Wire Notes Line
+	3500 3750 6300 3750
+Wire Notes Line
+	6300 3750 6300 6050
+Wire Notes Line
+	6300 6050 3500 6050
+Wire Notes Line
+	3500 6050 3500 3750
+Text Notes 3600 3950 0    79   ~ 0
+NTC
+$Comp
+L Device:R R?
+U 1 1 61C017DA
+P 3800 5400
+F 0 "R?" H 3870 5446 50  0000 L CNN
+F 1 "4700Ω/1%" H 3870 5355 50  0000 L CNN
+F 2 "" V 3730 5400 50  0001 C CNN
+F 3 "~" H 3800 5400 50  0001 C CNN
+F 4 "C23162" H 3800 5400 50  0001 C CNN "LCSC"
+F 5 "0603WAF4701T5E" H 3800 5400 50  0001 C CNN "manf_num"
+	1    3800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C01DF0
+P 3800 4800
+F 0 "R?" H 3870 4846 50  0000 L CNN
+F 1 "4700Ω/1%" H 3870 4755 50  0000 L CNN
+F 2 "" V 3730 4800 50  0001 C CNN
+F 3 "~" H 3800 4800 50  0001 C CNN
+F 4 "C23162" H 3800 4800 50  0001 C CNN "LCSC"
+F 5 "0603WAF4701T5E" H 3800 4800 50  0001 C CNN "manf_num"
+	1    3800 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61C0237B
+P 3800 4250
+F 0 "R?" H 3870 4296 50  0000 L CNN
+F 1 "10000Ω/1%" H 3870 4205 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3730 4250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810311113_Murata-Electronics-NCP18XH103F03RB_C13564.pdf" H 3800 4250 50  0001 C CNN
+F 4 "C13564" H 3800 4250 50  0001 C CNN "LCSC"
+F 5 "NCP18XH103F03RB" H 3800 4250 50  0001 C CNN "manf_num"
+	1    3800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61C02DDD
+P 4700 5400
+F 0 "C?" H 4815 5446 50  0000 L CNN
+F 1 "100nF/50V" H 4815 5355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4738 5250 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf" H 4700 5400 50  0001 C CNN
+F 4 "C14663" H 4700 5400 50  0001 C CNN "LCSC"
+F 5 "CC0603KRX7R9BB104" H 4700 5400 50  0001 C CNN "manf_num"
+	1    4700 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 61C07AC4
+P 5650 5150
+F 0 "J?" H 5678 5126 50  0000 L CNN
+F 1 "Conn_01x02_Female" H 5678 5035 50  0000 L CNN
+F 2 "" H 5650 5150 50  0001 C CNN
+F 3 "~" H 5650 5150 50  0001 C CNN
+	1    5650 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 4650 3800 4400
+Wire Wire Line
+	5450 5150 4700 5150
+Wire Wire Line
+	3800 4950 3800 5150
+Connection ~ 3800 5150
+Wire Wire Line
+	3800 5150 3800 5250
+Wire Wire Line
+	4700 5250 4700 5150
+Connection ~ 4700 5150
+Wire Wire Line
+	4700 5150 3800 5150
+$Comp
+L power:GND #PWR?
+U 1 1 61C0D1DE
+P 3800 5650
+F 0 "#PWR?" H 3800 5400 39  0001 C CNN
+F 1 "GND" H 3800 5500 39  0000 C CNN
+F 2 "" H 3800 5650 50  0001 C CNN
+F 3 "" H 3800 5650 50  0001 C CNN
+	1    3800 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C0E109
+P 4700 5650
+F 0 "#PWR?" H 4700 5400 39  0001 C CNN
+F 1 "GND" H 4700 5500 39  0000 C CNN
+F 2 "" H 4700 5650 50  0001 C CNN
+F 3 "" H 4700 5650 50  0001 C CNN
+	1    4700 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61C0E704
+P 5350 5650
+F 0 "#PWR?" H 5350 5400 39  0001 C CNN
+F 1 "GND" H 5350 5500 39  0000 C CNN
+F 2 "" H 5350 5650 50  0001 C CNN
+F 3 "" H 5350 5650 50  0001 C CNN
+	1    5350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 5250 5350 5250
+Wire Wire Line
+	5350 5250 5350 5650
+Wire Wire Line
+	4700 5550 4700 5650
+Wire Wire Line
+	3800 5550 3800 5650
+Text Notes 3850 5100 0    39   ~ 0
+Temperature
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 61C1AB87
+P 2300 4500
+F 0 "J?" H 2192 3975 50  0000 C CNN
+F 1 "Conn_01x06_Female" H 2192 4066 50  0000 C CNN
+F 2 "" H 2300 4500 50  0001 C CNN
+F 3 "~" H 2300 4500 50  0001 C CNN
+	1    2300 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Female J?
+U 1 1 61C1C6CB
+P 2300 5400
+F 0 "J?" H 2192 5075 50  0000 C CNN
+F 1 "Conn_01x02_Female" H 2192 5166 50  0000 C CNN
+F 2 "" H 2300 5400 50  0001 C CNN
+F 3 "~" H 2300 5400 50  0001 C CNN
+	1    2300 5400
+	1    0    0    -1  
+$EndComp
+Text Label 1950 4300 0    50   ~ 0
+WL
+Text Label 1950 4600 0    50   ~ 0
+VH
+Text Label 1950 4400 0    50   ~ 0
+WH
+Text Label 1950 4500 0    50   ~ 0
+VL
+Text Label 1950 4700 0    50   ~ 0
+UL
+Text Label 1950 4800 0    50   ~ 0
+UH
+Text Label 1800 5400 0    50   ~ 0
+DRV_EN
+Text Label 1800 5500 0    50   ~ 0
+FAULT
+Text Label 650  5200 0    50   ~ 0
+CS_DRIVER
+Text Label 650  5300 0    50   ~ 0
+SPI1_CHK
+Text Label 650  5400 0    50   ~ 0
+SPI1_MOSI
+Text Label 650  5500 0    50   ~ 0
+SPI1_MISO
+Text HLabel 750  4100 2    39   Output ~ 0
+VCC_IO
+$Comp
+L power:GND #PWR?
+U 1 1 61C4650E
+P 750 4400
+F 0 "#PWR?" H 750 4150 39  0001 C CNN
+F 1 "GND" H 750 4250 39  0000 C CNN
+F 2 "" H 750 4400 50  0001 C CNN
+F 3 "" H 750 4400 50  0001 C CNN
+	1    750  4400
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC
