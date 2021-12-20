@@ -130,15 +130,12 @@ Wire Notes Line
 	600  2250 3400 2250
 Text Notes 700  2450 0    79   ~ 0
 Motor Connector
-NoConn ~ 2750 2600
-NoConn ~ 2750 2700
-NoConn ~ 2750 2800
 $Comp
 L opm-cache:Conector_library_Metz_31330103 U3
 U 1 1 61BF9A2A
 P 2400 2700
 F 0 "U3" H 2400 2950 39  0000 C CNN
-F 1 "Metz_31330103" H 2400 2900 39  0000 C CNN
+F 1 "TerminalBlock_3_P5.08mm" H 2400 2900 39  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2400 2350 39  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2336348.pdf" H 2450 2650 39  0001 C CNN
 	1    2400 2700
@@ -250,42 +247,16 @@ Wire Wire Line
 Wire Wire Line
 	2000 3350 2000 3250
 $Comp
-L opm-cache:Conector_library_Metz_31349103 U4
-U 1 1 61BF9A89
-P 2950 2700
-F 0 "U4" V 2700 2700 39  0000 C CNN
-F 1 "Metz_31349103" V 2750 2700 39  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2925 2770 39  0001 C CNN
-F 3 "" H 2925 2770 39  0001 C CNN
-F 4 "Connected to U203" V 3150 2700 24  0000 C CNN "Info"
-	1    2950 2700
-	0    1    1    0   
-$EndComp
-$Comp
 L opm-cache:Conector_library_Metz_31330102 U2
 U 1 1 61BFF192
 P 1500 1300
 F 0 "U2" H 1500 1100 39  0000 C CNN
-F 1 "Metz_31330102" H 1500 1150 39  0000 C CNN
+F 1 "TerminalBlock_2_P5.08mm" H 1500 1150 39  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1500 1150 39  0001 C CNN
 F 3 "" H 1550 1300 39  0001 C CNN
 	1    1500 1300
 	-1   0    0    1   
 $EndComp
-$Comp
-L opm-cache:Conector_library_Metz_31349102 U1
-U 1 1 61BFF3CD
-P 950 1300
-F 0 "U1" V 1150 1300 39  0000 C CNN
-F 1 "Metz_31349102" V 1100 1300 39  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 950 1250 39  0001 C CNN
-F 3 "" H 950 1250 39  0001 C CNN
-F 4 "Connected to U202" V 800 1300 24  0000 C CNN "Info"
-	1    950  1300
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 1150 1250
-NoConn ~ 1150 1350
 Wire Wire Line
 	1700 1350 1600 1350
 $Comp
@@ -294,10 +265,10 @@ U 1 1 61BFF3DC
 P 2350 1500
 F 0 "C15" V 2200 1500 39  0000 C CNN
 F 1 "220μF/100V" V 2500 1500 39  0000 C CNN
-F 2 "Libraries:CAPE830X690N" V 2550 1500 39  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" V 2550 1500 39  0001 C CNN
 F 3 "~" H 2350 1500 39  0001 C CNN
-F 4 "C340711" V 2350 1500 50  0001 C CNN "LCSC"
-F 5 "UCD2A221MNQ1MS" V 2350 1500 50  0001 C CNN "manf_num"
+F 4 "C338235" V 2350 1500 50  0001 C CNN "LCSC"
+F 5 "63ZLH330MEFC10X23" V 2350 1500 50  0001 C CNN "manf_num"
 	1    2350 1500
 	1    0    0    -1  
 $EndComp
@@ -307,10 +278,10 @@ U 1 1 61BFF3E8
 P 2850 1500
 F 0 "C16" V 2700 1500 39  0000 C CNN
 F 1 "220μF/100V" V 3000 1500 39  0000 C CNN
-F 2 "Libraries:CAPE830X690N" H 2850 1500 39  0001 C CNN
+F 2 "Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm" H 2850 1500 39  0001 C CNN
 F 3 "~" H 2850 1500 39  0001 C CNN
-F 4 "C340711" V 2850 1500 50  0001 C CNN "LCSC"
-F 5 "UCD2A221MNQ1MS" V 2850 1500 50  0001 C CNN "manf_num"
+F 4 "C338235" V 2850 1500 50  0001 C CNN "LCSC"
+F 5 "63ZLH330MEFC10X23" V 2850 1500 50  0001 C CNN "manf_num"
 	1    2850 1500
 	1    0    0    -1  
 $EndComp
@@ -349,33 +320,6 @@ Connection ~ 2350 1750
 Wire Wire Line
 	2850 1250 3100 1250
 Connection ~ 2850 1250
-Wire Wire Line
-	1600 1250 1950 1250
-Wire Wire Line
-	1700 1750 1950 1750
-Wire Wire Line
-	1950 1350 1950 1250
-Connection ~ 1950 1250
-Wire Wire Line
-	1950 1250 2350 1250
-Wire Wire Line
-	1950 1650 1950 1750
-Connection ~ 1950 1750
-Wire Wire Line
-	1950 1750 2350 1750
-$Comp
-L Device:CP1 C13
-U 1 1 61C10958
-P 1950 1500
-F 0 "C13" V 1800 1500 39  0000 C CNN
-F 1 "220μF/100V" V 2100 1500 39  0000 C CNN
-F 2 "Libraries:CAPE830X690N" V 2150 1500 39  0001 C CNN
-F 3 "~" H 1950 1500 39  0001 C CNN
-F 4 "C340711" V 1950 1500 50  0001 C CNN "LCSC"
-F 5 "UCD2A221MNQ1MS" V 1950 1500 50  0001 C CNN "manf_num"
-	1    1950 1500
-	1    0    0    -1  
-$EndComp
 Wire Notes Line
 	600  3750 600  6900
 Wire Notes Line
@@ -868,4 +812,8 @@ Text HLabel 1350 6450 0    50   Input ~ 0
 ADC_I_v
 Text HLabel 1350 6550 0    50   Input ~ 0
 ADC_I_w
+Wire Wire Line
+	1600 1250 2350 1250
+Wire Wire Line
+	1700 1750 2350 1750
 $EndSCHEMATC

@@ -196,7 +196,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 3900 2950 3600
 $Comp
-L opm-inline-rescue:TMC6200-TA-opm-inline-cache IC?
+L opm-inline-rescue:TMC6200-TA-opm-inline-cache-opm-inline-rescue IC?
 U 1 1 61BC2F39
 P 4850 4200
 AR Path="/61BC2F39" Ref="IC?"  Part="1" 
