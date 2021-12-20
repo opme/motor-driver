@@ -255,8 +255,8 @@ U 1 1 61BF9A89
 P 2950 2700
 F 0 "U4" V 2700 2700 39  0000 C CNN
 F 1 "Metz_31349103" V 2750 2700 39  0000 C CNN
-F 2 "" H 2925 2770 39  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2336351.pdf" H 2925 2770 39  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2925 2770 39  0001 C CNN
+F 3 "" H 2925 2770 39  0001 C CNN
 F 4 "Connected to U203" V 3150 2700 24  0000 C CNN "Info"
 	1    2950 2700
 	0    1    1    0   
@@ -278,7 +278,7 @@ U 1 1 61BFF3CD
 P 950 1300
 F 0 "U1" V 1150 1300 39  0000 C CNN
 F 1 "Metz_31349102" V 1100 1300 39  0000 C CNN
-F 2 "" H 950 1250 39  0001 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 950 1250 39  0001 C CNN
 F 3 "" H 950 1250 39  0001 C CNN
 F 4 "Connected to U202" V 800 1300 24  0000 C CNN "Info"
 	1    950  1300
@@ -294,7 +294,7 @@ U 1 1 61BFF3DC
 P 2350 1500
 F 0 "C15" V 2200 1500 39  0000 C CNN
 F 1 "220μF/100V" V 2500 1500 39  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" V 2550 1500 39  0001 C CNN
+F 2 "Libraries:CAPE830X690N" V 2550 1500 39  0001 C CNN
 F 3 "~" H 2350 1500 39  0001 C CNN
 F 4 "C340711" V 2350 1500 50  0001 C CNN "LCSC"
 F 5 "UCD2A221MNQ1MS" V 2350 1500 50  0001 C CNN "manf_num"
@@ -307,7 +307,7 @@ U 1 1 61BFF3E8
 P 2850 1500
 F 0 "C16" V 2700 1500 39  0000 C CNN
 F 1 "220μF/100V" V 3000 1500 39  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" H 2850 1500 39  0001 C CNN
+F 2 "Libraries:CAPE830X690N" H 2850 1500 39  0001 C CNN
 F 3 "~" H 2850 1500 39  0001 C CNN
 F 4 "C340711" V 2850 1500 50  0001 C CNN "LCSC"
 F 5 "UCD2A221MNQ1MS" V 2850 1500 50  0001 C CNN "manf_num"
@@ -369,7 +369,7 @@ U 1 1 61C10958
 P 1950 1500
 F 0 "C13" V 1800 1500 39  0000 C CNN
 F 1 "220μF/100V" V 2100 1500 39  0000 C CNN
-F 2 "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm" V 2150 1500 39  0001 C CNN
+F 2 "Libraries:CAPE830X690N" V 2150 1500 39  0001 C CNN
 F 3 "~" H 1950 1500 39  0001 C CNN
 F 4 "C340711" V 1950 1500 50  0001 C CNN "LCSC"
 F 5 "UCD2A221MNQ1MS" V 1950 1500 50  0001 C CNN "manf_num"
@@ -392,7 +392,7 @@ U 1 1 61C15679
 P 1700 4600
 F 0 "J2" H 1592 4275 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 1592 4366 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 1700 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1700 4600 50  0001 C CNN
 F 3 "~" H 1700 4600 50  0001 C CNN
 	1    1700 4600
 	1    0    0    -1  
@@ -403,7 +403,7 @@ U 1 1 61C15E32
 P 1550 5500
 F 0 "J1" H 1442 5075 50  0000 C CNN
 F 1 "Conn_01x04_Female" H 1442 5166 50  0000 C CNN
-F 2 "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical" H 1550 5500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 1550 5500 50  0001 C CNN
 F 3 "~" H 1550 5500 50  0001 C CNN
 	1    1550 5500
 	1    0    0    -1  
@@ -594,7 +594,7 @@ U 1 1 61C07AC4
 P 5650 5150
 F 0 "J5" H 5678 5126 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 5678 5035 50  0000 L CNN
-F 2 "" H 5650 5150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5650 5150 50  0001 C CNN
 F 3 "~" H 5650 5150 50  0001 C CNN
 	1    5650 5150
 	1    0    0    -1  
@@ -662,7 +662,7 @@ U 1 1 61C1AB87
 P 2600 4700
 F 0 "J3" H 2492 4175 50  0000 C CNN
 F 1 "Conn_01x06_Female" H 2492 4266 50  0000 C CNN
-F 2 "" H 2600 4700 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 2600 4700 50  0001 C CNN
 F 3 "~" H 2600 4700 50  0001 C CNN
 	1    2600 4700
 	1    0    0    -1  
@@ -673,35 +673,11 @@ U 1 1 61C1C6CB
 P 2600 5600
 F 0 "J4" H 2492 5275 50  0000 C CNN
 F 1 "Conn_01x02_Female" H 2492 5366 50  0000 C CNN
-F 2 "" H 2600 5600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2600 5600 50  0001 C CNN
 F 3 "~" H 2600 5600 50  0001 C CNN
 	1    2600 5600
 	1    0    0    -1  
 $EndComp
-Text Label 2250 4500 0    50   ~ 0
-WL
-Text Label 2250 4800 0    50   ~ 0
-VH
-Text Label 2250 4600 0    50   ~ 0
-WH
-Text Label 2250 4700 0    50   ~ 0
-VL
-Text Label 2250 4900 0    50   ~ 0
-UL
-Text Label 2250 5000 0    50   ~ 0
-UH
-Text Label 2100 5600 0    50   ~ 0
-DRV_EN
-Text Label 2100 5700 0    50   ~ 0
-FAULT
-Text Label 950  5400 0    50   ~ 0
-CS_DRIVER
-Text Label 950  5500 0    50   ~ 0
-SPI1_CHK
-Text Label 950  5600 0    50   ~ 0
-SPI1_MOSI
-Text Label 950  5700 0    50   ~ 0
-SPI1_MISO
 Text HLabel 1050 4450 2    39   Output ~ 0
 VCC_IO
 $Comp
@@ -723,4 +699,154 @@ Wire Wire Line
 	1500 4700 1050 4700
 Wire Wire Line
 	1050 4700 1050 4750
+Text HLabel 1350 5700 0    50   Input ~ 0
+SPI1_MISO
+Text HLabel 2400 5000 0    50   Input ~ 0
+UH
+Text HLabel 2400 4900 0    50   Input ~ 0
+UL
+Text HLabel 2400 4800 0    50   Input ~ 0
+VH
+Text HLabel 2400 4700 0    50   Input ~ 0
+VL
+Text HLabel 2400 4600 0    50   Input ~ 0
+WH
+Text HLabel 2400 4500 0    50   Input ~ 0
+WL
+Text HLabel 2400 5600 0    50   Input ~ 0
+DRV_EN
+Text HLabel 2400 5700 0    50   Input ~ 0
+FAULT
+Text HLabel 1350 5500 0    50   Input ~ 0
+SPI1_CHK
+Text HLabel 1350 5400 0    50   Input ~ 0
+~CS_DRIVER
+Text HLabel 1350 5600 0    50   Input ~ 0
+SPI1_MISO
+$Comp
+L Device:R R21
+U 1 1 61C3D61B
+P 6850 3050
+F 0 "R21" H 6920 3096 50  0000 L CNN
+F 1 "1000Ω/1%" H 6920 3005 50  0000 L CNN
+F 2 "" V 6780 3050 50  0001 C CNN
+F 3 "~" H 6850 3050 50  0001 C CNN
+	1    6850 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R22
+U 1 1 61C3DBA6
+P 6850 3550
+F 0 "R22" H 6920 3596 50  0000 L CNN
+F 1 "0Ω" H 6920 3505 50  0000 L CNN
+F 2 "" V 6780 3550 50  0001 C CNN
+F 3 "~" H 6850 3550 50  0001 C CNN
+	1    6850 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 61C3E273
+P 6850 3750
+F 0 "#PWR0111" H 6850 3500 39  0001 C CNN
+F 1 "GND" H 6850 3600 39  0000 C CNN
+F 2 "" H 6850 3750 50  0001 C CNN
+F 3 "" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 6850 2800 1    28   Input ~ 0
++VCC_IO
+Text HLabel 7200 3300 2    28   Input ~ 0
+VOFS
+Wire Wire Line
+	6850 3200 6850 3300
+Wire Wire Line
+	6850 2800 6850 2900
+Wire Wire Line
+	7200 3300 6850 3300
+Connection ~ 6850 3300
+Wire Wire Line
+	6850 3300 6850 3400
+Wire Wire Line
+	6850 3700 6850 3750
+Wire Notes Line
+	6400 2250 6400 4250
+Wire Notes Line
+	6400 4250 7400 4250
+Wire Notes Line
+	7400 4250 7400 2250
+Wire Notes Line
+	7400 2250 6400 2250
+Text Notes 6450 2450 0    79   ~ 0
+VCC_IO SPE
+Wire Notes Line
+	6600 3400 7200 3400
+Wire Notes Line
+	7200 3400 7200 3750
+Wire Notes Line
+	7200 3750 6600 3750
+Wire Notes Line
+	6600 3750 6600 3400
+$Comp
+L Device:R R23
+U 1 1 61C53952
+P 7950 3050
+F 0 "R23" H 8020 3096 50  0000 L CNN
+F 1 "1500Ω/1%" H 8020 3005 50  0000 L CNN
+F 2 "" V 7880 3050 50  0001 C CNN
+F 3 "~" H 7950 3050 50  0001 C CNN
+	1    7950 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R24
+U 1 1 61C53C70
+P 7950 3550
+F 0 "R24" H 8020 3596 50  0000 L CNN
+F 1 "4700Ω/1%" H 8020 3505 50  0000 L CNN
+F 2 "" V 7880 3550 50  0001 C CNN
+F 3 "~" H 7950 3550 50  0001 C CNN
+	1    7950 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0112
+U 1 1 61C53C7A
+P 7950 3750
+F 0 "#PWR0112" H 7950 3500 39  0001 C CNN
+F 1 "GND" H 7950 3600 39  0000 C CNN
+F 2 "" H 7950 3750 50  0001 C CNN
+F 3 "" H 7950 3750 50  0001 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+Text HLabel 7950 2800 1    28   Input ~ 0
++VCC_IO
+Text HLabel 8300 3300 2    28   Input ~ 0
+SPE
+Wire Wire Line
+	7950 3200 7950 3300
+Wire Wire Line
+	7950 2800 7950 2900
+Wire Wire Line
+	8300 3300 7950 3300
+Connection ~ 7950 3300
+Wire Wire Line
+	7950 3300 7950 3400
+Wire Wire Line
+	7950 3700 7950 3750
+Wire Notes Line
+	7500 2250 7500 4250
+Wire Notes Line
+	7500 4250 8500 4250
+Wire Notes Line
+	8500 4250 8500 2250
+Wire Notes Line
+	8500 2250 7500 2250
+Text Notes 7550 2450 0    79   ~ 0
+VCC_IO VOFS
+Text Notes 6900 3750 0    28   ~ 0
+Not Mounted
 $EndSCHEMATC
