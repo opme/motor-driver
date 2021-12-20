@@ -535,7 +535,7 @@ Wire Notes Line
 Wire Notes Line
 	3500 6050 3500 3750
 Text Notes 3600 3950 0    79   ~ 0
-NTC
+NTC Temperature Sensor
 $Comp
 L Device:R R18
 U 1 1 61C017DA
@@ -718,18 +718,18 @@ DRV_EN
 Text HLabel 2400 5700 0    50   Input ~ 0
 FAULT
 Text HLabel 1350 5500 0    50   Input ~ 0
-SPI1_CHK
+SPI1_SCK
 Text HLabel 1350 5400 0    50   Input ~ 0
 ~CS_DRIVER
 Text HLabel 1350 5600 0    50   Input ~ 0
-SPI1_MISO
+SPI1_MOSI
 $Comp
 L Device:R R21
 U 1 1 61C3D61B
 P 6850 3050
 F 0 "R21" H 6920 3096 50  0000 L CNN
 F 1 "1000Ω/1%" H 6920 3005 50  0000 L CNN
-F 2 "" V 6780 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 3050 50  0001 C CNN
 F 3 "~" H 6850 3050 50  0001 C CNN
 	1    6850 3050
 	1    0    0    -1  
@@ -740,7 +740,7 @@ U 1 1 61C3DBA6
 P 6850 3550
 F 0 "R22" H 6920 3596 50  0000 L CNN
 F 1 "0Ω" H 6920 3505 50  0000 L CNN
-F 2 "" V 6780 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6780 3550 50  0001 C CNN
 F 3 "~" H 6850 3550 50  0001 C CNN
 	1    6850 3550
 	1    0    0    -1  
@@ -795,7 +795,7 @@ U 1 1 61C53952
 P 7950 3050
 F 0 "R23" H 8020 3096 50  0000 L CNN
 F 1 "1500Ω/1%" H 8020 3005 50  0000 L CNN
-F 2 "" V 7880 3050 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 3050 50  0001 C CNN
 F 3 "~" H 7950 3050 50  0001 C CNN
 	1    7950 3050
 	1    0    0    -1  
@@ -806,8 +806,10 @@ U 1 1 61C53C70
 P 7950 3550
 F 0 "R24" H 8020 3596 50  0000 L CNN
 F 1 "4700Ω/1%" H 8020 3505 50  0000 L CNN
-F 2 "" V 7880 3550 50  0001 C CNN
-F 3 "~" H 7950 3550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 7880 3550 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf" H 7950 3550 50  0001 C CNN
+F 4 "C23162" H 7950 3550 50  0001 C CNN "LCSC"
+F 5 "0603WAF4701T5E" H 7950 3550 50  0001 C CNN "manf_num"
 	1    7950 3550
 	1    0    0    -1  
 $EndComp
@@ -849,4 +851,21 @@ Text Notes 7550 2450 0    79   ~ 0
 VCC_IO VOFS
 Text Notes 6900 3750 0    28   ~ 0
 Not Mounted
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 61C68D2F
+P 1550 6450
+F 0 "J6" H 1578 6476 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 1578 6385 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 1550 6450 50  0001 C CNN
+F 3 "~" H 1550 6450 50  0001 C CNN
+	1    1550 6450
+	1    0    0    -1  
+$EndComp
+Text HLabel 1350 6350 0    50   Input ~ 0
+ADC_I_u
+Text HLabel 1350 6450 0    50   Input ~ 0
+ADC_I_v
+Text HLabel 1350 6550 0    50   Input ~ 0
+ADC_I_w
 $EndSCHEMATC

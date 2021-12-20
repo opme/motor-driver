@@ -1059,4 +1059,10 @@ Text HLabel 4300 3750 0    28   Input ~ 0
 DRV_EN
 Text HLabel 4300 3950 0    28   Input ~ 0
 SPE
+Text HLabel 5400 4500 2    28   Input ~ 0
+ADC_I_u
+Text HLabel 5400 4550 2    28   Input ~ 0
+ADC_I_v
+Text HLabel 5400 4600 2    28   Input ~ 0
+ADC_I_w
 $EndSCHEMATC
