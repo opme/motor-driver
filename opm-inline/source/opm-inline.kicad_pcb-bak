@@ -245,7 +245,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0D99C)
-    (at 146.985001 110.985001)
+    (at 146.985001 108.445001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61DA87F1)
@@ -281,7 +281,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0D9AD)
-    (at 154.325001 116.005001)
+    (at 154.325001 113.465001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61DA9103)
@@ -317,7 +317,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0D9BE)
-    (at 149.835001 121.025001)
+    (at 149.835001 118.485001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61DABDB6)
@@ -353,7 +353,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0D9CF)
-    (at 153.845001 118.515001)
+    (at 153.845001 115.975001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61DF7FEC)
@@ -389,7 +389,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0D9E0)
-    (at 158.335001 116.005001)
+    (at 158.335001 113.465001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61C4C1D6)
@@ -425,7 +425,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0D9F1)
-    (at 153.845001 121.025001)
+    (at 153.845001 118.485001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61E12F9B)
@@ -461,7 +461,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA02)
-    (at 129.785001 120.285001)
+    (at 129.785001 117.745001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61D9B6F4)
@@ -497,7 +497,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA13)
-    (at 138.285001 115.175001)
+    (at 138.285001 112.635001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61C62AF0)
@@ -533,7 +533,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA24)
-    (at 146.985001 108.475001)
+    (at 146.985001 105.935001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61D8AF6F)
@@ -569,7 +569,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA35)
-    (at 133.795001 120.285001)
+    (at 133.795001 117.745001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61F37D7D)
@@ -605,7 +605,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA46)
-    (at 124.935001 93.195001)
+    (at 124.935001 90.655001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5BA8C4E4/61BF9A51)
@@ -641,7 +641,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA57)
-    (at 133.485001 80.945001)
+    (at 133.485001 78.405001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5BA8C4E4/61BF9A45)
@@ -677,7 +677,7 @@
   )
 
   (module Libraries:CAPE830X690N (layer F.Cu) (tedit 61C05AD5) (tstamp 61C0DA78)
-    (at 147.049001 70.815001)
+    (at 147.049001 68.275001)
     (path /5BA8C4E4/61C10958)
     (fp_text reference C13 (at -0.31859 -5.89074) (layer F.SilkS)
       (effects (font (size 1.262142 1.262142) (thickness 0.15)))
@@ -719,7 +719,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA89)
-    (at 133.485001 78.435001)
+    (at 133.485001 75.895001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5BA8C4E4/61BF9A39)
@@ -755,7 +755,7 @@
   )
 
   (module Libraries:CAPE830X690N (layer F.Cu) (tedit 61C05AD5) (tstamp 61C0DAAA)
-    (at 160.049001 70.815001)
+    (at 160.049001 68.275001)
     (path /5BA8C4E4/61BFF3DC)
     (fp_text reference C15 (at -0.31859 -5.89074) (layer F.SilkS)
       (effects (font (size 1.262142 1.262142) (thickness 0.15)))
@@ -797,7 +797,7 @@
   )
 
   (module Libraries:CAPE830X690N (layer F.Cu) (tedit 61C05AD5) (tstamp 61C0DACB)
-    (at 142.399001 81.365001)
+    (at 142.399001 78.825001)
     (path /5BA8C4E4/61BFF3E8)
     (fp_text reference C16 (at -0.31859 -5.89074) (layer F.SilkS)
       (effects (font (size 1.262142 1.262142) (thickness 0.15)))
@@ -839,7 +839,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DADC)
-    (at 120.885001 95.785001)
+    (at 120.885001 93.245001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5BA8C4E4/61C02DDD)
@@ -875,7 +875,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DAED)
-    (at 121.105001 120.535001)
+    (at 121.105001 117.995001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/5DADB8FC)
@@ -911,7 +911,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DAFE)
-    (at 132.915001 108.725001)
+    (at 132.915001 106.185001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/5DB0D3D6)
@@ -947,7 +947,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DB0F)
-    (at 125.555001 120.535001)
+    (at 125.555001 117.995001)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/5DB0D99C)
@@ -983,7 +983,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DB20)
-    (at 149.835001 118.515001)
+    (at 149.835001 115.975001)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/5DA56FA6)
@@ -1019,7 +1019,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5F68FEF1) (tstamp 61C0DB33)
-    (at 133.525001 75.885001)
+    (at 133.525001 73.345001)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags LED)
     (path /5BA8C4E4/61C197BC)
@@ -1057,7 +1057,7 @@
   )
 
   (module LED_SMD:LED_0603_1608Metric (layer F.Cu) (tedit 5F68FEF1) (tstamp 61C0DB46)
-    (at 120.925001 93.235001)
+    (at 120.925001 90.695001)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags LED)
     (path /5BA8C4E4/61C21218)
@@ -1095,7 +1095,7 @@
   )
 
   (module Fiducial:Fiducial_0.5mm_Mask1mm (layer F.Cu) (tedit 5C18CB26) (tstamp 61C0DB4E)
-    (at 164.965001 87.075001)
+    (at 164.965001 84.535001)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags fiducial)
     (path /5BA8C4E4/5C6BBB15)
@@ -1116,7 +1116,7 @@
   )
 
   (module Fiducial:Fiducial_0.5mm_Mask1mm (layer F.Cu) (tedit 5C18CB26) (tstamp 61C0DB56)
-    (at 156.305001 93.615001)
+    (at 156.305001 91.075001)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags fiducial)
     (path /5BA8C4E4/5C6BC61F)
@@ -1137,7 +1137,7 @@
   )
 
   (module Fiducial:Fiducial_0.5mm_Mask1mm (layer F.Cu) (tedit 5C18CB26) (tstamp 61C0DB5E)
-    (at 160.955001 88.925001)
+    (at 160.955001 86.385001)
     (descr "Circular Fiducial, 0.5mm bare copper, 1mm soldermask opening (Level C)")
     (tags fiducial)
     (path /5BA8C4E4/5C6BC9A9)
@@ -1158,7 +1158,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 61C0DB66)
-    (at 151.055001 92.315001)
+    (at 151.055001 89.775001)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5BA8C4E4/5C33535A)
@@ -1179,7 +1179,7 @@
   )
 
   (module MountingHole:MountingHole_3.2mm_M3_Pad (layer F.Cu) (tedit 56D1B4CB) (tstamp 61C0DB6E)
-    (at 127.505001 78.565001)
+    (at 127.505001 76.025001)
     (descr "Mounting Hole 3.2mm, M3")
     (tags "mounting hole 3.2mm m3")
     (path /5BA8C4E4/5C335D22)
@@ -1200,7 +1200,7 @@
   )
 
   (module Libraries:TMC6200-TA (layer F.Cu) (tedit 0) (tstamp 61C0DCA2)
-    (at 124.789801 106.429401)
+    (at 124.789801 103.889401)
     (path /5D5FDD98/61BC2F39)
     (fp_text reference IC1 (at 0 0) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
@@ -1582,7 +1582,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 61C0DCBA)
-    (at 150.855001 78.415001)
+    (at 150.855001 75.875001)
     (descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x04 2.54mm single row")
     (path /5BA8C4E4/61C15E32)
@@ -1626,7 +1626,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 61C0DCD0)
-    (at 173.155001 67.865001)
+    (at 173.155001 65.325001)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5BA8C4E4/61C15679)
@@ -1666,7 +1666,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 61C0DCEA)
-    (at 121.205001 67.865001)
+    (at 121.205001 65.325001)
     (descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x06 2.54mm single row")
     (path /5BA8C4E4/61C1AB87)
@@ -1714,7 +1714,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 61C0DD00)
-    (at 167.055001 78.415001)
+    (at 167.055001 75.875001)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5BA8C4E4/61C1C6CB)
@@ -1754,7 +1754,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 61C0DD16)
-    (at 157.355001 87.465001)
+    (at 157.355001 84.925001)
     (descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x02 2.54mm single row")
     (path /5BA8C4E4/61C07AC4)
@@ -1794,7 +1794,7 @@
   )
 
   (module Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical (layer F.Cu) (tedit 59FED5CC) (tstamp 61C0DD2D)
-    (at 168.505001 67.865001)
+    (at 168.505001 65.325001)
     (descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
     (tags "Through hole pin header THT 1x03 2.54mm single row")
     (path /5BA8C4E4/61C68D2F)
@@ -1836,7 +1836,7 @@
   )
 
   (module Libraries:PDFN-8 (layer F.Cu) (tedit 61BF76D2) (tstamp 61C0DD56)
-    (at 152.690001 103.870001)
+    (at 152.690001 101.330001)
     (path /5D5FDD98/61D9B312)
     (fp_text reference Q1 (at -1.568 -3.3064) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
@@ -1892,7 +1892,7 @@
   )
 
   (module Libraries:PDFN-8 (layer F.Cu) (tedit 61BF76D2) (tstamp 61C0DD7F)
-    (at 140.880001 110.570001)
+    (at 140.880001 108.030001)
     (path /5D5FDD98/61D9B6B4)
     (fp_text reference Q2 (at -1.568 -3.3064) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
@@ -1948,7 +1948,7 @@
   )
 
   (module Libraries:PDFN-8 (layer F.Cu) (tedit 61BF76D2) (tstamp 61C0DDA8)
-    (at 143.990001 103.870001)
+    (at 143.990001 101.330001)
     (path /5D5FDD98/61C4D7D0)
     (fp_text reference Q3 (at -1.568 -3.3064) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
@@ -2004,7 +2004,7 @@
   )
 
   (module Libraries:PDFN-8 (layer F.Cu) (tedit 61BF76D2) (tstamp 61C0DDD1)
-    (at 132.180001 115.680001)
+    (at 132.180001 113.140001)
     (path /5D5FDD98/61C4FD8F)
     (fp_text reference Q4 (at -1.568 -3.3064) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
@@ -2060,7 +2060,7 @@
   )
 
   (module Libraries:PDFN-8 (layer F.Cu) (tedit 61BF76D2) (tstamp 61C0DDFA)
-    (at 135.290001 103.870001)
+    (at 135.290001 101.330001)
     (path /5D5FDD98/61D8AC5E)
     (fp_text reference Q5 (at -1.568 -3.3064) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
@@ -2116,7 +2116,7 @@
   )
 
   (module Libraries:PDFN-8 (layer F.Cu) (tedit 61BF76D2) (tstamp 61C0DE23)
-    (at 123.480001 115.680001)
+    (at 123.480001 113.140001)
     (path /5D5FDD98/61D8AF0A)
     (fp_text reference Q6 (at -1.568 -3.3064) (layer F.SilkS)
       (effects (font (size 0.64 0.64) (thickness 0.15)))
@@ -2172,7 +2172,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE34)
-    (at 142.295001 115.175001)
+    (at 142.295001 112.635001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D9B6BE)
@@ -2208,7 +2208,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE45)
-    (at 138.285001 117.685001)
+    (at 138.285001 115.145001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D9B6C8)
@@ -2244,7 +2244,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE56)
-    (at 142.295001 117.685001)
+    (at 142.295001 115.145001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D9B6D2)
@@ -2280,7 +2280,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE67)
-    (at 146.985001 113.495001)
+    (at 146.985001 110.955001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61C5490F)
@@ -2316,7 +2316,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE78)
-    (at 137.805001 120.285001)
+    (at 137.805001 117.745001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61C553B2)
@@ -2352,7 +2352,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE89)
-    (at 150.315001 116.005001)
+    (at 150.315001 113.465001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61C55F33)
@@ -2388,7 +2388,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DE9A)
-    (at 141.815001 120.195001)
+    (at 141.815001 117.655001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61E48788)
@@ -2424,7 +2424,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DEAB)
-    (at 150.995001 110.985001)
+    (at 150.995001 108.445001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61E48BDE)
@@ -2460,7 +2460,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DEBC)
-    (at 146.305001 116.005001)
+    (at 146.305001 113.465001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61C5CFCB)
@@ -2496,7 +2496,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DECD)
-    (at 155.005001 108.475001)
+    (at 155.005001 105.935001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61C5DC5F)
@@ -2532,7 +2532,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DEDE)
-    (at 150.995001 113.495001)
+    (at 150.995001 110.955001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D8AF14)
@@ -2568,7 +2568,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DEEF)
-    (at 141.815001 122.705001)
+    (at 141.815001 120.165001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D8AF1E)
@@ -2604,7 +2604,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF00)
-    (at 145.825001 120.195001)
+    (at 145.825001 117.655001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D8AF28)
@@ -2640,7 +2640,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF11)
-    (at 155.005001 110.985001)
+    (at 155.005001 108.445001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D8AF32)
@@ -2676,7 +2676,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF22)
-    (at 150.995001 108.475001)
+    (at 150.995001 105.935001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/61D8AF3C)
@@ -2712,7 +2712,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF33)
-    (at 166.735001 84.545001)
+    (at 166.735001 82.005001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C0237B)
@@ -2748,7 +2748,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF44)
-    (at 171.385001 76.505001)
+    (at 171.385001 73.965001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C01DF0)
@@ -2784,7 +2784,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF55)
-    (at 171.385001 79.015001)
+    (at 171.385001 76.475001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C017DA)
@@ -2820,7 +2820,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF66)
-    (at 161.685001 86.395001)
+    (at 161.685001 83.855001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C181F6)
@@ -2856,7 +2856,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF77)
-    (at 124.895001 95.785001)
+    (at 124.895001 93.245001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C21201)
@@ -2892,7 +2892,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF88)
-    (at 172.835001 73.995001)
+    (at 172.835001 71.455001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C3D61B)
@@ -2928,7 +2928,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF99)
-    (at 128.905001 95.705001)
+    (at 128.905001 93.165001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C3DBA6)
@@ -2964,7 +2964,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DFAA)
-    (at 132.915001 93.195001)
+    (at 132.915001 90.655001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C53952)
@@ -3000,7 +3000,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DFBB)
-    (at 132.915001 95.705001)
+    (at 132.915001 93.165001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C53C70)
@@ -3036,7 +3036,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DFCC)
-    (at 145.825001 122.705001)
+    (at 145.825001 120.165001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/5DAB36B7)
@@ -3072,7 +3072,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DFDD)
-    (at 155.005001 113.495001)
+    (at 155.005001 110.955001)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/5DA1AADD)
@@ -3108,7 +3108,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_bornier-2_P5.08mm (layer F.Cu) (tedit 59FF03AB) (tstamp 61C0DFF2)
-    (at 138.765001 91.165001)
+    (at 138.765001 88.625001)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (path /5BA8C4E4/61BFF3CD)
@@ -3147,7 +3147,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_bornier-2_P5.08mm (layer F.Cu) (tedit 59FF03AB) (tstamp 61C0E007)
-    (at 156.415001 80.615001)
+    (at 156.415001 78.075001)
     (descr "simple 2-pin terminal block, pitch 5.08mm, revamped version of bornier2")
     (tags "terminal block bornier2")
     (path /5BA8C4E4/61BFF192)
@@ -3186,7 +3186,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_bornier-3_P5.08mm (layer F.Cu) (tedit 59FF03B9) (tstamp 61C0E01D)
-    (at 122.125001 87.415001)
+    (at 122.125001 84.875001)
     (descr "simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3")
     (tags "terminal block bornier3")
     (path /5BA8C4E4/61BF9A2A)
@@ -3227,7 +3227,7 @@
   )
 
   (module TerminalBlock:TerminalBlock_bornier-3_P5.08mm (layer F.Cu) (tedit 59FF03B9) (tstamp 61C0E033)
-    (at 126.775001 70.065001)
+    (at 126.775001 67.525001)
     (descr "simple 3-pin terminal block, pitch 5.08mm, revamped version of bornier3")
     (tags "terminal block bornier3")
     (path /5BA8C4E4/61BF9A89)
