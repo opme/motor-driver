@@ -1,0 +1,131 @@
+
+(module PDFN8 (layer F.Cu) (tedit 61BF76D2)
+  (descr "")
+  (fp_text reference REF** (at -1.568 -3.3064 0) (layer F.SilkS)
+    (effects (font (size 0.64 0.64) (thickness 0.15)))
+  )
+  (fp_text value PDFN8 (at 4.428 3.2936 0) (layer F.Fab)
+    (effects (font (size 0.64 0.64) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at -2.9 -1.905) (size 0.85 0.5) (layers F.Cu F.Mask))
+  (pad 4 smd rect (at -2.9 1.905) (size 0.85 0.5) (layers F.Cu F.Mask))
+  (pad 2 smd rect (at -2.9 -0.635) (size 0.85 0.5) (layers F.Cu F.Mask))
+  (pad 3 smd rect (at -2.9 0.635) (size 0.85 0.5) (layers F.Cu F.Mask))
+  (pad 5 smd rect (at 2.925 1.905) (size 0.8 0.6) (layers F.Cu F.Mask))
+  (pad 6 smd rect (at 2.925 0.635) (size 0.8 0.6) (layers F.Cu F.Mask))
+  (pad 7 smd rect (at 2.925 -0.635) (size 0.8 0.6) (layers F.Cu F.Mask))
+  (pad 8 smd rect (at 2.925 -1.905) (size 0.8 0.6) (layers F.Cu F.Mask))
+  (pad 9 smd rect (at 0.65 0.0) (size 3.75 4.41) (layers F.Cu F.Mask))
+  (fp_line (start -2.95 -2.575) (end 2.95 -2.575) (layer F.Fab) (width 0.127))
+  (fp_line (start 2.95 -2.575) (end 2.95 2.575) (layer F.Fab) (width 0.127))
+  (fp_line (start 2.95 2.575) (end -2.95 2.575) (layer F.Fab) (width 0.127))
+  (fp_line (start -2.95 2.575) (end -2.95 -2.575) (layer F.Fab) (width 0.127))
+  (fp_line (start 2.95 -2.46) (end 2.95 -2.575) (layer F.SilkS) (width 0.127))
+  (fp_line (start 2.95 -2.575) (end -2.95 -2.575) (layer F.SilkS) (width 0.127))
+  (fp_line (start -2.95 -2.575) (end -2.95 -2.46) (layer F.SilkS) (width 0.127))
+  (fp_line (start -2.95 2.46) (end -2.95 2.575) (layer F.SilkS) (width 0.127))
+  (fp_line (start -2.95 2.575) (end 2.95 2.575) (layer F.SilkS) (width 0.127))
+  (fp_line (start 2.95 2.575) (end 2.95 2.46) (layer F.SilkS) (width 0.127))
+  (fp_line (start -3.58 -2.825) (end 3.58 -2.825) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.58 -2.825) (end 3.58 2.825) (layer F.CrtYd) (width 0.05))
+  (fp_line (start 3.58 2.825) (end -3.58 2.825) (layer F.CrtYd) (width 0.05))
+  (fp_line (start -3.58 2.825) (end -3.58 -2.825) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center -3.9 -2.0) (end -3.8 -2.0) (layer F.Fab) (width 0.2))
+  (fp_circle (center -3.9 -2.0) (end -3.8 -2.0) (layer F.SilkS) (width 0.2))
+  (fp_poly
+    (pts
+      (xy 2.655 1.53)
+      (xy 3.155 1.53)
+      (xy 3.155 2.28)
+      (xy 2.655 2.28)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.655 0.26)
+      (xy 3.155 0.26)
+      (xy 3.155 1.01)
+      (xy 2.655 1.01)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.655 -1.01)
+      (xy 3.155 -1.01)
+      (xy 3.155 -0.26)
+      (xy 2.655 -0.26)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 2.655 -2.28)
+      (xy 3.155 -2.28)
+      (xy 3.155 -1.53)
+      (xy 2.655 -1.53)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.1 -2.28)
+      (xy -2.7 -2.28)
+      (xy -2.7 -1.53)
+      (xy -3.1 -1.53)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.1 -1.01)
+      (xy -2.7 -1.01)
+      (xy -2.7 -0.26)
+      (xy -3.1 -0.26)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.1 1.53)
+      (xy -2.7 1.53)
+      (xy -2.7 2.28)
+      (xy -3.1 2.28)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -3.1 0.26)
+      (xy -2.7 0.26)
+      (xy -2.7 1.01)
+      (xy -3.1 1.01)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.75 -1.6)
+      (xy 2.25 -1.6)
+      (xy 2.25 -0.1)
+      (xy 0.75 -0.1)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 0.75 0.1)
+      (xy 2.25 0.1)
+      (xy 2.25 1.6)
+      (xy 0.75 1.6)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.95 0.1)
+      (xy 0.55 0.1)
+      (xy 0.55 1.6)
+      (xy -0.95 1.6)
+    ) (layer F.Paste) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.95 -1.6)
+      (xy 0.55 -1.6)
+      (xy 0.55 -0.1)
+      (xy -0.95 -0.1)
+    ) (layer F.Paste) (width 0.01)
+  )
+)
