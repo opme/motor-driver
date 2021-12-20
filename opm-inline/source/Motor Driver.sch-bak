@@ -203,8 +203,10 @@ AR Path="/61BC2F39" Ref="IC?"  Part="1"
 AR Path="/5D5FDD98/61BC2F39" Ref="IC1"  Part="1" 
 F 0 "IC1" H 4850 3268 40  0000 R CNN
 F 1 "TMC6200-TA" H 4850 3192 40  0000 R CNN
-F 2 "Trinamic:QFN-44-1EP_7x7mm_P0.5mm_EP4x4mm" H 4850 3950 40  0001 C CNN
-F 3 "" H 4850 5025 40  0001 C CNN
+F 2 "Libraries:TMC6200-TA" H 4850 3950 40  0001 C CNN
+F 3 "https://trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC6200_datasheet_Rev1.05.pdf" H 4850 5025 40  0001 C CNN
+F 4 "" H 4850 4200 50  0001 C CNN "LCSC"
+F 5 "TMC6200-TA" H 4850 4200 50  0001 C CNN "Field5"
 	1    4850 4200
 	1    0    0    -1  
 $EndComp
