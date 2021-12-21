@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source\opm-inline.sch)
-    (date "21.12.2021 12.43.24")
+    (date "21.12.2021 13.28.37")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -478,7 +478,7 @@
       (sheetpath (names /Connevtors/) (tstamps /5BA8C4E4/))
       (tstamp 61BFF192))
     (comp (ref C15)
-      (value 220μF/100V)
+      (value 330μF/63V)
       (footprint Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm)
       (datasheet ~)
       (fields
@@ -488,7 +488,7 @@
       (sheetpath (names /Connevtors/) (tstamps /5BA8C4E4/))
       (tstamp 61BFF3DC))
     (comp (ref C16)
-      (value 220μF/100V)
+      (value 330μF/63V)
       (footprint Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm)
       (datasheet ~)
       (fields
