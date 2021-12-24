@@ -3,4 +3,5 @@
   (lib (name opm-inline-cache)(type Legacy)(uri ${KIPRJMOD}/opm-inline-cache.lib)(options "")(descr ""))
   (lib (name opm-cache)(type Legacy)(uri ${KIPRJMOD}/opm-cache.lib)(options "")(descr ""))
   (lib (name fiducual)(type Legacy)(uri ${KIPRJMOD}/fiducial-markings.lib)(options "")(descr ""))
+  (lib (name pdfn8-test)(type Legacy)(uri ${KIPRJMOD}/Libraries/PDFN-8-test.lib)(options "")(descr ""))
 )

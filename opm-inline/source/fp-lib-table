@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name Libraries)(type KiCad)(uri ${KIPRJMOD}/Libraries)(options "")(descr ""))
+  (lib (name conn_jst-ph)(type KiCad)(uri ${KIPRJMOD}/../../library/conn_jst-ph.pretty)(options "")(descr ""))
 )

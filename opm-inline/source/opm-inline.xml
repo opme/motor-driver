@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source\opm-inline.sch</source>
+    <date>24.12.2021 14.14.47</date>
+    <tool>Eeschema (5.1.12)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.2</rev>
+        <date>2019-10-28</date>
+        <source>opm-inline.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Motor Driver/" tstamps="/5D5FDD98/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.2</rev>
+        <date>2019-10-28</date>
+        <source>Motor Driver.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Connevtors/" tstamps="/5BA8C4E4/">
+      <title_block>
+        <title>TMC6100-EVAL</title>
+        <company>Trinamic OÜ</company>
+        <rev>1.2</rev>
+        <date>2019-10-28</date>
+        <source>Connevtors.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R26">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21189</field>
+        <field name="alt">RC0603FR-070RL</field>
+        <field name="manf_num">0603WAF0000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DA1AADD</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>100nF/50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="manf_num">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DA56FA6</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>0Ω</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF0000T5E_C21189.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21189</field>
+        <field name="alt">RC0603FR-070RL</field>
+        <field name="manf_num">0603WAF0000T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DAB36B7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>2,2uF/50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101411_FH-Guangdong-Fenghua-Advanced-Tech-0805F225M500NT_C49217.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C49217</field>
+        <field name="alt">UMK212BB7225KG-T</field>
+        <field name="manf_num">0805F225M500NT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DADB8FC</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nF/100V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/yago_s_a0003556389_1-2286781.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C106243</field>
+        <field name="manf_num">CC0805KKX7R0BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB0D3D6</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>2,2uF/50V</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101411_FH-Guangdong-Fenghua-Advanced-Tech-0805F225M500NT_C49217.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C49217</field>
+        <field name="alt">UMK212BB7225KG-T</field>
+        <field name="manf_num">0805F225M500NT</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>5DB0D99C</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>TMC6200-TA</value>
+      <footprint>Libraries:TMC6200-TA</footprint>
+      <datasheet>https://trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC6200_datasheet_Rev1.05.pdf</datasheet>
+      <fields>
+        <field name="Field5">TMC6200-TA</field>
+        <field name="JLCPCB BOM">No</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="TMC6200-TA-opm-inline-cache-opm-inline-rescue" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61BC2F39</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>22R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="manf_num">0603WAF220JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C5490F</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF100JT5E_C22859.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+        <field name="alt">AC0603FR-0710RL</field>
+        <field name="manf_num">0603WAF100JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C553B2</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>22R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="manf_num">0603WAF220JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C55F33</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>0R005/1%/1W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106062334_SART-Nanjing-Sart-Tech-SME12ABFR005T_C2692048.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2692048</field>
+        <field name="manf_num">SME12ABFR005T</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C5CFCB</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>0R005/1%/1W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106062334_SART-Nanjing-Sart-Tech-SME12ABFR005T_C2692048.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2692048</field>
+        <field name="manf_num">SME12ABFR005T</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C5DC5F</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>2.2uF/100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2010231635_Taiyo-Yuden-HMK325B7225KMHP_C385982.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C385982</field>
+        <field name="manf_num  ">HMK325B7225KMHP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C62AF0</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>470nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C519409</field>
+        <field name="alt">CC0603JRX7R7BB471</field>
+        <field name="manf_num">CC0603KRX7R7BB471</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61C4C1D6</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>22R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="manf_num">0603WAF220JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D8AF14</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF100JT5E_C22859.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+        <field name="alt">AC0603FR-0710RL</field>
+        <field name="manf_num">0603WAF100JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D8AF1E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>22R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="manf_num">0603WAF220JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D8AF28</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>0R005/1%/1W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106062334_SART-Nanjing-Sart-Tech-SME12ABFR005T_C2692048.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2692048</field>
+        <field name="manf_num">SME12ABFR005T</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D8AF32</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>0R005/1%/1W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106062334_SART-Nanjing-Sart-Tech-SME12ABFR005T_C2692048.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2692048</field>
+        <field name="manf_num">SME12ABFR005T</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D8AF3C</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>2.2uF/100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2010231635_Taiyo-Yuden-HMK325B7225KMHP_C385982.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C385982</field>
+        <field name="manf_num  ">HMK325B7225KMHP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D8AF6F</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>22R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="manf_num">0603WAF220JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D9B6BE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF100JT5E_C22859.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22859</field>
+        <field name="alt">AC0603FR-0710RL</field>
+        <field name="manf_num">0603WAF100JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D9B6C8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>22R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/szlcsc/Uniroyal-Elec-0603WAF220JT5E_C23345.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23345</field>
+        <field name="manf_num">0603WAF220JT5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D9B6D2</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>2.2uF/100V</value>
+      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2010231635_Taiyo-Yuden-HMK325B7225KMHP_C385982.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C385982</field>
+        <field name="manf_num  ">HMK325B7225KMHP</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61D9B6F4</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811082033_YAGEO-CC0603KRX7R0BB223_C313105.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C313105</field>
+        <field name="manf_num">CC0603KRX7R0BB223</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61DA87F1</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/yago_s_a0003556389_1-2286781.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C106243</field>
+        <field name="manf_num">CC0805KKX7R0BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61DA9103</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/yago_s_a0003556389_1-2286781.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C106243</field>
+        <field name="manf_num">CC0805KKX7R0BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61DABDB6</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>470nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C519409</field>
+        <field name="alt">CC0603JRX7R7BB471</field>
+        <field name="manf_num">CC0603KRX7R7BB471</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61DF7FEC</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>470nF/16V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/yago_s_a0011723860_1-2286802.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C519409</field>
+        <field name="alt">CC0603JRX7R7BB471</field>
+        <field name="manf_num">CC0603KRX7R7BB471</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61E12F9B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>0R005/1%/1W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106062334_SART-Nanjing-Sart-Tech-SME12ABFR005T_C2692048.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2692048</field>
+        <field name="manf_num">SME12ABFR005T</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61E48788</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>0R005/1%/1W</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2106062334_SART-Nanjing-Sart-Tech-SME12ABFR005T_C2692048.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2692048</field>
+        <field name="manf_num">SME12ABFR005T</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61E48BDE</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nF/50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://www.mouser.fi/datasheet/2/447/UPY_GPHC_X7R_6_3V_to_50V_20-1995650.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="manf_num">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61F37D7D</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>HYG025N06LS1C2</value>
+      <footprint>Libraries:PDFN-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="HYG025N06LS1C2" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61CBF26F</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>HYG025N06LS1C2</value>
+      <footprint>Libraries:PDFN-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="HYG025N06LS1C2" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61CDF1C7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>HYG025N06LS1C2</value>
+      <footprint>Libraries:PDFN-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="HYG025N06LS1C2" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61CE05AE</tstamp>
+    </comp>
+    <comp ref="Q6">
+      <value>HYG025N06LS1C2</value>
+      <footprint>Libraries:PDFN-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="HYG025N06LS1C2" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61CE16E2</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>HYG025N06LS1C2</value>
+      <footprint>Libraries:PDFN-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="HYG025N06LS1C2" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61CE29B9</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>HYG025N06LS1C2</value>
+      <footprint>Libraries:PDFN-8</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <libsource lib="opm-inline-rescue" part="HYG025N06LS1C2" description=""/>
+      <sheetpath names="/Motor Driver/" tstamps="/5D5FDD98/"/>
+      <tstamp>61CE42A8</tstamp>
+    </comp>
+    <comp ref="fid201">
+      <value>fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">No</field>
+      </fields>
+      <libsource lib="fiducual" part="fiducial-markings" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C6BBB15</tstamp>
+    </comp>
+    <comp ref="fid202">
+      <value>fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">No</field>
+      </fields>
+      <libsource lib="fiducual" part="fiducial-markings" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C6BC61F</tstamp>
+    </comp>
+    <comp ref="fid203">
+      <value>fiducial</value>
+      <footprint>Fiducial:Fiducial_0.5mm_Mask1mm</footprint>
+      <fields>
+        <field name="JLCPCB BOM">No</field>
+      </fields>
+      <libsource lib="fiducual" part="fiducial-markings" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C6BC9A9</tstamp>
+    </comp>
+    <comp ref="H202">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">No</field>
+      </fields>
+      <libsource lib="opm-cache" part="Mechanical_MountingHole_Pad" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C335D22</tstamp>
+    </comp>
+    <comp ref="H201">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.2mm_M3_Pad</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="JLCPCB BOM">No</field>
+      </fields>
+      <libsource lib="opm-cache" part="Mechanical_MountingHole_Pad" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>5C33535A</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TerminalBlock_3_P5.08mm</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-3_P5.08mm</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2336348.pdf</datasheet>
+      <libsource lib="opm-cache" part="Conector_library_Metz_31330103" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BF9A2A</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>1nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_TDK-CGA3E2X7R2A102KT0Y0N_C342905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C342905</field>
+        <field name="manf_num">CGA3E2X7R2A102KT0Y0N</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BF9A39</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>1nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_TDK-CGA3E2X7R2A102KT0Y0N_C342905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C342905</field>
+        <field name="manf_num">CGA3E2X7R2A102KT0Y0N</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BF9A45</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>1nF/100V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_TDK-CGA3E2X7R2A102KT0Y0N_C342905.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C342905</field>
+        <field name="manf_num">CGA3E2X7R2A102KT0Y0N</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BF9A51</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TerminalBlock_2_P5.08mm</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <libsource lib="opm-cache" part="Conector_library_Metz_31330102" description=""/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BFF192</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>330uF/63V</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C338235</field>
+        <field name="manf_num">63ZLH330MEFC10X23</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BFF3DC</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>330uF/63V</value>
+      <footprint>Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C338235</field>
+        <field name="manf_num">63ZLH330MEFC10X23</field>
+      </fields>
+      <libsource lib="Device" part="CP1" description="Polarized capacitor, US symbol"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61BFF3E8</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>VCC_IO</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C131337</field>
+        <field name="manf_num">B2B-PH-K-S(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C15679</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1000R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1001T5E_C21190.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C21190</field>
+        <field name="manf_num">0603WAF1001T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C181F6</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>19-217/GHC-YR1S2/3T</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="Info">Green</field>
+        <field name="LCSC">C72043</field>
+        <field name="manf_num">19-217/GHC-YR1S2/3T</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C197BC</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>150R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252030_UNI-ROYAL-Uniroyal-Elec-0603WAF1500T5E_C22808.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C22808</field>
+        <field name="manf_num">0603WAF1500T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C21201</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>19-217/GHC-YR1S2/3T</value>
+      <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf</datasheet>
+      <fields>
+        <field name="Info">Green</field>
+        <field name="LCSC">C72043</field>
+        <field name="manf_num">19-217/GHC-YR1S2/3T</field>
+      </fields>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C21218</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>4700R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="manf_num">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C017DA</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>4700R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="manf_num">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C01DF0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10000R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1810311113_Murata-Electronics-NCP18XH103F03RB_C13564.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C13564</field>
+        <field name="manf_num">NCP18XH103F03RB</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C0237B</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nF/50V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1809301912_YAGEO-CC0603KRX7R9BB104_C14663.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C14663</field>
+        <field name="manf_num">CC0603KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C02DDD</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Temperature</value>
+      <footprint>Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C131337</field>
+        <field name="manf_num">B2B-PH-K-S(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x02_Female" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C07AC4</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>PWMx6</value>
+      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C265365</field>
+        <field name="comment">copper when possible over brass</field>
+        <field name="manf_num">B6B-PH-KL(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C1AB87</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1000R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C3D61B</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>0R</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCPCB BOM">No</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C3DBA6</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>1500R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C53952</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>4700R/1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/2110252130_UNI-ROYAL-Uniroyal-Elec-0603WAF4701T5E_C23162.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C23162</field>
+        <field name="manf_num">0603WAF4701T5E</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C53C70</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Current Sensing</value>
+      <footprint>Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C131339</field>
+        <field name="manf_num">B3B-PH-K-S(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x03_Female" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C68D2F</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>SPI/Info</value>
+      <footprint>Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical</footprint>
+      <datasheet>https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C265365</field>
+        <field name="comment">copper when possible over brass</field>
+        <field name="manf_num">B6B-PH-KL(LF)(SN)</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x06_Female" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/Connevtors/" tstamps="/5BA8C4E4/"/>
+      <tstamp>61C4DAFD</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Female">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Female">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x06_Female">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06_Female</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="CP1">
+      <description>Polarized capacitor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="fiducual" part="fiducial-markings">
+      <fields>
+        <field name="Reference">fid</field>
+        <field name="Value">fiducial-markings</field>
+        <field name="Footprint">Fiducial:Fiducial_0.5mm_Dia_1mm_Outer</field>
+      </fields>
+    </libpart>
+    <libpart lib="opm-cache" part="Conector_library_Metz_31330102">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conector_library_Metz_31330102</field>
+        <field name="Footprint">Connector_library:Metz_31330102</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="opm-cache" part="Conector_library_Metz_31330103">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Conector_library_Metz_31330103</field>
+        <field name="Footprint">Connector_library:Metz_31330103</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="BiDi"/>
+        <pin num="2" name="~" type="BiDi"/>
+        <pin num="3" name="~" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="opm-cache" part="Mechanical_MountingHole_Pad">
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">Mechanical_MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="opm-inline-rescue" part="HYG025N06LS1C2">
+      <docs>https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf</docs>
+      <footprints>
+        <fp>PDFN8</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">HYG025N06LS1C2</field>
+        <field name="Footprint">PDFN-8</field>
+        <field name="LCSC">C2827231</field>
+        <field name="manf_num">HYG025N06LS1C2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+        <pin num="6" name="D" type="passive"/>
+        <pin num="7" name="D" type="passive"/>
+        <pin num="8" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="opm-inline-rescue" part="TMC6200-TA-opm-inline-cache-opm-inline-rescue">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">TMC6200-TA-opm-inline-cache-opm-inline-rescue</field>
+        <field name="Footprint">Trinamic:QFN-44-1EP_7x7mm_P0.5mm_EP4x4mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CU" type="unspc"/>
+        <pin num="3" name="LSW" type="unspc"/>
+        <pin num="4" name="LSV" type="unspc"/>
+        <pin num="5" name="LSU" type="unspc"/>
+        <pin num="6" name="12VOUT" type="unspc"/>
+        <pin num="7" name="5VOUT" type="unspc"/>
+        <pin num="8" name="GNDA" type="unspc"/>
+        <pin num="9" name="CURU" type="output"/>
+        <pin num="10" name="CURV" type="output"/>
+        <pin num="11" name="CURW" type="output"/>
+        <pin num="12" name="VOFS/TEST" type="output"/>
+        <pin num="13" name="CS/IDRV0" type="output"/>
+        <pin num="14" name="SCK/IDRV1" type="input"/>
+        <pin num="15" name="SDI/AMPLx10" type="input"/>
+        <pin num="16" name="SDO_SINGLE" type="BiDi"/>
+        <pin num="17" name="UH" type="input"/>
+        <pin num="18" name="UL" type="input"/>
+        <pin num="19" name="VCC_IO" type="unspc"/>
+        <pin num="20" name="VH" type="input"/>
+        <pin num="21" name="VL" type="input"/>
+        <pin num="22" name="WH" type="input"/>
+        <pin num="23" name="WL" type="input"/>
+        <pin num="24" name="CLK" type="input"/>
+        <pin num="25" name="SPE" type="input"/>
+        <pin num="26" name="FAULT" type="output"/>
+        <pin num="27" name="DRV_EN" type="input"/>
+        <pin num="29" name="VSA" type="unspc"/>
+        <pin num="30" name="CPO" type="unspc"/>
+        <pin num="32" name="CPI" type="unspc"/>
+        <pin num="33" name="VS" type="unspc"/>
+        <pin num="34" name="VCP" type="unspc"/>
+        <pin num="36" name="CW" type="unspc"/>
+        <pin num="37" name="HSW" type="unspc"/>
+        <pin num="38" name="W" type="unspc"/>
+        <pin num="39" name="WSENSE" type="unspc"/>
+        <pin num="41" name="VSENSE" type="unspc"/>
+        <pin num="42" name="V" type="unspc"/>
+        <pin num="43" name="HSV" type="unspc"/>
+        <pin num="44" name="CV" type="unspc"/>
+        <pin num="46" name="USENSE" type="unspc"/>
+        <pin num="47" name="U" type="unspc"/>
+        <pin num="48" name="HSU" type="unspc"/>
+        <pin num="EPAD" name="EPAD" type="unspc"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Connector.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="fiducual">
+      <uri>C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source/fiducial-markings.lib</uri>
+    </library>
+    <library logical="opm-cache">
+      <uri>C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source/opm-cache.lib</uri>
+    </library>
+    <library logical="opm-inline-rescue">
+      <uri>C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source/opm-inline-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="2" name="/SPI1_SCK">
+      <node ref="J1" pin="2"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+    <net code="3" name="/VSA">
+      <node ref="IC1" pin="29"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="4" name="/12Vout">
+      <node ref="C19" pin="1"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="5" name="/5Vout">
+      <node ref="R25" pin="1"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="7" name="/ADC_I_w">
+      <node ref="IC1" pin="11"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="9" name="/SPE">
+      <node ref="R23" pin="2"/>
+      <node ref="IC1" pin="25"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="10" name="/~CS_DRIVER">
+      <node ref="IC1" pin="13"/>
+      <node ref="J1" pin="1"/>
+    </net>
+    <net code="11" name="/SPI1_MISO">
+      <node ref="IC1" pin="16"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="12" name="/DRV_EN">
+      <node ref="IC1" pin="27"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="13" name="/SPI1_MOSI">
+      <node ref="J1" pin="3"/>
+      <node ref="IC1" pin="15"/>
+    </net>
+    <net code="14" name="/WL">
+      <node ref="IC1" pin="23"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="15" name="/VL">
+      <node ref="IC1" pin="21"/>
+      <node ref="J3" pin="3"/>
+    </net>
+    <net code="16" name="/UL">
+      <node ref="IC1" pin="18"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="17" name="/WH">
+      <node ref="J3" pin="2"/>
+      <node ref="IC1" pin="22"/>
+    </net>
+    <net code="18" name="/ADC_I_v">
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="19" name="/Connevtors/VCC">
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="20" name="/ADC_I_u">
+      <node ref="J6" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="21" name="/UH">
+      <node ref="J3" pin="6"/>
+      <node ref="IC1" pin="17"/>
+    </net>
+    <net code="22" name="/VH">
+      <node ref="J3" pin="4"/>
+      <node ref="IC1" pin="20"/>
+    </net>
+    <net code="23" name="/V">
+      <node ref="C12" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="24" name="/W">
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="26" name="/+Vcc_IO">
+      <node ref="C20" pin="1"/>
+      <node ref="IC1" pin="19"/>
+    </net>
+    <net code="28" name="/+VM">
+      <node ref="R25" pin="2"/>
+      <node ref="IC1" pin="33"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="Q5" pin="3"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="Q5" pin="2"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="U2" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="29" name="/U">
+      <node ref="C14" pin="1"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="30" name="GND">
+      <node ref="R18" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="Q6" pin="6"/>
+      <node ref="Q2" pin="5"/>
+      <node ref="Q2" pin="6"/>
+      <node ref="Q2" pin="7"/>
+      <node ref="Q2" pin="8"/>
+      <node ref="Q6" pin="5"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="Q6" pin="7"/>
+      <node ref="C10" pin="2"/>
+      <node ref="Q4" pin="6"/>
+      <node ref="Q4" pin="5"/>
+      <node ref="J2" pin="2"/>
+      <node ref="Q6" pin="8"/>
+      <node ref="C13" pin="2"/>
+      <node ref="Q4" pin="7"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC1" pin="EPAD"/>
+      <node ref="H201" pin="1"/>
+      <node ref="Q4" pin="8"/>
+      <node ref="R26" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="H202" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="R24" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R19" pin="1"/>
+    </net>
+    <net code="32" name="/Connevtors/Fault">
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R20" pin="1"/>
+    </net>
+    <net code="34" name="/Connevtors/VOFS">
+      <node ref="R21" pin="2"/>
+      <node ref="R22" pin="1"/>
+    </net>
+    <net code="35" name="/Connevtors/+VCC_IO">
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="36" name="/Connevtors/+VCC_IO">
+      <node ref="R21" pin="1"/>
+    </net>
+    <net code="37" name="/Connevtors/FAULT">
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="38" name="Net-(C17-Pad1)">
+      <node ref="C17" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J5" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="39" name="Net-(R16-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="40" name="Net-(R16-Pad1)">
+      <node ref="R16" pin="1"/>
+    </net>
+    <net code="41" name="/Connevtors/VCC_IO">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="42" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="IC1" pin="36"/>
+    </net>
+    <net code="43" name="Net-(Q5-Pad4)">
+      <node ref="R11" pin="1"/>
+      <node ref="Q5" pin="4"/>
+    </net>
+    <net code="44" name="Net-(IC1-Pad43)">
+      <node ref="R11" pin="2"/>
+      <node ref="IC1" pin="43"/>
+    </net>
+    <net code="45" name="Net-(Q6-Pad4)">
+      <node ref="Q6" pin="4"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="46" name="Net-(IC1-Pad4)">
+      <node ref="R13" pin="2"/>
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="47" name="Net-(R12-Pad1)">
+      <node ref="R12" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="48" name="Net-(Q3-Pad4)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q3" pin="4"/>
+    </net>
+    <net code="49" name="Net-(IC1-Pad37)">
+      <node ref="IC1" pin="37"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="50" name="Net-(Q4-Pad4)">
+      <node ref="Q4" pin="4"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="51" name="Net-(R10-Pad1)">
+      <node ref="R9" pin="1"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="52" name="Net-(IC1-Pad3)">
+      <node ref="R6" pin="2"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="53" name="Net-(IC1-Pad39)">
+      <node ref="R5" pin="2"/>
+      <node ref="IC1" pin="39"/>
+    </net>
+    <net code="54" name="Net-(Q1-Pad4)">
+      <node ref="Q1" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="55" name="Net-(Q2-Pad4)">
+      <node ref="Q2" pin="4"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="56" name="/Motor Driver/ADC_I_v">
+      <node ref="IC1" pin="10"/>
+    </net>
+    <net code="57" name="Net-(IC1-Pad24)">
+      <node ref="IC1" pin="24"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="58" name="Net-(IC1-Pad41)">
+      <node ref="IC1" pin="41"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="59" name="Net-(C6-Pad1)">
+      <node ref="Q5" pin="5"/>
+      <node ref="C6" pin="1"/>
+      <node ref="Q5" pin="6"/>
+      <node ref="Q5" pin="7"/>
+      <node ref="Q5" pin="8"/>
+      <node ref="R14" pin="2"/>
+      <node ref="Q6" pin="3"/>
+      <node ref="Q6" pin="2"/>
+      <node ref="Q6" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="IC1" pin="42"/>
+    </net>
+    <net code="60" name="Net-(IC1-Pad46)">
+      <node ref="IC1" pin="46"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="61" name="Net-(C4-Pad1)">
+      <node ref="Q1" pin="6"/>
+      <node ref="IC1" pin="47"/>
+      <node ref="Q1" pin="5"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="Q2" pin="1"/>
+      <node ref="Q1" pin="8"/>
+      <node ref="Q1" pin="7"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="Q2" pin="3"/>
+    </net>
+    <net code="62" name="Net-(IC1-Pad48)">
+      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="48"/>
+    </net>
+    <net code="63" name="Net-(IC1-Pad5)">
+      <node ref="R3" pin="2"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="64" name="Net-(IC1-Pad26)">
+      <node ref="IC1" pin="26"/>
+    </net>
+    <net code="65" name="Net-(C1-Pad1)">
+      <node ref="IC1" pin="30"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(C1-Pad2)">
+      <node ref="IC1" pin="32"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="67" name="Net-(C2-Pad2)">
+      <node ref="IC1" pin="34"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="68" name="Net-(R2-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="IC1" pin="44"/>
+    </net>
+    <net code="70" name="Net-(C4-Pad2)">
+      <node ref="IC1" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="71" name="Net-(C5-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="IC1" pin="38"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q3" pin="8"/>
+      <node ref="Q3" pin="7"/>
+      <node ref="Q3" pin="6"/>
+      <node ref="Q3" pin="5"/>
+      <node ref="Q4" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="72" name="/Motor Driver/VOFS">
+      <node ref="C10" pin="1"/>
+      <node ref="IC1" pin="12"/>
+    </net>
+  </nets>
+</export>
