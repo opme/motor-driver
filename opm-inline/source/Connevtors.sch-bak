@@ -141,7 +141,7 @@ U 1 1 61BF9A2A
 P 2400 2700
 F 0 "U3" H 2400 2950 39  0000 C CNN
 F 1 "TerminalBlock_3_P5.08mm" H 2400 2900 39  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-3_P5.08mm" H 2400 2350 39  0001 C CNN
+F 2 "Libraries:TerminalBlock_bornier-3_P5.08mm" H 2400 2350 39  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2336348.pdf" H 2450 2650 39  0001 C CNN
 	1    2400 2700
 	1    0    0    -1  
@@ -257,7 +257,7 @@ U 1 1 61BFF192
 P 1500 1300
 F 0 "U2" H 1500 1100 39  0000 C CNN
 F 1 "TerminalBlock_2_P5.08mm" H 1500 1150 39  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 1500 1150 39  0001 C CNN
+F 2 "Libraries:TerminalBlock_bornier-2_P5.08mm" H 1500 1150 39  0001 C CNN
 F 3 "" H 1550 1300 39  0001 C CNN
 	1    1500 1300
 	-1   0    0    1   
