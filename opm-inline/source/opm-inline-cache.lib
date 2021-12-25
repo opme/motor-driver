@@ -154,19 +154,6 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# fiducual_fiducial-markings
-#
-DEF fiducual_fiducial-markings fid 0 40 Y Y 1 F N
-F0 "fid" 0 -75 39 H V C CNN
-F1 "fiducual_fiducial-markings" 0 75 39 H V C CNN
-F2 "Fiducial:Fiducial_0.5mm_Dia_1mm_Outer" 0 0 39 H I C CNN
-F3 "" 0 0 39 H I C CNN
-DRAW
-C 0 0 25 0 1 0 f
-C 0 0 50 0 1 0 N
-ENDDRAW
-ENDDEF
-#
 # opm-cache_Conector_library_Metz_31330102
 #
 DEF opm-cache_Conector_library_Metz_31330102 U 0 40 Y Y 1 F N
