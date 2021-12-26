@@ -3192,9 +3192,9 @@
     )
   )
 
-  (gr_line (start 130.31 66.64) (end 187.96 66.64) (layer Edge.Cuts) (width 0.1))
-  (gr_line (start 130.31 106.68) (end 130.31 66.64) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 130.01 66.64) (end 187.96 66.64) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 130.01 106.63) (end 130.01 66.64) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 187.96 66.64) (end 187.96 106.68) (layer Edge.Cuts) (width 0.1) (tstamp 61C574E6))
-  (gr_line (start 187.96 106.68) (end 130.31 106.68) (layer Edge.Cuts) (width 0.1))
+  (gr_line (start 187.96 106.63) (end 130.01 106.63) (layer Edge.Cuts) (width 0.1))
 
 )
