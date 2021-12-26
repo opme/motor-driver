@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name SOT95P280X145-5N)(type KiCad)(uri ${KIPRJMOD}/Libraries/SOT95P280X145-5N.kicad_mod)(options "")(descr ""))
-  (lib (name Libraries)(type KiCad)(uri ${KIPRJMOD}/Libraries.pretty)(options "")(descr ""))
+  (lib (name Libraries)(type KiCad)(uri ${KIPRJMOD}/Libraries)(options "")(descr ""))
 )
