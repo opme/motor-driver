@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source\opm-inline.sch)
-    (date "26.12.2021 14.50.49")
+    (date "26.12.2021 15.00.44")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
