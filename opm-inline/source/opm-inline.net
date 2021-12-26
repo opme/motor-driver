@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source\opm-inline.sch)
-    (date "26.12.2021 15.00.44")
+    (date "26.12.2021 19.49.51")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -298,6 +298,13 @@
       (libsource (lib Connector) (part Conn_01x06_Female) (description "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"))
       (sheetpath (names /Connectors/) (tstamps /5BA8C4E4/))
       (tstamp 61C4DAFD))
+    (comp (ref HS1)
+      (value Heatsink)
+      (footprint Libraries:Heatsink_30x30mm_2xFixation3mm)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part Heatsink) (description Heatsink))
+      (sheetpath (names /Connectors/) (tstamps /5BA8C4E4/))
+      (tstamp 61CA5775))
     (comp (ref R26)
       (value 0R)
       (footprint Resistor_SMD:R_0603_1608Metric)
@@ -331,7 +338,7 @@
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 5DAB36B7))
     (comp (ref C13)
-      (value 2,2uF/50V)
+      (value 2.2uF/50V)
       (footprint Capacitor_SMD:C_0805_2012Metric)
       (datasheet https://datasheet.lcsc.com/lcsc/1811101411_FH-Guangdong-Fenghua-Advanced-Tech-0805F225M500NT_C49217.pdf)
       (fields
@@ -352,7 +359,7 @@
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 5DB0D3D6))
     (comp (ref C19)
-      (value 2,2uF/50V)
+      (value 2.2uF/50V)
       (footprint Capacitor_SMD:C_0805_2012Metric)
       (datasheet https://datasheet.lcsc.com/lcsc/1811101411_FH-Guangdong-Fenghua-Advanced-Tech-0805F225M500NT_C49217.pdf)
       (fields
@@ -773,6 +780,14 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib Mechanical) (part Heatsink)
+      (description Heatsink)
+      (docs ~)
+      (footprints
+        (fp Heatsink_*))
+      (fields
+        (field (name Reference) HS)
+        (field (name Value) Heatsink)))
     (libpart (lib opm-cache) (part Conector_library_Metz_31330102)
       (fields
         (field (name Reference) U)
@@ -871,6 +886,8 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
+    (library (logical Mechanical)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))
     (library (logical opm-cache)
       (uri C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source/opm-cache.lib))
     (library (logical opm-inline-rescue)
