@@ -6,10 +6,10 @@
     <tool>Eeschema (5.1.12)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>TMC6100-EVAL</title>
-        <company>Trinamic OÜ</company>
-        <rev>1.2</rev>
-        <date>2019-10-28</date>
+        <title>opm-inline</title>
+        <company>Overpowered Mechanisms</company>
+        <rev>1</rev>
+        <date>2021-12-26</date>
         <source>opm-inline.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -19,24 +19,24 @@
     </sheet>
     <sheet number="2" name="/Motor Driver/" tstamps="/5D5FDD98/">
       <title_block>
-        <title>TMC6100-EVAL</title>
-        <company>Trinamic OÜ</company>
-        <rev>1.2</rev>
-        <date>2019-10-28</date>
-        <source>Motor Driver.sch</source>
+        <title>opm-inline</title>
+        <company>Overpowered Mechanisms</company>
+        <rev>1</rev>
+        <date>2021-12-26</date>
+        <source>MotorDriver.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
         <comment number="4" value=""/>
       </title_block>
     </sheet>
-    <sheet number="3" name="/Connevtors/" tstamps="/5BA8C4E4/">
+    <sheet number="3" name="/Connectors/" tstamps="/5BA8C4E4/">
       <title_block>
-        <title>TMC6100-EVAL</title>
-        <company>Trinamic OÜ</company>
-        <rev>1.2</rev>
-        <date>2019-10-28</date>
-        <source>Connevtors.sch</source>
+        <title>opm-inline</title>
+        <company>Overpowered Mechanisms</company>
+        <rev>1</rev>
+        <date>2021-12-26</date>
+        <source>Overpowered Mechanisms</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
