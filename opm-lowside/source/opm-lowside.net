@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ext-michael.shamberg\git\motor-driver\opm-lowside\source\opm-lowside.sch)
-    (date "26.12.2021 16.35.44")
+    (date "26.12.2021 20.39.57")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -310,6 +310,13 @@
       (libsource (lib Device) (part CP1) (description "Polarized capacitor, US symbol"))
       (sheetpath (names /Connectors/) (tstamps /5BA8C4E4/))
       (tstamp 61C9FE15))
+    (comp (ref HS1)
+      (value Heatsink)
+      (footprint Libraries:Heatsink_30x30mm_2xFixation3mm)
+      (datasheet ~)
+      (libsource (lib Mechanical) (part Heatsink) (description Heatsink))
+      (sheetpath (names /Connectors/) (tstamps /5BA8C4E4/))
+      (tstamp 61D1CBEC))
     (comp (ref C17)
       (value 2,2μF/100V)
       (footprint Capacitor_SMD:C_1210_3225Metric)
@@ -923,6 +930,14 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib Mechanical) (part Heatsink)
+      (description Heatsink)
+      (docs ~)
+      (footprints
+        (fp Heatsink_*))
+      (fields
+        (field (name Reference) HS)
+        (field (name Value) Heatsink)))
     (libpart (lib amplifier) (part INA180A3IDBVR)
       (fields
         (field (name Reference) U)
@@ -1019,6 +1034,8 @@
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Connector.lib"))
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
+    (library (logical Mechanical)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Mechanical.lib"))
     (library (logical amplifier)
       (uri C:\Users\ext-michael.shamberg\git\motor-driver\opm-lowside\source/INA180A3IDBVR.lib))
     (library (logical opm-cache)

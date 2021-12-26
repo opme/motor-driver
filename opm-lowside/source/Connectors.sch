@@ -796,4 +796,25 @@ Wire Wire Line
 Connection ~ 1150 1250
 Wire Wire Line
 	1150 1250 1550 1250
+Wire Notes Line
+	6400 750  6400 2150
+Wire Notes Line
+	6400 2150 7400 2150
+Wire Notes Line
+	7400 2150 7400 750 
+Wire Notes Line
+	7400 750  6400 750 
+Text Notes 6450 950  0    79   ~ 0
+Heat Sink
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 61D1CBEC
+P 6850 1500
+F 0 "HS1" H 6992 1621 50  0000 L CNN
+F 1 "Heatsink" H 6992 1530 50  0000 L CNN
+F 2 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 6862 1500 50  0001 C CNN
+F 3 "~" H 6862 1500 50  0001 C CNN
+	1    6850 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
