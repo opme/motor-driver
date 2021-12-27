@@ -817,4 +817,25 @@ F 3 "~" H 6862 1500 50  0001 C CNN
 	1    6850 1500
 	1    0    0    -1  
 $EndComp
+Wire Notes Line
+	7500 750  7500 2150
+Wire Notes Line
+	7500 2150 8500 2150
+Wire Notes Line
+	8500 2150 8500 750 
+Wire Notes Line
+	8500 750  7500 750 
+Text Notes 7550 950  0    79   ~ 0
+Fan
+$Comp
+L Motor:Fan M1
+U 1 1 61D527C4
+P 7950 1450
+F 0 "M1" H 8108 1546 50  0000 L CNN
+F 1 "Fan" H 8108 1455 50  0000 L CNN
+F 2 "Libraries:Fan_3010" H 7950 1460 50  0001 C CNN
+F 3 "~" H 7950 1460 50  0001 C CNN
+	1    7950 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
