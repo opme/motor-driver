@@ -3177,7 +3177,7 @@
     )
   )
 
-  (module Libraries:Heatsink_30x30mm_2xFixation3mm (layer F.Cu) (tedit 61C8AC8D) (tstamp 61C902B4)
+  (module Libraries:Heatsink_30x30mm_2xFixation3mm (layer F.Cu) (tedit 61C8ACE8) (tstamp 61C902B4)
     (at 144.78 106.68)
     (descr "Heatsink, 62 x 40mm, 2x 3mm Drills,")
     (tags heatsink)
@@ -3289,7 +3289,7 @@
     (pad 1 thru_hole circle (at 26.67 -26.67) (size 6.49732 6.49732) (drill 3.0988) (layers *.Cu *.Mask))
     (pad 1 thru_hole circle (at 3.81 -3.81) (size 6.49732 6.49732) (drill 3.0988) (layers *.Cu *.Mask))
     (model ${KIPRJMOD}/Libraries/lpd30-20.step
-      (offset (xyz 15 15 2))
+      (offset (xyz 15 15 1))
       (scale (xyz 1 1 1))
       (rotate (xyz -90 0 0))
     )
