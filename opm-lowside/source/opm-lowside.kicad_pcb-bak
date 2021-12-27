@@ -373,7 +373,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C936C9)
-    (at 132.58 102.87)
+    (at 132.58 102.67)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61BFF3DC)
@@ -3756,7 +3756,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C95471)
-    (at 132.85 92.21)
+    (at 132.55 92.21)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61C9E9C9)
@@ -3784,7 +3784,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C9547B)
-    (at 132.58 70.92)
+    (at 132.58 71.02)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61C9F5FE)
@@ -3840,7 +3840,7 @@
   )
 
   (module Libraries:Heatsink_30x30mm_2xFixation3mm (layer F.Cu) (tedit 61C8ACE8) (tstamp 61C9943C)
-    (at 146.05 106.68)
+    (at 143.51 106.68)
     (descr "Heatsink, 62 x 40mm, 2x 3mm Drills,")
     (tags heatsink)
     (path /5BA8C4E4/61D1CBEC)
@@ -3958,7 +3958,7 @@
   )
 
   (module Libraries:Fan_3010 (layer F.Cu) (tedit 61C9B92E) (tstamp 61CA1BB7)
-    (at 146.05 106.68)
+    (at 143.51 106.68)
     (descr "fan 3010")
     (tags heatsink)
     (path /5BA8C4E4/61D527C4)

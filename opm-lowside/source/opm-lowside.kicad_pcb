@@ -373,7 +373,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C936C9)
-    (at 132.58 102.87)
+    (at 132.58 102.57)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61BFF3DC)
@@ -3756,7 +3756,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C95471)
-    (at 132.85 92.21)
+    (at 132.55 92.01)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61C9E9C9)
@@ -3784,7 +3784,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C9547B)
-    (at 132.58 70.92)
+    (at 132.58 71.02)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61C9F5FE)
