@@ -8,4 +8,4 @@ kikit panelize \
     --fiducials '3fid; hoffset: 2mm; voffset: 5mm; coppersize: 2mm; opening: 1mm;' \
     --post 'millradius: 1mm' \
     --source 'tolerance: 20mm' \
-    source/opm-inline.kicad_pcb panel.opm-inline.kicad_pcb
+    source/opm-lowside.kicad_pcb panel.opm-lowside.kicad_pcb
