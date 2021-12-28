@@ -40,8 +40,8 @@ P 2400 2700
 F 0 "U2" H 2400 2950 39  0000 C CNN
 F 1 "TerminalBlock_3_P5.08mm" H 2400 2900 39  0000 C CNN
 F 2 "Libraries:TerminalBlock_bornier-3_P5.08mm" H 2400 2350 39  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1912251709_Ningbo-Kangnex-Elec-WJ500V-5-08-3P_C72334.pdf" H 2450 2650 39  0001 C CNN
-F 4 "C72334" H 2400 2700 50  0001 C CNN "LCSC"
+F 3 "" H 2450 2650 39  0001 C CNN
+F 4 "" H 2400 2700 50  0001 C CNN "LCSC"
 F 5 "WJ500V-5.08-3P" H 2400 2700 50  0001 C CNN "manf_num"
 	1    2400 2700
 	1    0    0    -1  

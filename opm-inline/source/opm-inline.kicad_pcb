@@ -12,6 +12,8 @@
   (page A4)
   (layers
     (0 F.Cu signal)
+    (1 In1.Cu signal)
+    (2 In2.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -635,7 +637,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DA35)
-    (at 148.095 100.33)
+    (at 146.825 83.82)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/61F37D7D)
@@ -779,7 +781,7 @@
   )
 
   (module Capacitor_SMD:C_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DADC)
-    (at 161.76 104.145 270)
+    (at 156.68 82.555 270)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5BA8C4E4/61C02DDD)
@@ -1644,7 +1646,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF33)
-    (at 158.305 104.14 270)
+    (at 153.225 82.55 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C0237B)
@@ -1680,7 +1682,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C166D9)
-    (at 160.02 104.14 270)
+    (at 154.94 82.55 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C01DF0)
@@ -1716,7 +1718,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF55)
-    (at 163.53 104.14 270)
+    (at 158.45 82.55 270)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C017DA)
@@ -1752,7 +1754,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C17CEC)
-    (at 158.305 81.28)
+    (at 165.1 77.47)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C181F6)
@@ -1788,7 +1790,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF77)
-    (at 158.305 80.01)
+    (at 161.29 77.47)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C21201)
@@ -1824,7 +1826,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF88)
-    (at 140.525 99.46)
+    (at 140.525 100.73)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C3D61B)
@@ -1860,7 +1862,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DF99)
-    (at 140.525 97.79)
+    (at 140.525 99.06)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C3DBA6)
@@ -1896,7 +1898,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DFAA)
-    (at 140.525 101.13)
+    (at 140.525 102.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C53952)
@@ -1932,7 +1934,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C0DFBB)
-    (at 144.335 97.79)
+    (at 143.51 102.4)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5BA8C4E4/61C53C70)
@@ -1968,7 +1970,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C0F212)
-    (at 144.78 71.89)
+    (at 160.02 71.12)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61BFF3DC)
@@ -1996,7 +1998,7 @@
   )
 
   (module Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm (layer F.Cu) (tedit 5BC5C9BA) (tstamp 61C0F21B)
-    (at 133.35 71.89)
+    (at 148.59 71.12)
     (descr "C, Radial series, Radial, pin pitch=5.00mm, diameter=10mm, height=20mm, Non-Polar Electrolytic Capacitor")
     (tags "C Radial series Radial pin pitch 5.00mm diameter 10mm height 20mm Non-Polar Electrolytic Capacitor")
     (path /5BA8C4E4/61BFF3E8)
@@ -2060,7 +2062,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C17524)
-    (at 144.46 102.87)
+    (at 144.46 97.79)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/5DB0D3D6)
@@ -2096,7 +2098,7 @@
   )
 
   (module Capacitor_SMD:C_0805_2012Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C17535)
-    (at 144.46 100.33)
+    (at 147 82.05)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags capacitor)
     (path /5D5FDD98/5DB0D99C)
@@ -2204,7 +2206,7 @@
   )
 
   (module Resistor_SMD:R_0603_1608Metric (layer F.Cu) (tedit 5F68FEEE) (tstamp 61C17568)
-    (at 140.525 102.87)
+    (at 140.525 97.49)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags resistor)
     (path /5D5FDD98/5DA1AADD)
@@ -2564,7 +2566,7 @@
   )
 
   (module Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical (layer F.Cu) (tedit 5B7745C2) (tstamp 61C55212)
-    (at 154.94 73.66)
+    (at 133.35 73.66)
     (descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH side entry")
     (path /5BA8C4E4/61C4DAFD)
@@ -2648,7 +2650,7 @@
   )
 
   (module Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical (layer F.Cu) (tedit 5B7745C2) (tstamp 61C55450)
-    (at 154.94 68.58)
+    (at 133.35 68.58)
     (descr "JST PH series connector, B6B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator")
     (tags "connector JST PH side entry")
     (path /5BA8C4E4/61C1AB87)
@@ -3182,6 +3184,7 @@
     (descr "Heatsink, 62 x 40mm, 2x 3mm Drills,")
     (tags heatsink)
     (path /5BA8C4E4/61CA5775)
+    (attr virtual)
     (fp_text reference HS1 (at 27.686 -34.417) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
