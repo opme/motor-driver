@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source\opm-inline.sch)
-    (date "28.12.2021 22.51.36")
+    (date "29.12.2021 8.40.26")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -39,7 +39,7 @@
   (components
     (comp (ref H202)
       (value MountingHole)
-      (footprint MountingHole:MountingHole_3.2mm_M3_DIN965_Pad)
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via)
       (datasheet ~)
       (fields
         (field (name "JLCPCB BOM") No))
@@ -48,7 +48,7 @@
       (tstamp 5C335D22))
     (comp (ref H201)
       (value MountingHole)
-      (footprint MountingHole:MountingHole_3.2mm_M3_DIN965_Pad)
+      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via)
       (datasheet ~)
       (fields
         (field (name "JLCPCB BOM") No))

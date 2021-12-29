@@ -49,7 +49,7 @@ AR Path="/5C335D22" Ref="H202"  Part="1"
 AR Path="/5BA8C4E4/5C335D22" Ref="H202"  Part="1" 
 F 0 "H202" V 6750 1450 39  0000 L CNN
 F 1 "MountingHole" V 6800 1450 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1300 39  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6800 1300 39  0001 C CNN
 F 3 "~" H 6800 1300 39  0001 C CNN
 F 4 "No" V 6800 1300 50  0001 C CNN "JLCPCB BOM"
 	1    6800 1300
@@ -63,7 +63,7 @@ AR Path="/5C33535A" Ref="H201"  Part="1"
 AR Path="/5BA8C4E4/5C33535A" Ref="H201"  Part="1" 
 F 0 "H201" V 6750 1250 39  0000 L CNN
 F 1 "MountingHole" V 6800 1250 39  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 6800 1100 39  0001 C CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 6800 1100 39  0001 C CNN
 F 3 "~" H 6800 1100 39  0001 C CNN
 F 4 "No" V 6800 1100 50  0001 C CNN "JLCPCB BOM"
 	1    6800 1100
