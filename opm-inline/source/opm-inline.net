@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:\Users\ext-michael.shamberg\git\motor-driver\opm-inline\source\opm-inline.sch)
-    (date "29.12.2021 8.40.26")
+    (date "30.12.2021 11.04.11")
     (tool "Eeschema (5.1.12)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -39,7 +39,7 @@
   (components
     (comp (ref H202)
       (value MountingHole)
-      (footprint MountingHole:MountingHole_3.2mm_M3_Pad_Via)
+      (footprint MountingHole:MountingHole_3mm_Pad)
       (datasheet ~)
       (fields
         (field (name "JLCPCB BOM") No))
@@ -632,7 +632,7 @@
       (fields
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))
-      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2) (description ""))
+      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue) (description ""))
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 61CBF26F))
     (comp (ref Q1)
@@ -642,7 +642,7 @@
       (fields
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))
-      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2) (description ""))
+      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue) (description ""))
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 61CDF1C7))
     (comp (ref Q3)
@@ -652,7 +652,7 @@
       (fields
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))
-      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2) (description ""))
+      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue) (description ""))
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 61CE05AE))
     (comp (ref Q6)
@@ -662,7 +662,7 @@
       (fields
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))
-      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2) (description ""))
+      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue) (description ""))
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 61CE16E2))
     (comp (ref Q5)
@@ -672,7 +672,7 @@
       (fields
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))
-      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2) (description ""))
+      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue) (description ""))
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 61CE29B9))
     (comp (ref Q4)
@@ -682,7 +682,7 @@
       (fields
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))
-      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2) (description ""))
+      (libsource (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue) (description ""))
       (sheetpath (names "/Motor Driver/") (tstamps /5D5FDD98/))
       (tstamp 61CE42A8))
     (comp (ref C7)
@@ -813,13 +813,12 @@
         (field (name Value) Mechanical_MountingHole_Pad))
       (pins
         (pin (num 1) (name 1) (type input))))
-    (libpart (lib opm-inline-rescue) (part HYG025N06LS1C2)
-      (docs https://datasheet.lcsc.com/lcsc/2105242011_HUAYI-HYG025N06LS1C2_C2827231.pdf)
+    (libpart (lib opm-inline-rescue) (part HYG025N06LS1C2-opm-inline-rescue)
       (footprints
         (fp PDFN8))
       (fields
         (field (name Reference) Q)
-        (field (name Value) HYG025N06LS1C2)
+        (field (name Value) HYG025N06LS1C2-opm-inline-rescue)
         (field (name Footprint) PDFN-8)
         (field (name LCSC) C2827231)
         (field (name manf_num) HYG025N06LS1C2))

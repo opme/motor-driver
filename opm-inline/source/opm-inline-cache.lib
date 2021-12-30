@@ -220,11 +220,11 @@ X 1 1 0 -100 100 U 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# opm-inline-rescue_HYG025N06LS1C2
+# opm-inline-rescue_HYG025N06LS1C2-opm-inline-rescue
 #
-DEF opm-inline-rescue_HYG025N06LS1C2 Q 0 20 Y N 1 F N
+DEF opm-inline-rescue_HYG025N06LS1C2-opm-inline-rescue Q 0 20 Y N 1 F N
 F0 "Q" 50 75 39 H V L CNN
-F1 "opm-inline-rescue_HYG025N06LS1C2" 100 50 39 H V L CNN
+F1 "opm-inline-rescue_HYG025N06LS1C2-opm-inline-rescue" 100 50 39 H V L CNN
 F2 "PDFN-8" 100 0 39 H I L CIN
 F3 "" -100 0 50 V I L CNN
 F4 "C2827231" 0 0 50 H I C CNN "LCSC"

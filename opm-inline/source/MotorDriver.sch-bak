@@ -931,9 +931,11 @@ ADC_I_w
 Wire Wire Line
 	5600 2000 7150 2000
 $Comp
-L opm-inline-rescue:HYG025N06LS1C2 Q2
+L opm-inline-rescue:HYG025N06LS1C2-opm-inline-rescue Q2
 U 1 1 61CBF26F
 P 7150 2600
+AR Path="/61CBF26F" Ref="Q2"  Part="1" 
+AR Path="/5D5FDD98/61CBF26F" Ref="Q2"  Part="1" 
 F 0 "Q2" H 7350 2638 39  0000 L CNN
 F 1 "HYG025N06LS1C2" H 7350 2563 39  0000 L CNN
 F 2 "Libraries:PDFN-8" H 7250 2600 39  0001 L CNN
@@ -964,9 +966,11 @@ Wire Wire Line
 Wire Wire Line
 	7000 1350 7150 1350
 $Comp
-L opm-inline-rescue:HYG025N06LS1C2 Q1
+L opm-inline-rescue:HYG025N06LS1C2-opm-inline-rescue Q1
 U 1 1 61CDF1C7
 P 7150 1800
+AR Path="/61CDF1C7" Ref="Q1"  Part="1" 
+AR Path="/5D5FDD98/61CDF1C7" Ref="Q1"  Part="1" 
 F 0 "Q1" H 7350 1838 39  0000 L CNN
 F 1 "HYG025N06LS1C2" H 7350 1763 39  0000 L CNN
 F 2 "Libraries:PDFN-8" H 7250 1800 39  0001 L CIN
@@ -980,9 +984,11 @@ Connection ~ 7150 2000
 Wire Wire Line
 	7000 4150 7150 4150
 $Comp
-L opm-inline-rescue:HYG025N06LS1C2 Q3
+L opm-inline-rescue:HYG025N06LS1C2-opm-inline-rescue Q3
 U 1 1 61CE05AE
 P 7150 4600
+AR Path="/61CE05AE" Ref="Q3"  Part="1" 
+AR Path="/5D5FDD98/61CE05AE" Ref="Q3"  Part="1" 
 F 0 "Q3" H 7350 4638 39  0000 L CNN
 F 1 "HYG025N06LS1C2" H 7350 4563 39  0000 L CNN
 F 2 "Libraries:PDFN-8" H 7250 4600 39  0001 L CIN
@@ -993,9 +999,11 @@ F 5 "HYG025N06LS1C2" H 7150 4600 50  0001 C CNN "manf_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-rescue:HYG025N06LS1C2 Q6
+L opm-inline-rescue:HYG025N06LS1C2-opm-inline-rescue Q6
 U 1 1 61CE16E2
 P 8800 3900
+AR Path="/61CE16E2" Ref="Q6"  Part="1" 
+AR Path="/5D5FDD98/61CE16E2" Ref="Q6"  Part="1" 
 F 0 "Q6" H 9000 3938 39  0000 L CNN
 F 1 "HYG025N06LS1C2" H 9000 3863 39  0000 L CNN
 F 2 "Libraries:PDFN-8" H 8900 3900 39  0001 L CIN
@@ -1006,9 +1014,11 @@ F 5 "HYG025N06LS1C2" H 8800 3900 50  0001 C CNN "manf_num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L opm-inline-rescue:HYG025N06LS1C2 Q5
+L opm-inline-rescue:HYG025N06LS1C2-opm-inline-rescue Q5
 U 1 1 61CE29B9
 P 8800 3100
+AR Path="/61CE29B9" Ref="Q5"  Part="1" 
+AR Path="/5D5FDD98/61CE29B9" Ref="Q5"  Part="1" 
 F 0 "Q5" H 9000 3138 39  0000 L CNN
 F 1 "HYG025N06LS1C2" H 9000 3063 39  0000 L CNN
 F 2 "Libraries:PDFN-8" H 8900 3100 39  0001 L CIN
@@ -1020,9 +1030,11 @@ F 5 "HYG025N06LS1C2" H 8800 3100 50  0001 C CNN "manf_num"
 $EndComp
 Connection ~ 8800 3300
 $Comp
-L opm-inline-rescue:HYG025N06LS1C2 Q4
+L opm-inline-rescue:HYG025N06LS1C2-opm-inline-rescue Q4
 U 1 1 61CE42A8
 P 7150 5400
+AR Path="/61CE42A8" Ref="Q4"  Part="1" 
+AR Path="/5D5FDD98/61CE42A8" Ref="Q4"  Part="1" 
 F 0 "Q4" H 7350 5438 39  0000 L CNN
 F 1 "HYG025N06LS1C2" H 7350 5363 39  0000 L CNN
 F 2 "Libraries:PDFN-8" H 7250 5400 39  0001 L CIN
