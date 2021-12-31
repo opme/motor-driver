@@ -571,7 +571,7 @@ F 6 "copper when possible over brass" H 2600 4700 50  0001 C CNN "comment"
 	1    0    0    -1  
 $EndComp
 Text HLabel 1050 4450 2    39   Output ~ 0
-VCC_IO
++VCC_IO
 $Comp
 L power:GND #PWR0110
 U 1 1 61C4650E
