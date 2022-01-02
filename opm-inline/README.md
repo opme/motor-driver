@@ -2,6 +2,10 @@
 
 This motor driver uses inline current sensing.  The driver chip built in current sensing.
 
+# Diagram
+
+![Layout](./layout.png)
+
 
 # TMC6200 Gate Driver
 
