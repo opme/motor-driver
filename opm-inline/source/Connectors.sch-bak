@@ -413,7 +413,7 @@ F 6 "19-217/GHC-YR1S2/3T" H 5300 3000 50  0001 C CNN "manf_num"
 	-1   0    0    1   
 $EndComp
 Text HLabel 4100 3000 0    50   Input ~ 0
-Fault
+FAULT
 Wire Wire Line
 	4700 3000 5150 3000
 Wire Wire Line
@@ -486,23 +486,8 @@ F 5 "CC0603KRX7R9BB104" H 4700 5400 50  0001 C CNN "manf_num"
 	1    4700 5400
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector:Conn_01x02_Female J5
-U 1 1 61C07AC4
-P 5650 5150
-F 0 "J5" H 5400 5200 50  0000 L CNN
-F 1 "Temperature" H 5700 5150 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5650 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf" H 5650 5150 50  0001 C CNN
-F 4 "C131337" H 5650 5150 50  0001 C CNN "LCSC"
-F 5 "B2B-PH-K-S(LF)(SN)" H 5650 5150 50  0001 C CNN "manf_num"
-	1    5650 5150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3800 4650 3800 4400
-Wire Wire Line
-	5450 5150 4700 5150
 Wire Wire Line
 	3800 4950 3800 5150
 Connection ~ 3800 5150
@@ -510,7 +495,6 @@ Wire Wire Line
 	3800 5150 3800 5250
 Wire Wire Line
 	4700 5250 4700 5150
-Connection ~ 4700 5150
 Wire Wire Line
 	4700 5150 3800 5150
 $Comp
@@ -535,27 +519,10 @@ F 3 "" H 4700 5650 50  0001 C CNN
 	1    4700 5650
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0109
-U 1 1 61C0E704
-P 5350 5650
-F 0 "#PWR0109" H 5350 5400 39  0001 C CNN
-F 1 "GND" H 5350 5500 39  0000 C CNN
-F 2 "" H 5350 5650 50  0001 C CNN
-F 3 "" H 5350 5650 50  0001 C CNN
-	1    5350 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5450 5250 5350 5250
-Wire Wire Line
-	5350 5250 5350 5650
 Wire Wire Line
 	4700 5550 4700 5650
 Wire Wire Line
 	3800 5550 3800 5650
-Text Notes 3850 5100 0    39   ~ 0
-Temperature
 $Comp
 L Connector:Conn_01x06_Female J3
 U 1 1 61C1AB87
@@ -774,11 +741,11 @@ F 6 "copper when possible over brass" H 1600 5500 50  0001 C CNN "comment"
 	1    0    0    -1  
 $EndComp
 Text HLabel 1400 5600 0    50   Input ~ 0
-SPI1_MISO
+FAULT
 Text HLabel 1400 5700 0    50   Input ~ 0
 DRV_EN
 Text HLabel 1400 5800 0    50   Input ~ 0
-FAULT
+TEMP_PCB
 Text HLabel 1400 5400 0    50   Input ~ 0
 SPI1_SCK
 Text HLabel 1400 5300 0    50   Input ~ 0
@@ -808,4 +775,49 @@ F 3 "~" H 7962 1550 50  0001 C CNN
 $EndComp
 Text HLabel 3800 4100 2    31   Input ~ 0
 +VCC_IO
+Wire Notes Line
+	3500 7700 6300 7700
+Wire Notes Line
+	6300 7700 6300 6200
+Wire Notes Line
+	6300 6200 3500 6200
+Wire Notes Line
+	3500 6200 3500 7700
+$Comp
+L Connector:Conn_01x02_Female J4
+U 1 1 61EB9C93
+P 5650 6700
+F 0 "J4" H 5400 6750 50  0000 L CNN
+F 1 "Fan" H 5700 6700 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 5650 6700 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf" H 5650 6700 50  0001 C CNN
+F 4 "C131337" H 5650 6700 50  0001 C CNN "LCSC"
+F 5 "B2B-PH-K-S(LF)(SN)" H 5650 6700 50  0001 C CNN "manf_num"
+	1    5650 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6700 4700 6700
+$Comp
+L power:GND #PWR011
+U 1 1 61EB9F7E
+P 5350 7200
+F 0 "#PWR011" H 5350 6950 39  0001 C CNN
+F 1 "GND" H 5350 7050 39  0000 C CNN
+F 2 "" H 5350 7200 50  0001 C CNN
+F 3 "" H 5350 7200 50  0001 C CNN
+	1    5350 7200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 6800 5350 6800
+Wire Wire Line
+	5350 6800 5350 7200
+Text HLabel 5450 5150 2    31   Input ~ 0
+TEMP_PCB
+Wire Wire Line
+	4700 5150 5450 5150
+Connection ~ 4700 5150
+Text Notes 3650 6450 0    79   ~ 0
+Fan
 $EndSCHEMATC

@@ -885,8 +885,6 @@ Text HLabel 3650 3550 0    28   Input ~ 0
 SPI1_SCK
 Text HLabel 3650 3600 0    28   Input ~ 0
 SPI1_MOSI
-Text HLabel 3650 3650 0    28   Input ~ 0
-SPI1_MISO
 Text HLabel 3650 3200 0    28   Input ~ 0
 DRV_EN
 Text HLabel 3650 3400 0    28   Input ~ 0
@@ -1098,4 +1096,10 @@ Text HLabel 8800 5000 2    31   Input ~ 0
 W
 Wire Wire Line
 	8500 5000 8800 5000
+Wire Wire Line
+	3650 3650 3150 3650
+Wire Wire Line
+	3150 3650 3150 3950
+Text HLabel 3150 3950 3    31   Input ~ 0
++VCC_IO
 $EndSCHEMATC
