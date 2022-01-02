@@ -55,7 +55,7 @@ Mosfet selection.  Reference design has via for +VM connection through SMT pad. 
 
 See TMC6200 datasheet for full documentation of pins.  Below is specific decisions taken when choice was given.
 
-CLK 24 DI is tied to GND using short wire for internal clock.  This clock has accuracy of +-4%
+CLK 24 pin on the TMC6200 is tied to GND using short wire for internal clock.  This clock has accuracy of +-4%
 
 Exposed die pad: Connect the exposed die pad to a GND plane. Provide as many as possible vias for heat transfer to GND plane.  Reference design has via for GND connection through SMT pad.  This limits the vendor ability to manufacture the board and increases cost due to those needed to be capped in the manufacturing process.  Alternative is to put the via next to the SMT pad.
 
