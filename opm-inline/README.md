@@ -12,18 +12,18 @@ The TMC6200 IC current sensing is limited to 10A.  The design of the PCB is also
 |  :---:   |  :-: |  :-: | 
 |  Seconds |  301 |  283 | 
 
-| Comment| Designator| Footprint| LCSC | 
+| Comment| Designator| Footprint| Discussion | 
 | :---:  | :-:       | :-:      |  :-: |
-| TerminalBlock_3_P5.08mm| U3| Libraries:TerminalBlock_bornier-3_P5.08mm| C72334 | 
+| TerminalBlock_3_P5.08mm| U3| Libraries:TerminalBlock_bornier-3_P5.08mm| dasfa asfas asf as fas fsaf sa fsadf sdaf sadf dfdf asfdsaf sadf  sdafsad fsadf sa fsafd sa f | 
 | 1nF/100V| "C14 C12 C11"| Capacitor_SMD:C_0603_1608Metric| C342905 |
 
-| TerminalBlock_2_P5.08mm| U2| Libraries:TerminalBlock_bornier-2_P5.08mm| C8465| 
-| 330uF/63V| "C15 C16"| Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm| C338235| 
-| VCC_IO| J2| Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical| C131337| 
-| 1000R/1%| "R19 R21"| Resistor_SMD:R_0603_1608Metric| C21190| 
-| 19-217/GHC-YR1S2/3T| "D1| D2"| LED_SMD:LED_0603_1608Metric| C72043| 
-| 150R/1%| R20| Resistor_SMD:R_0603_1608Metric| C22808| 
-| 4700R/1%| "R18 R17| R24"| Resistor_SMD:R_0603_1608Metric| C23162| 
+| TerminalBlock_2_P5.08mm| U2| Libraries:TerminalBlock_bornier-2_P5.08mm| C8465 | 
+| 330uF/63V| "C15 C16"| Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm| C338235 | 
+| VCC_IO| J2| Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical| C131337 | 
+| 1000R/1%| "R19 R21"| Resistor_SMD:R_0603_1608Metric| C21190 | 
+| 19-217/GHC-YR1S2/3T| "D1| D2"| LED_SMD:LED_0603_1608Metric| C72043 | 
+| 150R/1%| R20| Resistor_SMD:R_0603_1608Metric| C22808 | 
+| 4700R/1%| "R18 R17| R24"| Resistor_SMD:R_0603_1608Metric| C23162 | 
 | 10000R/1%| R16| Resistor_SMD:R_0603_1608Metric| C13564| 
 | 100nF/50V| "C17 C20| C10"| Capacitor_SMD:C_0603_1608Metric| C14663| 
 | Temperature| J5| Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical| C131337| 
