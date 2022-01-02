@@ -23,7 +23,9 @@ overcurrent detection. Enable this mode by tying high pin SPE.
 
 # Design Discussion
 
-The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.
+The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.  The 10A limit is chosen to allow full SMT and single side hole through components with 1oz copper.  
+
+Heatsink over the gate driver and mosfets is required over a certain current.  28x28x20 is a standard heat sink size and is added to the pcb using silicon thermal glue.
 
 Initial parts were selected based on the Trinamic reference designs that I have copied into this git repo.
 
