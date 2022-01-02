@@ -11,11 +11,13 @@ Universal high voltage BLDC/PMSM/Servo MOSFET 3-halfbridge gate-driver with in l
 
 Integrated current sense amplifiers eliminate costly sense amplifiers required for FOC controllers (recommended use for applications up to 10A, use external precision amplifiers for higher current with low sense resistor values)
 
-THE TMC6200 OFFERS TWO BASIC MODES OF OPERATION:
-MODE 1: Stand-alone driver with pin configuration
+THE TMC6200 OFFERS TWO BASIC MODES OF OPERATION: 
+
+MODE 1: Stand-alone driver with pin configuration 
 Enable this mode by tying low pin SPE. The interface pins allow a number of different settings for
-BBM generation and sense amplifier amplification control.
-MODE 2: SPI controlled
+BBM generation and sense amplifier amplification control. 
+
+MODE 2: SPI controlled 
 This mode allows detailed control over the protection, diagnostic and control features, e.g. for tuning
 overcurrent detection. Enable this mode by tying high pin SPE.
 
