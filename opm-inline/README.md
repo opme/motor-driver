@@ -33,7 +33,7 @@ The TMC6200 protects the MOSFET power stages against a short circuit or overload
 
 Choice is to run in Mode 1 - Stand-alone driver with pin configuration.  See datasheet Figure 1.1 Standalone application using differential sensing.  
 
-In this mode the SPI pins are used for configuration and not diagnostics.  Setting SDO/Single to +VCC_IO allows an MCU to send in signals to DEV_EN.  Basically, the controller can reboot the driver when it has faults.  If those faults have cleared the driver can continue. 
+In this mode the SPI pins are used for configuration and not diagnostics.  Setting SDO/Single to +VCC_IO allows an MCU to send in signals to DRV_EN.  Basically, the controller can reboot the driver when it has faults.  If those faults have cleared the driver can continue. 
 
 The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.  The 10A limit is chosen to allow full SMT and single side hole through components with 1oz copper.
 
