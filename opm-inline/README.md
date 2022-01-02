@@ -15,7 +15,7 @@ The TMC6200 IC current sensing is limited to 10A.  The design of the PCB is also
 | Comment| Designator| Footprint| LCSC | 
 | :---:  | :-:       | :-:      |  :-: |
 | TerminalBlock_3_P5.08mm| U3| Libraries:TerminalBlock_bornier-3_P5.08mm| C72334 | 
-| 1nF/100V| "C14| C12| C11"| Capacitor_SMD:C_0603_1608Metric| C342905 |
+| 1nF/100V| "C14 C12 C11"| Capacitor_SMD:C_0603_1608Metric| C342905 |
 
 | TerminalBlock_2_P5.08mm| U2| Libraries:TerminalBlock_bornier-2_P5.08mm| C8465| 
 | 330uF/63V| "C15 C16"| Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm| C338235| 
