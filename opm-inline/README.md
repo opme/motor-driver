@@ -6,11 +6,13 @@ The TMC6200 IC current sensing is limited to 10A.  The design of the PCB is also
 
 # Design Discussion
 
-# Part selection
+Footprint for capacitors and resitors choosen as 0603 to make it easier to manufacture with low end SMD machines.
 
-|  Part    |  #1  |  #2  | 
-|  :---:   |  :-: |  :-: | 
-|  Seconds |  301 |  283 | 
+Parts are selected that are available in quantity from various resellers due to current chip shortage.  Avoided any parts that were only available in small quantities or not in stock.
+
+Mosfet selection 
+
+# Part selection
 
 | Type| Designator| Footprint| Discussion | 
 | :---:  | :-:       | :-:      |  :-: |
@@ -24,7 +26,7 @@ The TMC6200 IC current sensing is limited to 10A.  The design of the PCB is also
 | 150R/1%| R20| Resistor_SMD:R_0603_1608Metric| |
 | 4700R/1%| R18 R17| R24| Resistor_SMD:R_0603_1608Metric| |
 | 10000R/1%| R16| Resistor_SMD:R_0603_1608Metric| |
-| 100nF/50V| "C17 C20| C10"| Capacitor_SMD:C_0603_1608Metric| |
+| 100nF/50V| C17 C20 C10| Capacitor_SMD:C_0603_1608Metric| |
 | Temperature| J5| Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical| |
 | PWMx6| J3| Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical| |
 | 0R| R22| Resistor_SMD:R_0603_1608Metric| |
