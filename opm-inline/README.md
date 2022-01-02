@@ -23,17 +23,27 @@ overcurrent detection. Enable this mode by tying high pin SPE.
 
 # Design Discussion
 
-The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.  The 10A limit is chosen to allow full SMT and single side hole through components with 1oz copper.  
+The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.  The 10A limit is chosen to allow full SMT and single side hole through components with 1oz copper.
 
 Heatsink over the gate driver and mosfets is required over a certain current.  28x28x20 is a standard heat sink size and is added to the pcb using silicon thermal glue.
 
 Initial parts were selected based on the Trinamic reference designs that I have copied into this git repo.
 
-Footprint for capacitors and resitors choosen as 0603 to make it easier to manufacture with low end SMD machines.
+Footprint for capacitors and resistors choosen as 0603 to make it easier to manufacture with low end SMD machines.
 
 Parts are selected that are available in quantity from various resellers due to current chip shortage.  Avoided any parts that were only available in small quantities or not in stock.
 
-Mosfet selection 
+Sense resistor selection. TMC6200 datasheet specifies different sense resistor selection.  Sense resistor of 005R0 was selected for 20A max current 10A continuous.
+
+Mosfet selection.  Reference design has via for +VM connection through SMT pad.  This limits the vendor ability to manufacture the board and increases cost due to those needed to be capped in the manufacturing process.  Alternative is to put the via next to the SMT pad.
+
+# Design Discussion for TMC6200 Pins 
+
+See TMC6200 datasheet for full documentation of pins.  Below is specific decisions taken when choice was given.
+
+CLK 24 DI is tied to GND using short wire for internal clock
+
+Exposed die pad: Connect the exposed die pad to a GND plane. Provide as many as possible vias for heat transfer to GND plane.  Reference design has via for GND connection through SMT pad.  This limits the vendor ability to manufacture the board and increases cost due to those needed to be capped in the manufacturing process.  Alternative is to put the via next to the SMT pad.
 
 # Part selection
 
@@ -61,7 +71,7 @@ Mosfet selection
 | 2.2uF/50V| C13 C19| Capacitor_SMD:C_0805_2012Metric| |
 | 100nF/100V| C18| Capacitor_SMD:C_0805_2012Metric| |
 | TMC6200-TA| IC1| Libraries:TMC6200-TA| |
-| 22R/1%| R4 R6 R11 R13 R3 R1| Resistor_SMD:R_0603_1608Metric| |
+| 22R/1%| R4 R6 R11 R13 R3 R1| Resistor_SMD:R_0603_1608Metric| The datasheet recommends a value between kkkkkkkkkkkkk |
 | 10R/1%| R5 R12 R2| Resistor_SMD:R_0603_1608Metric| |
 | 0R005/1%/1W| R9 R10 R14 R15 R7 R8| Resistor_SMD:R_1206_3216Metric| |
 | 4.7uF/100V| C8 C9 C7| Capacitor_SMD:C_1210_3225Metric| |
