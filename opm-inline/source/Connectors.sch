@@ -806,4 +806,6 @@ F 3 "~" H 7962 1550 50  0001 C CNN
 	1    7950 1550
 	1    0    0    -1  
 $EndComp
+Text HLabel 3800 4100 2    31   Input ~ 0
++VCC_IO
 $EndSCHEMATC
