@@ -2,9 +2,28 @@
 
 This motor driver uses inline current sensing.  The driver chip built in current sensing.
 
-The TMC6200 IC current sensing is limited to 10A.  The design of the PCB is also designed for 10A max current.
+
+# TMC6200 Gate Driver
+
+Design uses TMC6200 gate driver 
+
+Universal high voltage BLDC/PMSM/Servo MOSFET 3-halfbridge gate-driver with in line motor current sensing. External MOSFETs for up to 100A motor current. 3 Floating Sense Amplifiers with programmable gain (5, 10, 20)
+
+Integrated current sense amplifiers eliminate costly sense amplifiers required for FOC controllers (recommended use for applications up to 10A, use external precision amplifiers for higher current with low sense resistor values)
+
+THE TMC6200 OFFERS TWO BASIC MODES OF OPERATION:
+MODE 1: Stand-alone driver with pin configuration
+Enable this mode by tying low pin SPE. The interface pins allow a number of different settings for
+BBM generation and sense amplifier amplification control.
+MODE 2: SPI controlled
+This mode allows detailed control over the protection, diagnostic and control features, e.g. for tuning
+overcurrent detection. Enable this mode by tying high pin SPE.
 
 # Design Discussion
+
+The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.
+
+Initial parts were selected based on the Trinamic reference designs that I have copied into this git repo.
 
 Footprint for capacitors and resitors choosen as 0603 to make it easier to manufacture with low end SMD machines.
 
@@ -16,15 +35,15 @@ Mosfet selection
 
 | Type| Designator| Footprint| Discussion | 
 | :---:  | :-:       | :-:      |  :-: |
-| TerminalBlock_3_P5.08mm| U3| Libraries:TerminalBlock_bornier-3_P5.08mm| dasfa asfas asf as fas fsaf sa fsadf sdaf sadf dfdf asfdsaf sadf  sdafsad fsadf sa fsafd sa f | 
+| TerminalBlock_3_P5.08mm| U3| Libraries:TerminalBlock_bornier-3_P5.08mm| Should support 18A to 20A max current though design current is 10A | 
 | 1nF/100V| C14 C12 C11| Capacitor_SMD:C_0603_1608Metric|  |
 | TerminalBlock_2_P5.08mm| U2| Libraries:TerminalBlock_bornier-2_P5.08mm| |
-| 330uF/63V| C15 C16| Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm| |
+| 330uF/63V| C15 C16| Capacitor_THT:C_Radial_D10.0mm_H20.0mm_P5.00mm| TMC6200 datasheet recommends 100uF of electroltyic capacitor for each amp of current expected.  Total 660 uF for 10 Amps included. 10000 hour life, low impedance, low ESR, high ripple current rating  |
 | VCC_IO| J2| Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical| |
 | 1000R/1%| R19 R21| Resistor_SMD:R_0603_1608Metric| |
 | 19-217/GHC-YR1S2/3T| D1 D2| LED_SMD:LED_0603_1608Metric| |
 | 150R/1%| R20| Resistor_SMD:R_0603_1608Metric| |
-| 4700R/1%| R18 R17| R24| Resistor_SMD:R_0603_1608Metric| |
+| 4700R/1%| R18 R17 R24| Resistor_SMD:R_0603_1608Metric| |
 | 10000R/1%| R16| Resistor_SMD:R_0603_1608Metric| |
 | 100nF/50V| C17 C20 C10| Capacitor_SMD:C_0603_1608Metric| |
 | Temperature| J5| Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical| |
@@ -45,5 +64,5 @@ Mosfet selection
 | 470nF/16V| C5 C4 C6| Capacitor_SMD:C_0603_1608Metric| |
 | 22nF/100V| C1| Capacitor_SMD:C_0603_1608Metric| |
 | 100nF/100V| C2 C3| Capacitor_SMD:C_0603_1608Metric| |
-| HYG025N06LS1C2| Q2 Q6 Q4 Q3 Q1 Q5| Libraries:PDFN-8| |
+| HYG025N06LS1C2| Q2 Q6 Q4 Q3 Q1 Q5| Libraries:PDFN-8| 60V minimum, 2.5ohm max Rds(on) and fast switching for lower heat dissipation, Max current > 30A|
 
