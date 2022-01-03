@@ -879,12 +879,6 @@ Text HLabel 3650 3900 0    28   Input ~ 0
 VL
 Text HLabel 3650 4000 0    28   Input ~ 0
 WL
-Text HLabel 3650 3500 0    28   Input ~ 0
-~CS_DRIVER
-Text HLabel 3650 3550 0    28   Input ~ 0
-SPI1_SCK
-Text HLabel 3650 3600 0    28   Input ~ 0
-SPI1_MOSI
 Text HLabel 3650 3200 0    28   Input ~ 0
 DRV_EN
 Text HLabel 3650 3400 0    28   Input ~ 0
@@ -1096,10 +1090,38 @@ Text HLabel 8800 5000 2    31   Input ~ 0
 W
 Wire Wire Line
 	8500 5000 8800 5000
-Wire Wire Line
-	3650 3650 3150 3650
-Wire Wire Line
-	3150 3650 3150 3950
-Text HLabel 3150 3950 3    31   Input ~ 0
+Text HLabel 3450 3650 0    31   Input ~ 0
 +VCC_IO
+Text HLabel 3450 3600 0    31   Input ~ 0
++VCC_IO
+Wire Wire Line
+	3450 3600 3650 3600
+Wire Wire Line
+	3650 3650 3450 3650
+$Comp
+L power:GND #PWR?
+U 1 1 61F1E038
+P 3150 3550
+F 0 "#PWR?" H 3150 3300 39  0001 C CNN
+F 1 "GND" H 3150 3400 39  0000 C CNN
+F 2 "" H 3150 3550 39  0001 C CNN
+F 3 "" H 3150 3550 39  0001 C CNN
+	1    3150 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61F1F1E2
+P 3400 3500
+F 0 "#PWR?" H 3400 3250 39  0001 C CNN
+F 1 "GND" H 3400 3350 39  0000 C CNN
+F 2 "" H 3400 3500 39  0001 C CNN
+F 3 "" H 3400 3500 39  0001 C CNN
+	1    3400 3500
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3650 3550 3150 3550
+Wire Wire Line
+	3650 3500 3400 3500
 $EndSCHEMATC

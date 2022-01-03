@@ -726,32 +726,12 @@ Wire Wire Line
 	1600 1250 2350 1250
 Wire Wire Line
 	1700 1750 2350 1750
-$Comp
-L Connector:Conn_01x06_Female J1
-U 1 1 61C4DAFD
-P 1600 5500
-F 0 "J1" H 1700 5400 50  0000 C CNN
-F 1 "SPI/Info" H 1800 5500 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 1600 5500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf" H 1600 5500 50  0001 C CNN
-F 4 "C265365" H 1600 5500 50  0001 C CNN "LCSC"
-F 5 "B6B-PH-KL(LF)(SN)" H 1600 5500 50  0001 C CNN "manf_num"
-F 6 "copper when possible over brass" H 1600 5500 50  0001 C CNN "comment"
-	1    1600 5500
-	1    0    0    -1  
-$EndComp
-Text HLabel 1400 5600 0    50   Input ~ 0
-DRV_EN
-Text HLabel 1400 5700 0    50   Input ~ 0
-TEMP_PCB
-Text HLabel 1400 5800 0    50   Input ~ 0
-FAULT
 Text HLabel 1400 5400 0    50   Input ~ 0
-SPI1_SCK
-Text HLabel 1400 5300 0    50   Input ~ 0
-~CS_DRIVER
+DRV_EN
 Text HLabel 1400 5500 0    50   Input ~ 0
-SPI1_MOSI
+TEMP_PCB
+Text HLabel 1400 5600 0    50   Input ~ 0
+FAULT
 Wire Notes Line
 	8500 750  7500 750 
 Wire Notes Line
@@ -820,4 +800,18 @@ Wire Wire Line
 Connection ~ 4700 5150
 Text Notes 3650 6450 0    79   ~ 0
 Fan
+$Comp
+L Connector:Conn_01x03_Female J1
+U 1 1 61C4DAFD
+P 1600 5500
+F 0 "J1" H 1700 5400 50  0000 C CNN
+F 1 "Info" H 1800 5500 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 1600 5500 50  0001 C CNN
+F 3 "" H 1600 5500 50  0001 C CNN
+F 4 "" H 1600 5500 50  0001 C CNN "LCSC"
+F 5 "" H 1600 5500 50  0001 C CNN "manf_num"
+F 6 "copper when possible over brass" H 1600 5500 50  0001 C CNN "comment"
+	1    1600 5500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

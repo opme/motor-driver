@@ -741,11 +741,11 @@ F 6 "copper when possible over brass" H 1600 5500 50  0001 C CNN "comment"
 	1    0    0    -1  
 $EndComp
 Text HLabel 1400 5600 0    50   Input ~ 0
-FAULT
-Text HLabel 1400 5700 0    50   Input ~ 0
 DRV_EN
-Text HLabel 1400 5800 0    50   Input ~ 0
+Text HLabel 1400 5700 0    50   Input ~ 0
 TEMP_PCB
+Text HLabel 1400 5800 0    50   Input ~ 0
+FAULT
 Text HLabel 1400 5400 0    50   Input ~ 0
 SPI1_SCK
 Text HLabel 1400 5300 0    50   Input ~ 0
