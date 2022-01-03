@@ -9,7 +9,7 @@ This motor driver uses inline current sensing.  The driver chip built in current
 
 # TMC6200 Gate Driver
 
-Design uses TMC6200 gate driver 
+Design uses TMC6200 gate driver.  The datasheet is located at ![Layout](https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC6200_datasheet_Rev1.05.pdf).  Below are some high level details about the gate driver.
 
 Universal high voltage BLDC/PMSM/Servo MOSFET 3-halfbridge gate-driver with in line motor current sensing. External MOSFETs for up to 100A motor current. 3 Floating Sense Amplifiers with programmable gain (5, 10, 20)
 
@@ -31,24 +31,26 @@ The TMC6200 protects the MOSFET power stages against a short circuit or overload
 
 # Design Discussion
 
-Choice is to run in Mode 1 - Stand-alone driver with pin configuration.  See datasheet Figure 1.1 Standalone application using differential sensing.  
+Choice is to run in Mode 1 - Stand-alone driver with pin configuration.  See datasheet Figure 1.1 Standalone application using differential sensing.  Existing FOC algorithms should run without relying on the SPI interface.   
 
-In this mode the SPI pins are used for configuration and not diagnostics.  Setting SDO/Single to +VCC_IO allow signals to be set to DRV_EN.  Basically, the controller can reboot the driver when it has faults.  If those faults have cleared the driver can continue.  
+In this mode the SPI pins are used for configuration and not diagnostics.  Setting SDO/Single to +VCC_IO allow signals to be set to DRV_EN.  This is also the case for the Drive Strength and the sense amplication.  In a 10A implementation we set sense amplification to 10 and 00 driver strength since we are using simialr mosfets that were tested in the datasheet.
 
 CSN / IDRV0 and SCK / IDRV1 - 00: 0.5A 01: 0.5/1A, 10: 1A, 11: 1.5A
 SDI / AMPLx10 - Sense Amplification 0: 5, 1: 10
 
-The TMC6200 IC current sensing is limited to 10A.  The thermal design of the PCB is also designed for 10A max current.  The 10A limit is chosen to allow full SMT and single side hole through components with 1oz copper.
+The TMC6200 IC current sensing is recommended to have a limit of 10A when using the internal sensing.  
+
+The thermal design of the PCB is also designed for 10A max current.  The 10A limit is chosen to allow full SMT and single side hole through components with 1oz copper.
 
 Heatsink over the gate driver and mosfets is required over a certain current.  28x28x20 is a standard heat sink size and is added to the pcb using silicon thermal glue.
 
 Initial parts were selected based on the Trinamic reference designs that I have copied into this git repo.
 
-Footprint for capacitors and resistors choosen as 0603 to make it easier to manufacture with low end SMD machines.
+Footprint for capacitors and resistors chosen as 0603 to make it easier to manufacture with low end SMD machines.
 
 Parts are selected that are available in quantity from various resellers due to current chip shortage.  Avoided any parts that were only available in small quantities or not in stock.
 
-Sense resistor selection. TMC6200 datasheet specifies different sense resistor selection.  Sense resistor of 005R0 was selected for 20A max current 10A continuous.
+Sense resistor selection. TMC6200 datasheet specifies different sense resistor selection.  Sense resistor of 005R0 with 10x amplification was selected for 15A max current 10A continuous.
 
 In addition to the TMC6200 internal temperature sensor, there is a temperature sensor on the board.  The analog temperature signal is sent out the controller.
 
@@ -60,7 +62,9 @@ See TMC6200 datasheet for full documentation of pins.  Below is specific decisio
 
 CLK 24 pin on the TMC6200 is tied to GND using short wire for internal clock.  This clock has accuracy of +-4%
 
-Exposed die pad: Connect the exposed die pad to a GND plane. Provide as many as possible vias for heat transfer to GND plane.  Reference design has via for GND connection through SMT pad.  This limits the vendor ability to manufacture the board and increases cost due to those needed to be capped in the manufacturing process.  Alternative is to put the via next to the SMT pad.
+Exposed die pad: Connect the exposed die pad to a GND plane. Provide as many as possible vias for heat transfer to GND plane.  Reference design has via for GND connection through SMT pad.  Since TMC chip will be manually added for first batch, these through hole vias were used.  If those are done by SMT in the future then some other solution for tying the pad to GRD may be needed.
+
+Mosfet pads go to +VM but do not use hole through vias.  This limits the vendor ability to manufacture the board and increases cost due to those needed to be capped in the manufacturing process.  Alternative is to put the via next to the SMT pad which is done in this design.
 
 # Part selection
 
@@ -95,5 +99,5 @@ Exposed die pad: Connect the exposed die pad to a GND plane. Provide as many as 
 | 4.7uF/16V| C5 C4 C6| Capacitor_SMD:C_0603_1608Metric| Bootstrap capacitors.  for larger QG - use minimum 4.7µF on 12VOUT pin. QG is 59.5nC at VDS=48V, VGS=10V, ID=20A |
 | 22nF/100V| C1| Capacitor_SMD:C_0603_1608Metric| |
 | 100nF/100V| C2 C3| Capacitor_SMD:C_0603_1608Metric| |
-| HYG025N06LS1C2| Q2 Q6 Q4 Q3 Q1 Q5| Libraries:PDFN-8| 60V minimum, 2.5ohm max Rds(on) and fast switching for lower heat dissipation, Max current > 30A|
+| Power Mosfet 60V 100A  2.5 max Rds(on)| Q2 Q6 Q4 Q3 Q1 Q5| Libraries:PDFN-8| HYG025N06LS1C2, 60V minimum, 2.5ohm max Rds(on) and fast switching for lower heat dissipation, Max current > 30A|
 
