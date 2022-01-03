@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 3
 Title "TMC6100-EVAL"
 Date "2019-10-28"
 Rev "1.2"
@@ -403,17 +403,17 @@ L Device:LED D2
 U 1 1 61C21218
 P 5300 3000
 F 0 "D2" H 5293 2745 50  0000 C CNN
-F 1 "19-217/GHC-YR1S2/3T" H 5293 2836 50  0000 C CNN
+F 1 "Red LED" H 5293 2836 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 5300 3000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811101510_Everlight-Elec-19-217-GHC-YR1S2-3T_C72043.pdf" H 5300 3000 50  0001 C CNN
-F 4 "Green" H 5300 3000 50  0001 C CNN "Info"
-F 5 "C72043" H 5300 3000 50  0001 C CNN "LCSC"
-F 6 "19-217/GHC-YR1S2/3T" H 5300 3000 50  0001 C CNN "manf_num"
+F 3 "https://datasheet.lcsc.com/lcsc/1810231112_Hubei-KENTO-Elec-KT-0603R_C2286.pdf" H 5300 3000 50  0001 C CNN
+F 4 "Red" H 5300 3000 50  0001 C CNN "Info"
+F 5 "C2286" H 5300 3000 50  0001 C CNN "LCSC"
+F 6 "KT-0603R" H 5300 3000 50  0001 C CNN "manf_num"
 	1    5300 3000
 	-1   0    0    1   
 $EndComp
 Text HLabel 4100 3000 0    50   Input ~ 0
-FAULT
+FAULT_LED
 Wire Wire Line
 	4700 3000 5150 3000
 Wire Wire Line
@@ -718,8 +718,6 @@ F 5 "B3B-PH-K-S(LF)(SN)" H 1550 6450 50  0001 C CNN "manf_num"
 $EndComp
 Text HLabel 1350 6350 0    50   Input ~ 0
 ADC_I_u
-Text HLabel 1350 6450 0    50   Input ~ 0
-ADC_I_v
 Text HLabel 1350 6550 0    50   Input ~ 0
 ADC_I_w
 Wire Wire Line
@@ -793,7 +791,7 @@ Wire Wire Line
 	5450 6800 5350 6800
 Wire Wire Line
 	5350 6800 5350 7200
-Text HLabel 5450 5150 2    31   Input ~ 0
+Text HLabel 5450 5150 2    31   Output ~ 0
 TEMP_PCB
 Wire Wire Line
 	4700 5150 5450 5150
@@ -807,11 +805,13 @@ P 1600 5500
 F 0 "J1" H 1700 5400 50  0000 C CNN
 F 1 "Info" H 1800 5500 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 1600 5500 50  0001 C CNN
-F 3 "" H 1600 5500 50  0001 C CNN
-F 4 "" H 1600 5500 50  0001 C CNN "LCSC"
-F 5 "" H 1600 5500 50  0001 C CNN "manf_num"
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 1600 5500 50  0001 C CNN
+F 4 "C131339" H 1600 5500 50  0001 C CNN "LCSC"
+F 5 "B3B-PH-K-S(LF)(SN)" H 1600 5500 50  0001 C CNN "manf_num"
 F 6 "copper when possible over brass" H 1600 5500 50  0001 C CNN "comment"
 	1    1600 5500
 	1    0    0    -1  
 $EndComp
+Text HLabel 1350 6450 0    50   Input ~ 0
+ADC_I_v
 $EndSCHEMATC

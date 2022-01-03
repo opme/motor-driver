@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 3
+Sheet 2 3
 Title "TMC6100-EVAL"
 Date "2019-10-28"
 Rev "1.2"
@@ -883,11 +883,11 @@ Text HLabel 3650 3200 0    28   Input ~ 0
 DRV_EN
 Text HLabel 3650 3400 0    28   Input ~ 0
 SPE
-Text HLabel 4750 3950 2    28   Input ~ 0
+Text HLabel 4750 3950 2    28   Output ~ 0
 ADC_I_u
-Text HLabel 4750 4000 2    28   Input ~ 0
+Text HLabel 4750 4000 2    28   Output ~ 0
 ADC_I_v
-Text HLabel 4750 4050 2    28   Input ~ 0
+Text HLabel 4750 4050 2    28   Output ~ 0
 ADC_I_w
 $Comp
 L opm-inline-rescue:HYG025N06LS1C2 Q2
@@ -1078,15 +1078,15 @@ F 5 "HYG025N06LS1C2" H 8700 3000 50  0001 C CNN "manf_num"
 	1    8700 3000
 	1    0    0    -1  
 $EndComp
-Text HLabel 8750 2200 2    31   Input ~ 0
+Text HLabel 8750 2200 2    31   Output ~ 0
 U
 Wire Wire Line
 	8500 2200 8750 2200
-Text HLabel 10450 3500 2    31   Input ~ 0
+Text HLabel 10450 3500 2    31   Output ~ 0
 V
 Wire Wire Line
 	10150 3500 10450 3500
-Text HLabel 8800 5000 2    31   Input ~ 0
+Text HLabel 8800 5000 2    31   Output ~ 0
 W
 Wire Wire Line
 	8500 5000 8800 5000
@@ -1099,10 +1099,10 @@ Wire Wire Line
 Wire Wire Line
 	3650 3650 3450 3650
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0109
 U 1 1 61F1E038
 P 3150 3550
-F 0 "#PWR?" H 3150 3300 39  0001 C CNN
+F 0 "#PWR0109" H 3150 3300 39  0001 C CNN
 F 1 "GND" H 3150 3400 39  0000 C CNN
 F 2 "" H 3150 3550 39  0001 C CNN
 F 3 "" H 3150 3550 39  0001 C CNN
@@ -1110,10 +1110,10 @@ F 3 "" H 3150 3550 39  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0113
 U 1 1 61F1F1E2
 P 3400 3500
-F 0 "#PWR?" H 3400 3250 39  0001 C CNN
+F 0 "#PWR0113" H 3400 3250 39  0001 C CNN
 F 1 "GND" H 3400 3350 39  0000 C CNN
 F 2 "" H 3400 3500 39  0001 C CNN
 F 3 "" H 3400 3500 39  0001 C CNN
@@ -1124,4 +1124,17 @@ Wire Wire Line
 	3650 3550 3150 3550
 Wire Wire Line
 	3650 3500 3400 3500
+Text HLabel 4850 4400 3    28   Output ~ 0
+FAULT
+Text HLabel 4800 4400 3    28   Output ~ 0
+FAULT_LED
+Wire Wire Line
+	4800 4400 4800 4300
+Wire Wire Line
+	4800 4300 4750 4300
+Wire Wire Line
+	4800 4300 4850 4300
+Wire Wire Line
+	4850 4300 4850 4400
+Connection ~ 4800 4300
 $EndSCHEMATC
