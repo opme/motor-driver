@@ -1,6 +1,6 @@
-update=25.08.2020 10:56:31
+update=31.12.2021 12.01.18
 version=1
-last_client=kicad
+last_client=eeschema
 [general]
 version=1
 RootSch=
@@ -253,7 +253,7 @@ PageLayoutDescrFile=C:/Users/Kurs/Work/KiCad templates/Trinamic OÜ.kicad_wks
 PlotDirectoryName=../Documentation/
 SubpartIdSeparator=0
 SubpartFirstId=65
-NetFmtName=
+NetFmtName=Pcbnew
 SpiceAjustPassiveValues=0
 LabSize=39
 ERC_TestSimilarLabels=1

@@ -885,8 +885,6 @@ Text HLabel 3650 3400 0    28   Input ~ 0
 SPE
 Text HLabel 4750 3950 2    28   Output ~ 0
 ADC_I_u
-Text HLabel 4750 4000 2    28   Output ~ 0
-ADC_I_v
 Text HLabel 4750 4050 2    28   Output ~ 0
 ADC_I_w
 $Comp
@@ -1137,4 +1135,6 @@ Wire Wire Line
 Wire Wire Line
 	4850 4300 4850 4400
 Connection ~ 4800 4300
+Text HLabel 4750 4000 2    31   Output ~ 0
+ADC_I_v
 $EndSCHEMATC

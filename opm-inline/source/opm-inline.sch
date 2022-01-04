@@ -189,12 +189,11 @@ F17 "W" B R 7150 3150 39
 F18 "VSA" O R 7150 3850 39 
 F19 "12Vout" O R 7150 3950 39 
 F20 "5Vout" O R 7150 4050 39 
+F21 "ADC_I_v" O R 7150 3350 39 
 $EndSheet
 Wire Wire Line
 	7150 3350 7250 3350
 Text Label 7250 3350 0    39   ~ 0
-ADC_I_v
-Text HLabel 7150 3350 0    39   Input ~ 0
 ADC_I_v
 Text Label 5250 4050 0    39   ~ 0
 FAULT
@@ -222,13 +221,11 @@ F17 "VSA" I L 4150 3500 39
 F18 "12Vout" I L 4150 3600 39 
 F19 "5Vout" I L 4150 3800 39 
 F20 "ADC_I_v" I L 4150 3050 39 
+F21 "TEMP_PCB" O R 5150 4150 39 
+F22 "FAULT" O R 5150 4050 39 
 $EndSheet
-Text HLabel 5150 4050 0    39   Input ~ 0
-FAULT
 Wire Wire Line
 	5150 4050 5250 4050
-Text HLabel 5150 4150 0    39   Input ~ 0
-TEMP_PCB
 Text Label 5250 4150 0    39   ~ 0
 TEMP_PCB
 Wire Wire Line
