@@ -1088,8 +1088,6 @@ Text HLabel 8800 5000 2    31   Output ~ 0
 W
 Wire Wire Line
 	8500 5000 8800 5000
-Text HLabel 3450 3650 0    31   Input ~ 0
-+VCC_IO
 Text HLabel 3450 3600 0    31   Input ~ 0
 +VCC_IO
 Wire Wire Line
@@ -1124,17 +1122,21 @@ Wire Wire Line
 	3650 3500 3400 3500
 Text HLabel 4850 4400 3    28   Output ~ 0
 FAULT
-Text HLabel 4800 4400 3    28   Output ~ 0
-FAULT_LED
-Wire Wire Line
-	4800 4400 4800 4300
-Wire Wire Line
-	4800 4300 4750 4300
-Wire Wire Line
-	4800 4300 4850 4300
 Wire Wire Line
 	4850 4300 4850 4400
-Connection ~ 4800 4300
 Text HLabel 4750 4000 2    31   Output ~ 0
 ADC_I_v
+$Comp
+L power:GND #PWR0106
+U 1 1 61E2421A
+P 3450 3650
+F 0 "#PWR0106" H 3450 3400 39  0001 C CNN
+F 1 "GND" H 3450 3500 39  0000 C CNN
+F 2 "" H 3450 3650 39  0001 C CNN
+F 3 "" H 3450 3650 39  0001 C CNN
+	1    3450 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 4300 4850 4300
 $EndSCHEMATC
