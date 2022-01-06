@@ -4,10 +4,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title "TMC6100-EVAL"
-Date "2019-10-28"
-Rev "1.2"
-Comp "Trinamic OÜ"
+Title "opm-inline"
+Date "2021-12-26"
+Rev "1"
+Comp "Overpowered Mechanisms"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -804,10 +804,10 @@ ADC_I_v
 Text HLabel 5550 2950 2    50   Output ~ 0
 FAULT
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0114
 U 1 1 61E2CD97
 P 5450 3200
-F 0 "#PWR?" H 5450 2950 39  0001 C CNN
+F 0 "#PWR0114" H 5450 2950 39  0001 C CNN
 F 1 "GND" H 5450 3050 39  0000 C CNN
 F 2 "" H 5450 3200 50  0001 C CNN
 F 3 "" H 5450 3200 50  0001 C CNN
