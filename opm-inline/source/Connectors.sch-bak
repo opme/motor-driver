@@ -280,26 +280,22 @@ Wire Wire Line
 	2950 1150 3200 1150
 Connection ~ 2950 1150
 Wire Notes Line
-	600  3750 600  6900
-Wire Notes Line
-	600  6900 3400 6900
-Wire Notes Line
-	3400 6900 3400 3750
+	600  7700 3400 7700
 Wire Notes Line
 	3400 3750 600  3750
-Text Notes 650  3950 0    79   ~ 0
+Text Notes 700  3950 0    79   ~ 0
 Headers
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 61C15679
-P 800 6250
-F 0 "J2" H 692 5925 50  0000 C CNN
-F 1 "VCC_IO" H 692 6016 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 800 6250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf" H 800 6250 50  0001 C CNN
-F 4 "C131337" H 800 6250 50  0001 C CNN "LCSC"
-F 5 "B2B-PH-K-S(LF)(SN)" H 800 6250 50  0001 C CNN "manf_num"
-	1    800  6250
+P 800 6100
+F 0 "J2" H 692 5775 50  0000 C CNN
+F 1 "VCC_IO" H 692 5866 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 800 6100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf" H 800 6100 50  0001 C CNN
+F 4 "C131337" H 800 6100 50  0001 C CNN "LCSC"
+F 5 "B2B-PH-K-S(LF)(SN)" H 800 6100 50  0001 C CNN "manf_num"
+	1    800  6100
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
@@ -509,41 +505,41 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 61C1AB87
-P 800 5150
-F 0 "J3" H 692 4625 50  0000 C CNN
-F 1 "PWMx6" H 692 4716 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 800 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf" H 800 5150 50  0001 C CNN
-F 4 "B6B-PH-KL(LF)(SN)" H 800 5150 50  0001 C CNN "manf_num"
-F 5 "C265365" H 800 5150 50  0001 C CNN "LCSC"
-F 6 "copper when possible over brass" H 800 5150 50  0001 C CNN "comment"
-	1    800  5150
+P 800 5000
+F 0 "J3" H 692 4475 50  0000 C CNN
+F 1 "PWMx6" H 692 4566 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 800 5000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf" H 800 5000 50  0001 C CNN
+F 4 "B6B-PH-KL(LF)(SN)" H 800 5000 50  0001 C CNN "manf_num"
+F 5 "C265365" H 800 5000 50  0001 C CNN "LCSC"
+F 6 "copper when possible over brass" H 800 5000 50  0001 C CNN "comment"
+	1    800  5000
 	-1   0    0    -1  
 $EndComp
-Text HLabel 2900 6250 2    39   Output ~ 0
+Text HLabel 2900 6100 2    39   Output ~ 0
 +VCC_IO
 $Comp
 L power:GND #PWR0110
 U 1 1 61C4650E
-P 2950 6350
-F 0 "#PWR0110" H 2950 6100 39  0001 C CNN
-F 1 "GND" H 2950 6200 39  0000 C CNN
-F 2 "" H 2950 6350 50  0001 C CNN
-F 3 "" H 2950 6350 50  0001 C CNN
-	1    2950 6350
+P 2950 6200
+F 0 "#PWR0110" H 2950 5950 39  0001 C CNN
+F 1 "GND" H 2950 6050 39  0000 C CNN
+F 2 "" H 2950 6200 50  0001 C CNN
+F 3 "" H 2950 6200 50  0001 C CNN
+	1    2950 6200
 	0    -1   1    0   
 $EndComp
-Text HLabel 2900 5450 2    50   Input ~ 0
+Text HLabel 2900 5300 2    50   Output ~ 0
 UH
-Text HLabel 2900 5350 2    50   Input ~ 0
+Text HLabel 2900 5200 2    50   Output ~ 0
 UL
-Text HLabel 2900 5250 2    50   Input ~ 0
+Text HLabel 2900 5100 2    50   Output ~ 0
 VH
-Text HLabel 2900 5150 2    50   Input ~ 0
+Text HLabel 2900 5000 2    50   Output ~ 0
 VL
-Text HLabel 2900 5050 2    50   Input ~ 0
+Text HLabel 2900 4900 2    50   Output ~ 0
 WH
-Text HLabel 2900 4950 2    50   Input ~ 0
+Text HLabel 2900 4800 2    50   Output ~ 0
 WL
 $Comp
 L Device:R R21
@@ -681,25 +677,25 @@ Not Mounted
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 61C68D2F
-P 2600 4050
-F 0 "J6" H 2628 4076 50  0000 L CNN
-F 1 "Current Sensing" H 2628 3985 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 2600 4050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 2600 4050 50  0001 C CNN
-F 4 "C131339" H 2600 4050 50  0001 C CNN "LCSC"
-F 5 "B3B-PH-K-S(LF)(SN)" H 2600 4050 50  0001 C CNN "manf_num"
-	1    2600 4050
-	1    0    0    -1  
+P 800 6650
+F 0 "J6" H 828 6676 50  0000 L CNN
+F 1 "Current Sensing" H 828 6585 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 800 6650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 800 6650 50  0001 C CNN
+F 4 "C131339" H 800 6650 50  0001 C CNN "LCSC"
+F 5 "B3B-PH-K-S(LF)(SN)" H 800 6650 50  0001 C CNN "manf_num"
+	1    800  6650
+	-1   0    0    1   
 $EndComp
-Text HLabel 2400 3950 0    50   Input ~ 0
+Text HLabel 2900 6550 2    50   Output ~ 0
 ADC_I_u
-Text HLabel 2400 4150 0    50   Input ~ 0
+Text HLabel 2900 6750 2    50   Output ~ 0
 ADC_I_w
-Text HLabel 2900 5850 2    50   Input ~ 0
+Text HLabel 2900 5700 2    50   Input ~ 0
 DRV_EN
-Text HLabel 2900 5950 2    50   Input ~ 0
+Text HLabel 2900 5800 2    50   Input ~ 0
 TEMP_PCB
-Text HLabel 2900 6050 2    50   Input ~ 0
+Text HLabel 2900 5900 2    50   Input ~ 0
 FAULT
 Wire Notes Line
 	8500 750  7500 750 
@@ -772,18 +768,18 @@ Fan
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 61C4DAFD
-P 800 5950
-F 0 "J1" H 900 5850 50  0000 C CNN
-F 1 "Info" H 1000 5950 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 800 5950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 800 5950 50  0001 C CNN
-F 4 "C131339" H 800 5950 50  0001 C CNN "LCSC"
-F 5 "B3B-PH-K-S(LF)(SN)" H 800 5950 50  0001 C CNN "manf_num"
-F 6 "copper when possible over brass" H 800 5950 50  0001 C CNN "comment"
-	1    800  5950
+P 800 5800
+F 0 "J1" H 900 5700 50  0000 C CNN
+F 1 "Info" H 1000 5800 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 800 5800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 800 5800 50  0001 C CNN
+F 4 "C131339" H 800 5800 50  0001 C CNN "LCSC"
+F 5 "B3B-PH-K-S(LF)(SN)" H 800 5800 50  0001 C CNN "manf_num"
+F 6 "copper when possible over brass" H 800 5800 50  0001 C CNN "comment"
+	1    800  5800
 	-1   0    0    -1  
 $EndComp
-Text HLabel 2400 4050 0    50   Input ~ 0
+Text HLabel 2900 6650 2    50   Output ~ 0
 ADC_I_v
 Text HLabel 5550 2950 2    50   Output ~ 0
 FAULT
@@ -882,97 +878,53 @@ Text HLabel 4700 6700 0    50   Input ~ 0
 $Comp
 L Power_Protection:SP0505BAJT D5
 U 1 1 620D7E90
-P 2350 4600
-F 0 "D5" H 2045 4554 50  0000 R CNN
-F 1 "SP0505BAJT" H 2045 4645 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2650 4550 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2475 4725 50  0001 C CNN
-	1    2350 4600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Power_Protection:SP0505BAJT D3
-U 1 1 620DA7AF
-P 1450 4600
-F 0 "D3" H 1145 4554 50  0000 R CNN
-F 1 "SP0505BAJT" H 1145 4645 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1750 4550 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1575 4725 50  0001 C CNN
-	1    1450 4600
+P 2350 4450
+F 0 "D5" H 2045 4404 50  0000 R CNN
+F 1 "NUP4114UCW1T2G" H 2045 4495 50  0000 R CNN
+F 2 "Libraries:NUP4114UCW1T2G" H 2650 4400 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2001031717_onsemi-NUP4114UCW1T2G_C463643.pdf" H 2475 4575 50  0001 C CNN
+F 4 "C463643" H 2350 4450 50  0001 C CNN "LCSC"
+F 5 "" H 2350 4450 50  0001 C CNN "manf_num"
+	1    2350 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1000 4950 1250 4950
+	1000 5300 2150 5300
 Wire Wire Line
-	1000 5250 1550 5250
+	1000 5800 2350 5800
 Wire Wire Line
-	1000 5150 1450 5150
+	2150 4650 2150 5300
+Connection ~ 2150 5300
 Wire Wire Line
-	1000 5350 1650 5350
+	2150 5300 2900 5300
 Wire Wire Line
-	1000 5450 2150 5450
+	2250 4650 2250 5700
 Wire Wire Line
-	1000 5950 2350 5950
+	1000 5700 2250 5700
+Connection ~ 2250 5700
 Wire Wire Line
-	1000 5050 1350 5050
+	2250 5700 2900 5700
 Wire Wire Line
-	1250 4800 1250 4950
-Connection ~ 1250 4950
+	2350 4650 2350 5800
+Connection ~ 2350 5800
 Wire Wire Line
-	1250 4950 2900 4950
+	2350 5800 2900 5800
 Wire Wire Line
-	1350 4800 1350 5050
-Connection ~ 1350 5050
+	2450 4650 2450 5900
 Wire Wire Line
-	1350 5050 2900 5050
+	1000 5900 2450 5900
+Connection ~ 2450 5900
 Wire Wire Line
-	1450 4800 1450 5150
-Connection ~ 1450 5150
+	2450 5900 2900 5900
 Wire Wire Line
-	1450 5150 2900 5150
+	1000 6200 2950 6200
 Wire Wire Line
-	1550 4800 1550 5250
-Connection ~ 1550 5250
+	2550 4650 2550 6100
 Wire Wire Line
-	1550 5250 2900 5250
+	1000 6100 2550 6100
+Connection ~ 2550 6100
 Wire Wire Line
-	1650 4800 1650 5350
-Connection ~ 1650 5350
-Wire Wire Line
-	1650 5350 2900 5350
-Wire Wire Line
-	2150 4800 2150 5450
-Connection ~ 2150 5450
-Wire Wire Line
-	2150 5450 2900 5450
-Wire Wire Line
-	2250 4800 2250 5850
-Wire Wire Line
-	1000 5850 2250 5850
-Connection ~ 2250 5850
-Wire Wire Line
-	2250 5850 2900 5850
-Wire Wire Line
-	2350 4800 2350 5950
-Connection ~ 2350 5950
-Wire Wire Line
-	2350 5950 2900 5950
-Wire Wire Line
-	2450 4800 2450 6050
-Wire Wire Line
-	1000 6050 2450 6050
-Connection ~ 2450 6050
-Wire Wire Line
-	2450 6050 2900 6050
-Wire Wire Line
-	1000 6350 2950 6350
-Wire Wire Line
-	2550 4800 2550 6250
-Wire Wire Line
-	1000 6250 2550 6250
-Connection ~ 2550 6250
-Wire Wire Line
-	2550 6250 2900 6250
+	2550 6100 2900 6100
 $Comp
 L Simulation_SPICE:DIODE D6
 U 1 1 6218DC50
@@ -996,4 +948,123 @@ Wire Wire Line
 Connection ~ 1300 1900
 Wire Wire Line
 	1300 1900 1700 1900
+$Comp
+L power:GND #PWR0117
+U 1 1 621D4BCE
+P 2350 4250
+F 0 "#PWR0117" H 2350 4000 50  0001 C CNN
+F 1 "GND" H 2355 4077 50  0000 C CNN
+F 2 "" H 2350 4250 50  0001 C CNN
+F 3 "" H 2350 4250 50  0001 C CNN
+	1    2350 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 5000 2900 5000
+Connection ~ 1450 5000
+Wire Wire Line
+	1250 4800 2900 4800
+Connection ~ 1250 4800
+Wire Wire Line
+	1350 4900 2900 4900
+Connection ~ 1350 4900
+Wire Wire Line
+	1650 5200 2900 5200
+Connection ~ 1650 5200
+Wire Wire Line
+	1550 5100 2900 5100
+Connection ~ 1550 5100
+Wire Wire Line
+	1000 5200 1650 5200
+Wire Wire Line
+	1000 5100 1550 5100
+Wire Wire Line
+	1000 5000 1450 5000
+Wire Wire Line
+	1000 4900 1350 4900
+Wire Wire Line
+	1000 4800 1250 4800
+$Comp
+L power:GND #PWR0116
+U 1 1 621D4187
+P 1450 4250
+F 0 "#PWR0116" H 1450 4000 50  0001 C CNN
+F 1 "GND" H 1455 4077 50  0000 C CNN
+F 2 "" H 1450 4250 50  0001 C CNN
+F 3 "" H 1450 4250 50  0001 C CNN
+	1    1450 4250
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1650 4650 1650 5200
+Wire Wire Line
+	1550 4650 1550 5100
+Wire Wire Line
+	1450 4650 1450 5000
+Wire Wire Line
+	1350 4650 1350 4900
+Wire Wire Line
+	1250 4650 1250 4800
+$Comp
+L Power_Protection:SP0505BAJT D3
+U 1 1 620DA7AF
+P 1450 4450
+F 0 "D3" H 1145 4404 50  0000 R CNN
+F 1 "NUP4114UCW1T2G" H 1145 4495 50  0000 R CNN
+F 2 "Libraries:NUP4114UCW1T2G" H 1750 4400 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2001031717_onsemi-NUP4114UCW1T2G_C463643.pdf" H 1575 4575 50  0001 C CNN
+F 4 "C463643" H 1450 4450 50  0001 C CNN "LCSC"
+F 5 "" H 1450 4450 50  0001 C CNN "manf_num"
+	1    1450 4450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1000 6550 1650 6550
+Wire Wire Line
+	1000 6650 1450 6650
+Wire Wire Line
+	1000 6750 1250 6750
+Wire Notes Line
+	600  3750 600  7700
+Wire Notes Line
+	3400 3750 3400 7700
+$Comp
+L Power_Protection:SP0505BAJT D7
+U 1 1 62246232
+P 1450 7250
+F 0 "D7" H 1755 7296 50  0000 L CNN
+F 1 "NUP4114UCW1T2G" H 1755 7205 50  0000 L CNN
+F 2 "Libraries:NUP4114UCW1T2G" H 1750 7200 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2001031717_onsemi-NUP4114UCW1T2G_C463643.pdf" H 1575 7375 50  0001 C CNN
+F 4 "C463643" H 1450 7250 50  0001 C CNN "LCSC"
+F 5 "" H 1450 7250 50  0001 C CNN "manf_num"
+	1    1450 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1250 7050 1250 6750
+Connection ~ 1250 6750
+Wire Wire Line
+	1250 6750 2900 6750
+Wire Wire Line
+	1450 7050 1450 6650
+Connection ~ 1450 6650
+Wire Wire Line
+	1450 6650 2900 6650
+Wire Wire Line
+	1650 7050 1650 6550
+Connection ~ 1650 6550
+Wire Wire Line
+	1650 6550 2900 6550
+$Comp
+L power:GND #PWR012
+U 1 1 62254BF0
+P 1450 7450
+F 0 "#PWR012" H 1450 7200 50  0001 C CNN
+F 1 "GND" H 1455 7277 50  0000 C CNN
+F 2 "" H 1450 7450 50  0001 C CNN
+F 3 "" H 1450 7450 50  0001 C CNN
+	1    1450 7450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
