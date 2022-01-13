@@ -980,7 +980,9 @@ P 1300 1500
 F 0 "D6" V 1346 1420 50  0000 R CNN
 F 1 "TVS DIODE" V 1255 1420 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 1300 1500 50  0001 C CNN
-F 3 "~" H 1300 1500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2009171004_SMC-Sangdest-Microelectronicstronic--Nanjing-SMAJ58CA_C499728.pdf" H 1300 1500 50  0001 C CNN
+F 4 "C499728" V 1300 1500 50  0001 C CNN "LCSC"
+F 5 "SMAJ58CA" V 1300 1500 50  0001 C CNN "manf_num"
 	1    1300 1500
 	0    -1   -1   0   
 $EndComp

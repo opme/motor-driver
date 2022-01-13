@@ -292,14 +292,14 @@ Headers
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 61C15679
-P 800 6250
-F 0 "J2" H 692 5925 50  0000 C CNN
-F 1 "VCC_IO" H 692 6016 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 800 6250 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf" H 800 6250 50  0001 C CNN
-F 4 "C131337" H 800 6250 50  0001 C CNN "LCSC"
-F 5 "B2B-PH-K-S(LF)(SN)" H 800 6250 50  0001 C CNN "manf_num"
-	1    800  6250
+P 850 6400
+F 0 "J2" H 742 6075 50  0000 C CNN
+F 1 "VCC_IO" H 742 6166 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" H 850 6400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B2B-PH-K-S-LF-SN_C131337.pdf" H 850 6400 50  0001 C CNN
+F 4 "C131337" H 850 6400 50  0001 C CNN "LCSC"
+F 5 "B2B-PH-K-S(LF)(SN)" H 850 6400 50  0001 C CNN "manf_num"
+	1    850  6400
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
@@ -509,41 +509,41 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x06 J3
 U 1 1 61C1AB87
-P 800 5150
-F 0 "J3" H 692 4625 50  0000 C CNN
-F 1 "PWMx6" H 692 4716 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 800 5150 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf" H 800 5150 50  0001 C CNN
-F 4 "B6B-PH-KL(LF)(SN)" H 800 5150 50  0001 C CNN "manf_num"
-F 5 "C265365" H 800 5150 50  0001 C CNN "LCSC"
-F 6 "copper when possible over brass" H 800 5150 50  0001 C CNN "comment"
-	1    800  5150
+P 850 5300
+F 0 "J3" H 742 4775 50  0000 C CNN
+F 1 "PWMx6" H 742 4866 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 850 5300 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1912111437_JST-Sales-America-B6B-PH-KL-LF-SN_C265365.pdf" H 850 5300 50  0001 C CNN
+F 4 "B6B-PH-KL(LF)(SN)" H 850 5300 50  0001 C CNN "manf_num"
+F 5 "C265365" H 850 5300 50  0001 C CNN "LCSC"
+F 6 "copper when possible over brass" H 850 5300 50  0001 C CNN "comment"
+	1    850  5300
 	-1   0    0    -1  
 $EndComp
-Text HLabel 2900 6250 2    39   Output ~ 0
+Text HLabel 2950 6400 2    39   Output ~ 0
 +VCC_IO
 $Comp
 L power:GND #PWR0110
 U 1 1 61C4650E
-P 2950 6350
-F 0 "#PWR0110" H 2950 6100 39  0001 C CNN
-F 1 "GND" H 2950 6200 39  0000 C CNN
-F 2 "" H 2950 6350 50  0001 C CNN
-F 3 "" H 2950 6350 50  0001 C CNN
-	1    2950 6350
+P 3000 6500
+F 0 "#PWR0110" H 3000 6250 39  0001 C CNN
+F 1 "GND" H 3000 6350 39  0000 C CNN
+F 2 "" H 3000 6500 50  0001 C CNN
+F 3 "" H 3000 6500 50  0001 C CNN
+	1    3000 6500
 	0    -1   1    0   
 $EndComp
-Text HLabel 2900 5450 2    50   Input ~ 0
+Text HLabel 2950 5600 2    50   Output ~ 0
 UH
-Text HLabel 2900 5350 2    50   Input ~ 0
+Text HLabel 2950 5500 2    50   Output ~ 0
 UL
-Text HLabel 2900 5250 2    50   Input ~ 0
+Text HLabel 2950 5400 2    50   Output ~ 0
 VH
-Text HLabel 2900 5150 2    50   Input ~ 0
+Text HLabel 2950 5300 2    50   Output ~ 0
 VL
-Text HLabel 2900 5050 2    50   Input ~ 0
+Text HLabel 2950 5200 2    50   Output ~ 0
 WH
-Text HLabel 2900 4950 2    50   Input ~ 0
+Text HLabel 2950 5100 2    50   Output ~ 0
 WL
 $Comp
 L Device:R R21
@@ -681,25 +681,25 @@ Not Mounted
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 61C68D2F
-P 2600 4050
-F 0 "J6" H 2628 4076 50  0000 L CNN
-F 1 "Current Sensing" H 2628 3985 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 2600 4050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 2600 4050 50  0001 C CNN
-F 4 "C131339" H 2600 4050 50  0001 C CNN "LCSC"
-F 5 "B3B-PH-K-S(LF)(SN)" H 2600 4050 50  0001 C CNN "manf_num"
-	1    2600 4050
+P 2550 4000
+F 0 "J6" H 2578 4026 50  0000 L CNN
+F 1 "Current Sensing" H 2578 3935 50  0000 L CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 2550 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 2550 4000 50  0001 C CNN
+F 4 "C131339" H 2550 4000 50  0001 C CNN "LCSC"
+F 5 "B3B-PH-K-S(LF)(SN)" H 2550 4000 50  0001 C CNN "manf_num"
+	1    2550 4000
 	1    0    0    -1  
 $EndComp
-Text HLabel 2400 3950 0    50   Input ~ 0
+Text HLabel 2350 3900 0    50   Input ~ 0
 ADC_I_u
-Text HLabel 2400 4150 0    50   Input ~ 0
+Text HLabel 2350 4100 0    50   Input ~ 0
 ADC_I_w
-Text HLabel 2900 5850 2    50   Input ~ 0
+Text HLabel 2950 6000 2    50   Input ~ 0
 DRV_EN
-Text HLabel 2900 5950 2    50   Input ~ 0
+Text HLabel 2950 6100 2    50   Input ~ 0
 TEMP_PCB
-Text HLabel 2900 6050 2    50   Input ~ 0
+Text HLabel 2950 6200 2    50   Input ~ 0
 FAULT
 Wire Notes Line
 	8500 750  7500 750 
@@ -772,18 +772,18 @@ Fan
 $Comp
 L Connector_Generic:Conn_01x03 J1
 U 1 1 61C4DAFD
-P 800 5950
-F 0 "J1" H 900 5850 50  0000 C CNN
-F 1 "Info" H 1000 5950 50  0000 C CNN
-F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 800 5950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 800 5950 50  0001 C CNN
-F 4 "C131339" H 800 5950 50  0001 C CNN "LCSC"
-F 5 "B3B-PH-K-S(LF)(SN)" H 800 5950 50  0001 C CNN "manf_num"
-F 6 "copper when possible over brass" H 800 5950 50  0001 C CNN "comment"
-	1    800  5950
+P 850 6100
+F 0 "J1" H 950 6000 50  0000 C CNN
+F 1 "Info" H 1050 6100 50  0000 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 850 6100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811151524_JST-Sales-America-B3B-PH-K-S-LF-SN_C131339.pdf" H 850 6100 50  0001 C CNN
+F 4 "C131339" H 850 6100 50  0001 C CNN "LCSC"
+F 5 "B3B-PH-K-S(LF)(SN)" H 850 6100 50  0001 C CNN "manf_num"
+F 6 "copper when possible over brass" H 850 6100 50  0001 C CNN "comment"
+	1    850  6100
 	-1   0    0    -1  
 $EndComp
-Text HLabel 2400 4050 0    50   Input ~ 0
+Text HLabel 2350 4000 0    50   Input ~ 0
 ADC_I_v
 Text HLabel 5550 2950 2    50   Output ~ 0
 FAULT
@@ -882,97 +882,97 @@ Text HLabel 4700 6700 0    50   Input ~ 0
 $Comp
 L Power_Protection:SP0505BAJT D5
 U 1 1 620D7E90
-P 2350 4600
-F 0 "D5" H 2045 4554 50  0000 R CNN
-F 1 "SP0505BAJT" H 2045 4645 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2650 4550 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2475 4725 50  0001 C CNN
-	1    2350 4600
+P 2400 4750
+F 0 "D5" H 2095 4704 50  0000 R CNN
+F 1 "SP0505BAJT" H 2095 4795 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 2700 4700 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 2525 4875 50  0001 C CNN
+	1    2400 4750
 	-1   0    0    1   
 $EndComp
 $Comp
 L Power_Protection:SP0505BAJT D3
 U 1 1 620DA7AF
-P 1450 4600
-F 0 "D3" H 1145 4554 50  0000 R CNN
-F 1 "SP0505BAJT" H 1145 4645 50  0000 R CNN
-F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1750 4550 50  0001 L CNN
-F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1575 4725 50  0001 C CNN
-	1    1450 4600
+P 1500 4750
+F 0 "D3" H 1195 4704 50  0000 R CNN
+F 1 "SP0505BAJT" H 1195 4795 50  0000 R CNN
+F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 1800 4700 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 1625 4875 50  0001 C CNN
+	1    1500 4750
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1000 4950 1250 4950
+	1050 5100 1300 5100
 Wire Wire Line
-	1000 5250 1550 5250
+	1050 5400 1600 5400
 Wire Wire Line
-	1000 5150 1450 5150
+	1050 5300 1500 5300
 Wire Wire Line
-	1000 5350 1650 5350
+	1050 5500 1700 5500
 Wire Wire Line
-	1000 5450 2150 5450
+	1050 5600 2200 5600
 Wire Wire Line
-	1000 5950 2350 5950
+	1050 6100 2400 6100
 Wire Wire Line
-	1000 5050 1350 5050
+	1050 5200 1400 5200
 Wire Wire Line
-	1250 4800 1250 4950
-Connection ~ 1250 4950
+	1300 4950 1300 5100
+Connection ~ 1300 5100
 Wire Wire Line
-	1250 4950 2900 4950
+	1300 5100 2950 5100
 Wire Wire Line
-	1350 4800 1350 5050
-Connection ~ 1350 5050
+	1400 4950 1400 5200
+Connection ~ 1400 5200
 Wire Wire Line
-	1350 5050 2900 5050
+	1400 5200 2950 5200
 Wire Wire Line
-	1450 4800 1450 5150
-Connection ~ 1450 5150
+	1500 4950 1500 5300
+Connection ~ 1500 5300
 Wire Wire Line
-	1450 5150 2900 5150
+	1500 5300 2950 5300
 Wire Wire Line
-	1550 4800 1550 5250
-Connection ~ 1550 5250
+	1600 4950 1600 5400
+Connection ~ 1600 5400
 Wire Wire Line
-	1550 5250 2900 5250
+	1600 5400 2950 5400
 Wire Wire Line
-	1650 4800 1650 5350
-Connection ~ 1650 5350
+	1700 4950 1700 5500
+Connection ~ 1700 5500
 Wire Wire Line
-	1650 5350 2900 5350
+	1700 5500 2950 5500
 Wire Wire Line
-	2150 4800 2150 5450
-Connection ~ 2150 5450
+	2200 4950 2200 5600
+Connection ~ 2200 5600
 Wire Wire Line
-	2150 5450 2900 5450
+	2200 5600 2950 5600
 Wire Wire Line
-	2250 4800 2250 5850
+	2300 4950 2300 6000
 Wire Wire Line
-	1000 5850 2250 5850
-Connection ~ 2250 5850
+	1050 6000 2300 6000
+Connection ~ 2300 6000
 Wire Wire Line
-	2250 5850 2900 5850
+	2300 6000 2950 6000
 Wire Wire Line
-	2350 4800 2350 5950
-Connection ~ 2350 5950
+	2400 4950 2400 6100
+Connection ~ 2400 6100
 Wire Wire Line
-	2350 5950 2900 5950
+	2400 6100 2950 6100
 Wire Wire Line
-	2450 4800 2450 6050
+	2500 4950 2500 6200
 Wire Wire Line
-	1000 6050 2450 6050
-Connection ~ 2450 6050
+	1050 6200 2500 6200
+Connection ~ 2500 6200
 Wire Wire Line
-	2450 6050 2900 6050
+	2500 6200 2950 6200
 Wire Wire Line
-	1000 6350 2950 6350
+	1050 6500 3000 6500
 Wire Wire Line
-	2550 4800 2550 6250
+	2600 4950 2600 6400
 Wire Wire Line
-	1000 6250 2550 6250
-Connection ~ 2550 6250
+	1050 6400 2600 6400
+Connection ~ 2600 6400
 Wire Wire Line
-	2550 6250 2900 6250
+	2600 6400 2950 6400
 $Comp
 L Simulation_SPICE:DIODE D6
 U 1 1 6218DC50
@@ -996,4 +996,26 @@ Wire Wire Line
 Connection ~ 1300 1900
 Wire Wire Line
 	1300 1900 1700 1900
+$Comp
+L power:GND #PWR?
+U 1 1 621D4187
+P 1500 4550
+F 0 "#PWR?" H 1500 4300 50  0001 C CNN
+F 1 "GND" H 1505 4377 50  0000 C CNN
+F 2 "" H 1500 4550 50  0001 C CNN
+F 3 "" H 1500 4550 50  0001 C CNN
+	1    1500 4550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621D4BCE
+P 2400 4550
+F 0 "#PWR?" H 2400 4300 50  0001 C CNN
+F 1 "GND" H 2405 4377 50  0000 C CNN
+F 2 "" H 2400 4550 50  0001 C CNN
+F 3 "" H 2400 4550 50  0001 C CNN
+	1    2400 4550
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
