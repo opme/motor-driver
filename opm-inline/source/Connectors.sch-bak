@@ -884,19 +884,12 @@ F 1 "NUP4114UCW1T2G" H 2045 4495 50  0000 R CNN
 F 2 "Libraries:NUP4114UCW1T2G" H 2650 4400 50  0001 L CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2001031717_onsemi-NUP4114UCW1T2G_C463643.pdf" H 2475 4575 50  0001 C CNN
 F 4 "C463643" H 2350 4450 50  0001 C CNN "LCSC"
-F 5 "" H 2350 4450 50  0001 C CNN "manf_num"
+F 5 "NUP4114UCW1T2G" H 2350 4450 50  0001 C CNN "manf_num"
 	1    2350 4450
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1000 5300 2150 5300
-Wire Wire Line
 	1000 5800 2350 5800
-Wire Wire Line
-	2150 4650 2150 5300
-Connection ~ 2150 5300
-Wire Wire Line
-	2150 5300 2900 5300
 Wire Wire Line
 	2250 4650 2250 5700
 Wire Wire Line
@@ -918,13 +911,6 @@ Wire Wire Line
 	2450 5900 2900 5900
 Wire Wire Line
 	1000 6200 2950 6200
-Wire Wire Line
-	2550 4650 2550 6100
-Wire Wire Line
-	1000 6100 2550 6100
-Connection ~ 2550 6100
-Wire Wire Line
-	2550 6100 2900 6100
 $Comp
 L Simulation_SPICE:DIODE D6
 U 1 1 6218DC50
@@ -963,27 +949,12 @@ Wire Wire Line
 	1450 5000 2900 5000
 Connection ~ 1450 5000
 Wire Wire Line
-	1250 4800 2900 4800
-Connection ~ 1250 4800
-Wire Wire Line
-	1350 4900 2900 4900
-Connection ~ 1350 4900
-Wire Wire Line
-	1650 5200 2900 5200
-Connection ~ 1650 5200
-Wire Wire Line
 	1550 5100 2900 5100
 Connection ~ 1550 5100
-Wire Wire Line
-	1000 5200 1650 5200
 Wire Wire Line
 	1000 5100 1550 5100
 Wire Wire Line
 	1000 5000 1450 5000
-Wire Wire Line
-	1000 4900 1350 4900
-Wire Wire Line
-	1000 4800 1250 4800
 $Comp
 L power:GND #PWR0116
 U 1 1 621D4187
@@ -996,15 +967,9 @@ F 3 "" H 1450 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1650 4650 1650 5200
-Wire Wire Line
 	1550 4650 1550 5100
 Wire Wire Line
 	1450 4650 1450 5000
-Wire Wire Line
-	1350 4650 1350 4900
-Wire Wire Line
-	1250 4650 1250 4800
 $Comp
 L Power_Protection:SP0505BAJT D3
 U 1 1 620DA7AF
@@ -1014,7 +979,7 @@ F 1 "NUP4114UCW1T2G" H 1145 4495 50  0000 R CNN
 F 2 "Libraries:NUP4114UCW1T2G" H 1750 4400 50  0001 L CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2001031717_onsemi-NUP4114UCW1T2G_C463643.pdf" H 1575 4575 50  0001 C CNN
 F 4 "C463643" H 1450 4450 50  0001 C CNN "LCSC"
-F 5 "" H 1450 4450 50  0001 C CNN "manf_num"
+F 5 "NUP4114UCW1T2G" H 1450 4450 50  0001 C CNN "manf_num"
 	1    1450 4450
 	-1   0    0    1   
 $EndComp
@@ -1037,7 +1002,7 @@ F 1 "NUP4114UCW1T2G" H 1755 7205 50  0000 L CNN
 F 2 "Libraries:NUP4114UCW1T2G" H 1750 7200 50  0001 L CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2001031717_onsemi-NUP4114UCW1T2G_C463643.pdf" H 1575 7375 50  0001 C CNN
 F 4 "C463643" H 1450 7250 50  0001 C CNN "LCSC"
-F 5 "" H 1450 7250 50  0001 C CNN "manf_num"
+F 5 "NUP4114UCW1T2G" H 1450 7250 50  0001 C CNN "manf_num"
 	1    1450 7250
 	1    0    0    -1  
 $EndComp
@@ -1067,4 +1032,39 @@ F 3 "" H 1450 7450 50  0001 C CNN
 	1    1450 7450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2150 4650 2150 4800
+Connection ~ 2150 4800
+Wire Wire Line
+	2150 4800 2900 4800
+Wire Wire Line
+	1000 4800 2150 4800
+Wire Wire Line
+	1250 4650 1250 5300
+Wire Wire Line
+	1000 5300 1250 5300
+Connection ~ 1250 5300
+Wire Wire Line
+	1250 5300 2900 5300
+Wire Wire Line
+	1000 6100 2550 6100
+Wire Wire Line
+	2550 6100 2900 6100
+Connection ~ 2550 6100
+Wire Wire Line
+	2550 4650 2550 6100
+Wire Wire Line
+	1000 4900 1650 4900
+Wire Wire Line
+	1350 4650 1350 5200
+Wire Wire Line
+	1000 5200 1350 5200
+Connection ~ 1350 5200
+Wire Wire Line
+	1350 5200 2900 5200
+Wire Wire Line
+	1650 4650 1650 4900
+Connection ~ 1650 4900
+Wire Wire Line
+	1650 4900 2900 4900
 $EndSCHEMATC

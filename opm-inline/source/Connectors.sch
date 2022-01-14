@@ -889,14 +889,7 @@ F 5 "NUP4114UCW1T2G" H 2350 4450 50  0001 C CNN "manf_num"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1000 5300 2150 5300
-Wire Wire Line
 	1000 5800 2350 5800
-Wire Wire Line
-	2150 4650 2150 5300
-Connection ~ 2150 5300
-Wire Wire Line
-	2150 5300 2900 5300
 Wire Wire Line
 	2250 4650 2250 5700
 Wire Wire Line
@@ -918,13 +911,6 @@ Wire Wire Line
 	2450 5900 2900 5900
 Wire Wire Line
 	1000 6200 2950 6200
-Wire Wire Line
-	2550 4650 2550 6100
-Wire Wire Line
-	1000 6100 2550 6100
-Connection ~ 2550 6100
-Wire Wire Line
-	2550 6100 2900 6100
 $Comp
 L Simulation_SPICE:DIODE D6
 U 1 1 6218DC50
@@ -932,9 +918,9 @@ P 1300 1500
 F 0 "D6" V 1346 1420 50  0000 R CNN
 F 1 "TVS DIODE" V 1255 1420 50  0000 R CNN
 F 2 "Diode_SMD:D_SMA" H 1300 1500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/lcsc/2009171004_SMC-Sangdest-Microelectronicstronic--Nanjing-SMAJ58CA_C499728.pdf" H 1300 1500 50  0001 C CNN
-F 4 "C499728" V 1300 1500 50  0001 C CNN "LCSC"
-F 5 "SMAJ58CA" V 1300 1500 50  0001 C CNN "manf_num"
+F 3 "https://datasheet.lcsc.com/lcsc/2007161833_Brightking-Elec--TAIWAN-SMAJ58CA-AT_C523249.pdf" H 1300 1500 50  0001 C CNN
+F 4 "C523249" V 1300 1500 50  0001 C CNN "LCSC"
+F 5 "SMA(DO-214AC)" V 1300 1500 50  0001 C CNN "manf_num"
 	1    1300 1500
 	0    -1   -1   0   
 $EndComp
@@ -963,27 +949,12 @@ Wire Wire Line
 	1450 5000 2900 5000
 Connection ~ 1450 5000
 Wire Wire Line
-	1250 4800 2900 4800
-Connection ~ 1250 4800
-Wire Wire Line
-	1350 4900 2900 4900
-Connection ~ 1350 4900
-Wire Wire Line
-	1650 5200 2900 5200
-Connection ~ 1650 5200
-Wire Wire Line
 	1550 5100 2900 5100
 Connection ~ 1550 5100
-Wire Wire Line
-	1000 5200 1650 5200
 Wire Wire Line
 	1000 5100 1550 5100
 Wire Wire Line
 	1000 5000 1450 5000
-Wire Wire Line
-	1000 4900 1350 4900
-Wire Wire Line
-	1000 4800 1250 4800
 $Comp
 L power:GND #PWR0116
 U 1 1 621D4187
@@ -996,15 +967,9 @@ F 3 "" H 1450 4250 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1650 4650 1650 5200
-Wire Wire Line
 	1550 4650 1550 5100
 Wire Wire Line
 	1450 4650 1450 5000
-Wire Wire Line
-	1350 4650 1350 4900
-Wire Wire Line
-	1250 4650 1250 4800
 $Comp
 L Power_Protection:SP0505BAJT D3
 U 1 1 620DA7AF
@@ -1067,4 +1032,39 @@ F 3 "" H 1450 7450 50  0001 C CNN
 	1    1450 7450
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2150 4650 2150 4800
+Connection ~ 2150 4800
+Wire Wire Line
+	2150 4800 2900 4800
+Wire Wire Line
+	1000 4800 2150 4800
+Wire Wire Line
+	1250 4650 1250 5300
+Wire Wire Line
+	1000 5300 1250 5300
+Connection ~ 1250 5300
+Wire Wire Line
+	1250 5300 2900 5300
+Wire Wire Line
+	1000 6100 2550 6100
+Wire Wire Line
+	2550 6100 2900 6100
+Connection ~ 2550 6100
+Wire Wire Line
+	2550 4650 2550 6100
+Wire Wire Line
+	1000 4900 1650 4900
+Wire Wire Line
+	1350 4650 1350 5200
+Wire Wire Line
+	1000 5200 1350 5200
+Connection ~ 1350 5200
+Wire Wire Line
+	1350 5200 2900 5200
+Wire Wire Line
+	1650 4650 1650 4900
+Connection ~ 1650 4900
+Wire Wire Line
+	1650 4900 2900 4900
 $EndSCHEMATC
