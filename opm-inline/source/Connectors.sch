@@ -781,8 +781,6 @@ F 6 "copper when possible over brass" H 800 5800 50  0001 C CNN "comment"
 $EndComp
 Text HLabel 2900 6650 2    50   Output ~ 0
 ADC_I_v
-Text HLabel 5550 2950 2    50   Output ~ 0
-FAULT
 $Comp
 L power:GND #PWR0114
 U 1 1 61E2CD97
@@ -796,9 +794,6 @@ F 3 "" H 5450 3200 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5450 3200 5450 2950
-Connection ~ 5450 2950
-Wire Wire Line
-	5450 2950 5550 2950
 $Comp
 L Device:R R27
 U 1 1 61FF437F
@@ -889,27 +884,6 @@ F 5 "NUP4114UCW1T2G" H 2350 4450 50  0001 C CNN "manf_num"
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1000 5800 2350 5800
-Wire Wire Line
-	2250 4650 2250 5700
-Wire Wire Line
-	1000 5700 2250 5700
-Connection ~ 2250 5700
-Wire Wire Line
-	2250 5700 2900 5700
-Wire Wire Line
-	2350 4650 2350 5800
-Connection ~ 2350 5800
-Wire Wire Line
-	2350 5800 2900 5800
-Wire Wire Line
-	2450 4650 2450 5900
-Wire Wire Line
-	1000 5900 2450 5900
-Connection ~ 2450 5900
-Wire Wire Line
-	2450 5900 2900 5900
-Wire Wire Line
 	1000 6200 2950 6200
 $Comp
 L Simulation_SPICE:DIODE D6
@@ -945,16 +919,6 @@ F 3 "" H 2350 4250 50  0001 C CNN
 	1    2350 4250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1450 5000 2900 5000
-Connection ~ 1450 5000
-Wire Wire Line
-	1550 5100 2900 5100
-Connection ~ 1550 5100
-Wire Wire Line
-	1000 5100 1550 5100
-Wire Wire Line
-	1000 5000 1450 5000
 $Comp
 L power:GND #PWR0116
 U 1 1 621D4187
@@ -966,10 +930,6 @@ F 3 "" H 1450 4250 50  0001 C CNN
 	1    1450 4250
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	1550 4650 1550 5100
-Wire Wire Line
-	1450 4650 1450 5000
 $Comp
 L Power_Protection:SP0505BAJT D3
 U 1 1 620DA7AF
@@ -1033,26 +993,12 @@ F 3 "" H 1450 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2150 4650 2150 4800
-Connection ~ 2150 4800
-Wire Wire Line
-	2150 4800 2900 4800
-Wire Wire Line
-	1000 4800 2150 4800
-Wire Wire Line
 	1250 4650 1250 5300
 Wire Wire Line
 	1000 5300 1250 5300
 Connection ~ 1250 5300
 Wire Wire Line
 	1250 5300 2900 5300
-Wire Wire Line
-	1000 6100 2550 6100
-Wire Wire Line
-	2550 6100 2900 6100
-Connection ~ 2550 6100
-Wire Wire Line
-	2550 4650 2550 6100
 Wire Wire Line
 	1000 4900 1650 4900
 Wire Wire Line
@@ -1067,4 +1013,53 @@ Wire Wire Line
 Connection ~ 1650 4900
 Wire Wire Line
 	1650 4900 2900 4900
+Wire Wire Line
+	1000 5000 1550 5000
+Wire Wire Line
+	1000 5100 1450 5100
+Wire Wire Line
+	1550 4650 1550 5000
+Connection ~ 1550 5000
+Wire Wire Line
+	1550 5000 2900 5000
+Wire Wire Line
+	1450 4650 1450 5100
+Connection ~ 1450 5100
+Wire Wire Line
+	1450 5100 2900 5100
+Wire Wire Line
+	2350 4650 2350 5700
+Wire Wire Line
+	1000 5700 2350 5700
+Connection ~ 2350 5700
+Wire Wire Line
+	2350 5700 2900 5700
+Wire Wire Line
+	1000 6100 2450 6100
+Wire Wire Line
+	2450 4650 2450 6100
+Connection ~ 2450 6100
+Wire Wire Line
+	2450 6100 2900 6100
+Wire Wire Line
+	2550 4650 2550 5900
+Wire Wire Line
+	1000 5900 2550 5900
+Connection ~ 2550 5900
+Wire Wire Line
+	2550 5900 2900 5900
+Wire Wire Line
+	1000 5800 2150 5800
+Wire Wire Line
+	1000 4800 2250 4800
+Wire Wire Line
+	2150 4650 2150 5800
+Connection ~ 2150 5800
+Wire Wire Line
+	2150 5800 2900 5800
+Wire Wire Line
+	2250 4650 2250 4800
+Connection ~ 2250 4800
+Wire Wire Line
+	2250 4800 2900 4800
 $EndSCHEMATC

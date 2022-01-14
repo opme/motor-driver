@@ -1113,15 +1113,6 @@ F 5 "HMK325C7475KN-TE" H 7700 4400 50  0001 C CNN "manf_num  "
 	1    7700 4400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4800 4300 4850 4300
-Wire Wire Line
-	4800 4300 4750 4300
-Connection ~ 4800 4300
-Wire Wire Line
-	4800 4400 4800 4300
-Text HLabel 4800 4400 3    28   Output ~ 0
-FAULT_LED
 $Comp
 L power:GND #PWR0106
 U 1 1 61E2421A
@@ -1282,4 +1273,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 4600 9000 4550
 Connection ~ 8250 4600
+Wire Wire Line
+	4750 4300 4850 4300
 $EndSCHEMATC
