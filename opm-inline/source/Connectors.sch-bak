@@ -693,13 +693,13 @@ Heat Sink
 $Comp
 L Mechanical:Heatsink HS1
 U 1 1 61CA5775
-P 7850 1600
-F 0 "HS1" H 7992 1721 50  0001 L CNN
-F 1 "Heatsink" H 7992 1630 50  0001 L CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 7862 1600 50  0001 C CNN
-F 3 "~" H 7862 1600 50  0001 C CNN
-F 4 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 7850 1600 50  0001 C CNN "back"
-	1    7850 1600
+P 8000 1600
+F 0 "HS1" H 8142 1721 50  0001 L CNN
+F 1 "Heatsink" H 8142 1630 50  0001 L CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 8012 1600 50  0001 C CNN
+F 3 "~" H 8012 1600 50  0001 C CNN
+F 4 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 8000 1600 50  0001 C CNN "back"
+	1    8000 1600
 	1    0    0    -1  
 $EndComp
 Text HLabel 3800 4100 2    31   Input ~ 0
@@ -1092,4 +1092,6 @@ F 3 "" H 6850 3750 50  0001 C CNN
 	1    6850 3750
 	1    0    0    -1  
 $EndComp
+Text Notes 7950 1700 0    39   ~ 0
+Not Mounted
 $EndSCHEMATC
