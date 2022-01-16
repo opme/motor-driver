@@ -29,7 +29,6 @@ PWMx6,J3,Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical,C265365
 0R,R22,Resistor_SMD:R_0603_1608Metric,
 1500R/1%,R23,Resistor_SMD:R_0603_1608Metric,C22843
 Current Sensing,J6,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,C131339
-Heatsink,HS1,Libraries:Heatsink_30x30mm_2xFixation3mm,
 Fan,J4,Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical,C131337
 Info,J1,Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical,C131339
 100KR,R27,Resistor_SMD:R_0603_1608Metric,C25803
