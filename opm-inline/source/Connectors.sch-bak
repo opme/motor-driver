@@ -694,8 +694,8 @@ $Comp
 L Mechanical:Heatsink HS1
 U 1 1 61CA5775
 P 7850 1600
-F 0 "HS1" H 7992 1721 50  0000 L CNN
-F 1 "Heatsink" H 7992 1630 50  0000 L CNN
+F 0 "HS1" H 7992 1721 50  0001 L CNN
+F 1 "Heatsink" H 7992 1630 50  0001 L CNN
 F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 7862 1600 50  0001 C CNN
 F 3 "~" H 7862 1600 50  0001 C CNN
 F 4 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 7850 1600 50  0001 C CNN "back"
