@@ -206,7 +206,7 @@ F 1 "TMC6200-TA" H 4200 2642 40  0000 R CNN
 F 2 "Libraries:TMC6200-TA" H 4200 3400 40  0001 C CNN
 F 3 "https://trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC6200_datasheet_Rev1.05.pdf" H 4200 4475 40  0001 C CNN
 F 4 "" H 4200 3650 50  0001 C CNN "LCSC"
-F 5 "TMC6200-TA" H 4200 3650 50  0001 C CNN "Field5"
+F 5 "TMC6200-TA" H 4200 3650 50  0001 C CNN "manf_num"
 F 6 "No" H 4200 3650 50  0001 C CNN "JLCPCB BOM"
 	1    4200 3650
 	1    0    0    -1  

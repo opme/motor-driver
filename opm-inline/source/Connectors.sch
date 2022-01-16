@@ -566,17 +566,6 @@ F 4 "No" H 6850 3550 50  0001 C CNN "LCPCB BOM"
 	1    6850 3550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0111
-U 1 1 61C3E273
-P 6850 3750
-F 0 "#PWR0111" H 6850 3500 39  0001 C CNN
-F 1 "GND" H 6850 3600 39  0000 C CNN
-F 2 "" H 6850 3750 50  0001 C CNN
-F 3 "" H 6850 3750 50  0001 C CNN
-	1    6850 3750
-	1    0    0    -1  
-$EndComp
 Text HLabel 6850 2800 1    28   Input ~ 0
 +VCC_IO
 Text HLabel 7200 3300 2    28   Input ~ 0
@@ -606,8 +595,6 @@ Wire Notes Line
 	6600 3400 7200 3400
 Wire Notes Line
 	7200 3400 7200 3750
-Wire Notes Line
-	7200 3750 6600 3750
 Wire Notes Line
 	6600 3750 6600 3400
 $Comp
@@ -670,8 +657,6 @@ Wire Notes Line
 	8500 2250 7500 2250
 Text Notes 7550 2450 0    79   ~ 0
 VCC_IO VOFS
-Text Notes 6900 3750 0    28   ~ 0
-Not Mounted
 $Comp
 L Connector_Generic:Conn_01x03 J6
 U 1 1 61C68D2F
@@ -708,12 +693,13 @@ Heat Sink
 $Comp
 L Mechanical:Heatsink HS1
 U 1 1 61CA5775
-P 7950 1550
-F 0 "HS1" H 8092 1671 50  0000 L CNN
-F 1 "Heatsink" H 8092 1580 50  0000 L CNN
-F 2 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 7962 1550 50  0001 C CNN
-F 3 "~" H 7962 1550 50  0001 C CNN
-	1    7950 1550
+P 7850 1600
+F 0 "HS1" H 7992 1721 50  0001 L CNN
+F 1 "Heatsink" H 7992 1630 50  0001 L CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 7862 1600 50  0001 C CNN
+F 3 "~" H 7862 1600 50  0001 C CNN
+F 4 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 7850 1600 50  0001 C CNN "back"
+	1    7850 1600
 	1    0    0    -1  
 $EndComp
 Text HLabel 3800 4100 2    31   Input ~ 0
@@ -1074,8 +1060,8 @@ $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO1
 U 1 1 61E56420
 P 7000 5200
-F 0 "#LOGO1" H 7000 5475 50  0000 C CNN
-F 1 "Logo_Open_Hardware_Small" H 7000 4975 50  0001 C CNN
+F 0 "#LOGO1" H 7000 5475 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7000 4975 50  0000 C CNN
 F 2 "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen" H 7000 5200 50  0001 C CNN
 F 3 "~" H 7000 5200 50  0001 C CNN
 	1    7000 5200
@@ -1083,4 +1069,27 @@ F 3 "~" H 7000 5200 50  0001 C CNN
 $EndComp
 Text Notes 6550 4700 0    79   ~ 0
 Logos and Silk Screen
+Wire Notes Line
+	7650 1700 8350 1700
+Wire Notes Line
+	8350 1700 8350 1300
+Wire Notes Line
+	8350 1300 7650 1300
+Wire Notes Line
+	7650 1300 7650 1700
+Text Notes 6900 3750 0    28   ~ 0
+Not Mounted
+Wire Notes Line
+	7200 3750 6600 3750
+$Comp
+L power:GND #PWR0111
+U 1 1 61C3E273
+P 6850 3750
+F 0 "#PWR0111" H 6850 3500 39  0001 C CNN
+F 1 "GND" H 6850 3600 39  0000 C CNN
+F 2 "" H 6850 3750 50  0001 C CNN
+F 3 "" H 6850 3750 50  0001 C CNN
+	1    6850 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
