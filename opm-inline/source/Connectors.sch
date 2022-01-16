@@ -696,7 +696,7 @@ U 1 1 61CA5775
 P 8000 1600
 F 0 "HS1" H 8142 1721 50  0001 L CNN
 F 1 "Heatsink" H 8142 1630 50  0001 L CNN
-F 2 "Symbol:OSHW-Logo2_7.3x6mm_Copper" H 8012 1600 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 8012 1600 50  0001 C CNN
 F 3 "~" H 8012 1600 50  0001 C CNN
 F 4 "Libraries:Heatsink_30x30mm_2xFixation3mm" H 8000 1600 50  0001 C CNN "back"
 	1    8000 1600
