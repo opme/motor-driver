@@ -1,6 +1,6 @@
 # motor-driver
 
-This motor driver uses inline current sensing.  The driver chip built in current sensing.
+This motor driver uses inline current sensing.  The driver chip TMC6200 has built in current sensing.
 
 # Diagram
 
@@ -31,12 +31,15 @@ The TMC6200 protects the MOSFET power stages against a short circuit or overload
 
 # Design Discussion
 
-Choice is to run in Mode 1 - Stand-alone driver with pin configuration.  See datasheet Figure 1.1 Standalone application using differential sensing.  Existing FOC algorithms should run without relying on the SPI interface.   
+Choice is to run in Mode 1 - Stand-alone driver with pin configuration.  See datasheet Figure 1.1 Standalone application using differential sensing.  Existing FOC algorithms should run without relying on the SPI interface.  Future versions could change if the controller firmware has a driver added for TMC6200. 
 
-In this mode the SPI pins are used for configuration and not diagnostics.  Setting SDO/Single to +VCC_IO allow signals to be set to DRV_EN.  This is also the case for the Drive Strength and the sense amplication.  In a 10A implementation we set sense amplification to 10 and 00 driver strength since we are using simialr mosfets that were tested in the datasheet.
+In this mode the SPI pins are used for configuration and not settings/diagnostics.  Setting SDO/Single to +VCC_IO allow signals to be set to DRV_EN.  This is also the case for the Drive Strength and the sense amplication.  In a 10A implementation we set sense amplification to 10 and 00 driver strength since we are using simialr mosfets that were tested in the datasheet.
 
-CSN / IDRV0 and SCK / IDRV1 - 00: 0.5A 01: 0.5/1A, 10: 1A, 11: 1.5A
-SDI / AMPLx10 - Sense Amplification 0: 5, 1: 10
+Drive Strength:
+CSN / IDRV0 and SCK / IDRV1 - 00: 0.5A 01: 0.5/1A, 10: 1A, 11: 1.5A, currently set to 00 for .5A
+
+Sense Amplification:
+SDI / AMPLx10 - Sense Amplification 0: 5, 1: 10, currently set to 10.
 
 The TMC6200 IC current sensing is recommended to have a limit of 10A when using the internal sensing.  
 
