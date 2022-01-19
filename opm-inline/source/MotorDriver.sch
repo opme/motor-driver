@@ -842,8 +842,6 @@ Text HLabel 3650 4000 0    28   Input ~ 0
 WL
 Text HLabel 3650 3200 0    28   Input ~ 0
 DRV_EN
-Text HLabel 3650 3400 0    28   Input ~ 0
-SPE
 Text HLabel 4750 3950 2    28   Output ~ 0
 ADC_I_u
 Text HLabel 4750 4050 2    28   Output ~ 0
@@ -1056,18 +1054,16 @@ $EndComp
 $Comp
 L power:GND #PWR0113
 U 1 1 61F1F1E2
-P 3400 3500
-F 0 "#PWR0113" H 3400 3250 39  0001 C CNN
-F 1 "GND" H 3400 3350 39  0000 C CNN
-F 2 "" H 3400 3500 39  0001 C CNN
-F 3 "" H 3400 3500 39  0001 C CNN
-	1    3400 3500
+P 3350 3500
+F 0 "#PWR0113" H 3350 3250 39  0001 C CNN
+F 1 "GND" H 3350 3350 39  0000 C CNN
+F 2 "" H 3350 3500 39  0001 C CNN
+F 3 "" H 3350 3500 39  0001 C CNN
+	1    3350 3500
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
 	3650 3550 3150 3550
-Wire Wire Line
-	3650 3500 3400 3500
 Text HLabel 4850 4400 3    28   Output ~ 0
 FAULT
 Wire Wire Line
@@ -1275,4 +1271,17 @@ Wire Wire Line
 Connection ~ 8250 4600
 Wire Wire Line
 	4750 4300 4850 4300
+$Comp
+L power:GND #PWR?
+U 1 1 61E9D2B7
+P 3650 3400
+F 0 "#PWR?" H 3650 3150 39  0001 C CNN
+F 1 "GND" H 3650 3250 39  0000 C CNN
+F 2 "" H 3650 3400 39  0001 C CNN
+F 3 "" H 3650 3400 39  0001 C CNN
+	1    3650 3400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3500 3650 3500
 $EndSCHEMATC
