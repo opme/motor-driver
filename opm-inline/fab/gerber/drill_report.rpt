@@ -1,5 +1,5 @@
 Drill report for source/opm-inline.kicad_pcb
-Created on Wed Jan 19 09:08:29 2022
+Created on Wed Jan 19 10:21:36 2022
 
 Copper Layer Stackup:
     =============================================================
@@ -12,14 +12,14 @@ Copper Layer Stackup:
 Drill file 'opm-inline.drl' contains
     plated through holes:
     =============================================================
-    T1  0.300mm  0.0118"  (186 holes)
+    T1  0.300mm  0.0118"  (185 holes)
     T2  0.400mm  0.0157"  (16 holes)
     T3  0.750mm  0.0295"  (16 holes)
     T4  0.800mm  0.0315"  (4 holes)
     T5  1.520mm  0.0598"  (5 holes)
     T6  2.200mm  0.0866"  (2 holes)
 
-    Total plated holes count 229
+    Total plated holes count 228
 
 
 Not plated through holes are merged with plated holes
