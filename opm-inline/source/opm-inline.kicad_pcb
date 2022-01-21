@@ -49,6 +49,7 @@
       (dielectric_constraints no)
     )
     (pad_to_mask_clearance 0)
+    (aux_axis_origin 164.45 98.15)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
       (disableapertmacros false)
@@ -6068,7 +6069,7 @@
   (segment (start 168.09 93.98) (end 167.78 93.98) (width 0.2) (layer "F.Cu") (net 11) (tstamp 635b1877-7f7c-4fd0-8255-4cebb907be1a))
   (segment (start 167.78 93.98) (end 164.351 97.409) (width 0.2) (layer "F.Cu") (net 11) (tstamp 69c6898f-ccff-479f-9b2c-4d6e5b151a3e))
   (segment (start 164.351 98.539) (end 164.338 98.552) (width 0.2) (layer "F.Cu") (net 11) (tstamp 779145d2-c00f-4218-8f2e-11ee24cab7fb))
-  (segment (start 164.351 97.409) (end 164.351 98.539) (width 0.4) (layer "F.Cu") (net 11) (tstamp a4d5447f-d52b-4ff3-ad6e-84a874b13a75))
+  (segment (start 164.351 97.409) (end 164.351 98.539) (width 0.2) (layer "F.Cu") (net 11) (tstamp a4d5447f-d52b-4ff3-ad6e-84a874b13a75))
   (segment (start 156.2683 91.19) (end 157.476 91.19) (width 0.2) (layer "F.Cu") (net 11) (tstamp ebb43745-7ef2-4640-b5ef-6902402107c8))
   (via (at 169.1 91.07) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 11) (tstamp 00000000-0000-0000-0000-000061cf81f5))
   (via (at 170.37 91.07) (size 0.6) (drill 0.3) (layers "F.Cu" "B.Cu") (net 11) (tstamp 00000000-0000-0000-0000-000061cf81f6))
