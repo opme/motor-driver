@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name Libraries)(type KiCad)(uri ${KIPRJMOD}/Libraries)(options "")(descr ""))
+  (lib (name "Libraries")(type "KiCad")(uri "${KIPRJMOD}/Libraries")(options "")(descr ""))
+  (lib (name "uc4h node v2100.pretty")(type "KiCad")(uri "${KIPRJMOD}/uc4h node v2100.pretty")(options "")(descr ""))
 )
