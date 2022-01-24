@@ -952,13 +952,13 @@
       (reference "IC4") (unit 1) (value "RP2040") (footprint "uc4h node v2100:VFQFPN36")
     )
     (path "/d4cd87e2-b977-4912-8c02-b958c3339182/43cc368e-4915-491d-a959-587ee1a58f20"
-      (reference "IC5") (unit 1) (value "MIC5219-3.3YM5-TR") (footprint "uc4h node v2100.pretty:SOT23-5")
+      (reference "IC5") (unit 1) (value "MIC5219-3.3YM5-TR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/d4cd87e2-b977-4912-8c02-b958c3339182/8db72d04-aa4e-4246-8b1e-434f2f787f79"
-      (reference "IC6") (unit 1) (value "MIC5219-5.0YM5-TR") (footprint "uc4h node v2100.pretty:SOT23-5")
+      (reference "IC6") (unit 1) (value "MIC5219-5.0YM5-TR") (footprint "Package_TO_SOT_SMD:SOT-23-5")
     )
     (path "/d4cd87e2-b977-4912-8c02-b958c3339182/c804502d-9093-4d5d-ab28-0e2e8f4bcfa9"
-      (reference "IC7") (unit 1) (value "TJA1051TK{slash}3") (footprint "uc4h node v2100.pretty:HVSON8")
+      (reference "IC7") (unit 1) (value "TJA1051TK/3") (footprint "Package_DFN_QFN:VDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm")
     )
     (path "/00000000-0000-0000-0000-00005ba8c4e4/00000000-0000-0000-0000-000061c15679"
       (reference "J2") (unit 1) (value "VCC_IO") (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical")

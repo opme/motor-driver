@@ -294,7 +294,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 25ed8a6e-9315-468e-a1db-4373aaef22b9)
   )
-  (hierarchical_label "TEMP" (shape input) (at 172.72 106.68 0)
+  (hierarchical_label "TEMP_PCB" (shape input) (at 172.72 106.68 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7441876b-a4a8-4eab-b48b-dd849e666883)
   )
