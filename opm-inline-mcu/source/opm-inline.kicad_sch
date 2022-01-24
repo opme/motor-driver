@@ -1082,20 +1082,20 @@
     (path "/00000000-0000-0000-0000-00005ba8c4e4/00000000-0000-0000-0000-000061c3dba6"
       (reference "R22") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/d4cd87e2-b977-4912-8c02-b958c3339182/c5534ee3-bcf2-4647-96ab-5df6be353aff"
+      (reference "R23") (unit 1) (value "10k") (footprint "uc4h node v2100:R0603")
+    )
+    (path "/d4cd87e2-b977-4912-8c02-b958c3339182/2067b84c-c3ac-495c-9258-8c411a333fff"
+      (reference "R24") (unit 1) (value "10k") (footprint "uc4h node v2100:R0603")
+    )
     (path "/00000000-0000-0000-0000-00005d5fdd98/00000000-0000-0000-0000-00005dab36b7"
       (reference "R25") (unit 1) (value "0Ω") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005d5fdd98/00000000-0000-0000-0000-00005da1aadd"
       (reference "R26") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/d4cd87e2-b977-4912-8c02-b958c3339182/c5534ee3-bcf2-4647-96ab-5df6be353aff"
-      (reference "R26") (unit 1) (value "10k") (footprint "uc4h node v2100:R0603")
-    )
     (path "/00000000-0000-0000-0000-00005ba8c4e4/00000000-0000-0000-0000-000061ff437f"
       (reference "R27") (unit 1) (value "100KR") (footprint "Resistor_SMD:R_0603_1608Metric")
-    )
-    (path "/d4cd87e2-b977-4912-8c02-b958c3339182/2067b84c-c3ac-495c-9258-8c411a333fff"
-      (reference "R27") (unit 1) (value "10k") (footprint "uc4h node v2100:R0603")
     )
     (path "/d4cd87e2-b977-4912-8c02-b958c3339182/6dd4c5c1-cbca-4eb3-9be0-3e6afa74ef4c"
       (reference "R28") (unit 1) (value "10k") (footprint "uc4h node v2100:R0603")
