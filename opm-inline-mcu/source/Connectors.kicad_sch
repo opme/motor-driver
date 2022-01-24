@@ -2244,7 +2244,7 @@
     (uuid fd5db3fb-29e0-426e-979e-91cf7fa6af6a)
   )
 
-  (symbol (lib_id "opm-cache:Mechanical_MountingHole_Pad") (at 172.72 27.94 270)
+  (symbol (lib_id "opm-cache:Mechanical_MountingHole_Pad") (at 172.72 27.94 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005c33535a)
     (property "Reference" "H201" (id 0) (at 176.53 26.67 90)
@@ -2265,7 +2265,7 @@
     (pin "1" (uuid 4c8c19c4-2e8b-4e98-ba2a-f4da32798a26))
   )
 
-  (symbol (lib_id "opm-cache:Mechanical_MountingHole_Pad") (at 172.72 33.02 270)
+  (symbol (lib_id "opm-cache:Mechanical_MountingHole_Pad") (at 172.72 33.02 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005c335d22)
     (property "Reference" "H202" (id 0) (at 176.53 31.75 90)

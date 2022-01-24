@@ -1751,7 +1751,7 @@
     (pin "1" (uuid f6cb4121-1fae-4d0c-b1e2-940f21b5f3e6))
   )
 
-  (symbol (lib_id "opm-inline-rescue:TMC6200-TA-opm-inline-cache-opm-inline-rescue") (at 106.68 92.71 0)
+  (symbol (lib_id "opm-inline-rescue:TMC6200-TA-opm-inline-cache-opm-inline-rescue") (at 106.68 92.71 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061bc2f39)
     (property "Reference" "IC1" (id 0) (at 106.68 116.3828 0)
@@ -2055,7 +2055,7 @@
     (pin "2" (uuid 46be4b22-c00b-4c04-8251-e1de5711d290))
   )
 
-  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 66.04 0)
+  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 66.04 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cbf26f)
     (property "Reference" "Q2" (id 0) (at 184.15 65.0748 0)
@@ -2102,7 +2102,7 @@
     (pin "1" (uuid 594372ff-16a7-4ade-83b5-7d3bcc7b3e31))
   )
 
-  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 41.91 0)
+  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 41.91 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061cdf1c7)
     (property "Reference" "Q1" (id 0) (at 184.15 40.9448 0)
@@ -2133,7 +2133,7 @@
     (pin "8" (uuid b2ccb118-2693-4c0e-8b5e-1207aa5130aa))
   )
 
-  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 116.84 0)
+  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 116.84 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce05ae)
     (property "Reference" "Q3" (id 0) (at 184.15 115.8748 0)
@@ -2164,7 +2164,7 @@
     (pin "8" (uuid 71d7efa2-fc34-4631-aadf-3c1fa282a429))
   )
 
-  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 220.98 99.06 0)
+  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 220.98 99.06 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce16e2)
     (property "Reference" "Q6" (id 0) (at 226.06 98.0948 0)
@@ -2195,7 +2195,7 @@
     (pin "8" (uuid aec3e26a-d51f-447a-b3ce-d292ede94d8e))
   )
 
-  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 220.98 76.2 0)
+  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 220.98 76.2 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce29b9)
     (property "Reference" "Q5" (id 0) (at 226.06 75.2348 0)
@@ -2226,7 +2226,7 @@
     (pin "8" (uuid bb22a942-6876-453b-b1d0-d6ba15aa92ae))
   )
 
-  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 137.16 0)
+  (symbol (lib_id "opm-inline-rescue:HYG025N06LS1C2") (at 179.07 137.16 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000061ce42a8)
     (property "Reference" "Q4" (id 0) (at 184.15 136.1948 0)
