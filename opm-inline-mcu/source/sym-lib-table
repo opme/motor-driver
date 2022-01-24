@@ -1,6 +1,7 @@
 (sym_lib_table
-  (lib (name opm-inline-rescue)(type Legacy)(uri ${KIPRJMOD}/opm-inline-rescue.lib)(options "")(descr ""))
-  (lib (name opm-inline-cache)(type Legacy)(uri ${KIPRJMOD}/opm-inline-cache.lib)(options "")(descr ""))
-  (lib (name opm-cache)(type Legacy)(uri ${KIPRJMOD}/opm-cache.lib)(options "")(descr ""))
-  (lib (name fiducual)(type Legacy)(uri ${KIPRJMOD}/fiducial-markings.lib)(options "")(descr ""))
+  (lib (name "opm-inline-rescue")(type "Legacy")(uri "${KIPRJMOD}/opm-inline-rescue.lib")(options "")(descr ""))
+  (lib (name "opm-inline-cache")(type "Legacy")(uri "${KIPRJMOD}/opm-inline-cache.lib")(options "")(descr ""))
+  (lib (name "opm-cache")(type "Legacy")(uri "${KIPRJMOD}/opm-cache.lib")(options "")(descr ""))
+  (lib (name "fiducual")(type "Legacy")(uri "${KIPRJMOD}/fiducial-markings.lib")(options "")(descr ""))
+  (lib (name "rp2040")(type "Legacy")(uri "${KIPRJMOD}/rp2040.lib")(options "")(descr ""))
 )
