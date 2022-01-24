@@ -1757,7 +1757,7 @@
     (property "Reference" "IC1" (id 0) (at 106.68 116.3828 0)
       (effects (font (size 1.016 1.016)) (justify right))
     )
-    (property "Value" "TMC6200-TA" (id 1) (at 106.68 118.3132 0)
+    (property "Value" "eTQFP48_9x9_TRI" (id 1) (at 106.68 118.3132 0)
       (effects (font (size 1.016 1.016)) (justify right))
     )
     (property "Footprint" "Libraries:TMC6200-TA" (id 2) (at 106.68 99.06 0)
