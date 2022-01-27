@@ -59,6 +59,12 @@ In addition to the TMC6200 internal temperature sensor, there is a temperature s
 
 Mosfet selection.  Reference design has via for +VM connection through SMT pad.  This limits the vendor ability to manufacture the board and increases cost due to those needed to be capped in the manufacturing process.  Alternative is to put the via next to the SMT pad.
 
+# Resistor for LED
+
+LED to show VCC power is on:   (48v - 3.3v)/ .025 mA = 1788 Ohm -> 2k Ohm Resistor
+
+LED for fault:  (5v - 3.3v) / .025 mA = 68 Ohm -> 100 Ohm Led Resistor
+
 # Design Discussion for TMC6200 Pins 
 
 See TMC6200 datasheet for full documentation of pins.  Below is specific decisions taken when choice was given.
