@@ -61,9 +61,18 @@ Mosfet selection.  Reference design has via for +VM connection through SMT pad. 
 
 # Resistor for LED
 
-LED to show VCC power is on:   (48v - 3.3v)/ .025 mA = 1788 Ohm -> 2k Ohm Resistor
+Blue LED to show VCC power is on:
+  VCC power has a range of 12V to 48V
+  LED voltage is 3.1V and typical current is 5mA with absolute maximum of 25mA
+  (48v - 3.1v)/ .005A = 8980 Ohm 
+  (48v - 3.1v)/ .025A = 1788 Ohm
+  2k resistor
 
-LED for fault:  (5v - 3.3v) / .025 mA = 68 Ohm -> 100 Ohm Led Resistor
+RED LED for fault:  
+  +VCC_IO can have a voltage between 3.3 and 5V
+  (3.3v - 2.2v) / .005A = 220 Ohm
+  (5v - 2.2v) / .005A = 560 Ohm
+  200 Ohm resistor
 
 # Design Discussion for TMC6200 Pins 
 
